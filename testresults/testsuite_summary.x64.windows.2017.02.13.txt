@@ -1,0 +1,39 @@
+
+Unexpected results from:
+TEST="plugins07 PokeTZI T11244 T10420 cgrun059 T9339 T10294a join007 T10294"
+
+SUMMARY for test run started at Mon Feb 13 02:08:31 2017 GMT
+ 1:32:38 spent to go through
+    5729 total tests, which gave rise to
+   16738 test cases, of which
+   10707 were skipped
+
+      53 had missing libraries
+    5812 expected passes
+     158 expected failures
+
+       6 caused framework failures
+       0 unexpected passes
+       6 unexpected failures
+       2 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/plugins07.run                  plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/T10420.run                     T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/T10294.run                     T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/T10294a.run                    T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/T11244.run                     T11244 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/../../libraries/Win32/tests/PokeTZI.run  PokeTZI [bad stdout] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./perf/join_points/join007.run  join007 [stat too good] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./perf/should_run/T9339.run     T9339 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./codeGen/should_run/cgrun059.run  cgrun059 [runTest] (Unhandled exception: [Errno 16] Device or resource busy: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./codeGen/should_run/cgrun059.run/cgrun059.exe')
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/plugins07.run            plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/T10420.run               T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/T10294.run               T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/T10294a.run              T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-5hz8dtfg/test   spaces/./plugins/T11244.run               T11244 [normal] (pre_cmd failed: 2)
+

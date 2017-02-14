@@ -1,0 +1,1 @@
+../mk/boilerplate.mk:182: *** Cannot find ghc: /c/TeamCity/buildAgent/work/28754042a1be6052/bindisttest/install   dir/bin/ghc.  Stop.

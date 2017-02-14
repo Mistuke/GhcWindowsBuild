@@ -1,0 +1,42 @@
+
+Unexpected results from:
+TEST="T10420 T11244 ado002 T10294 plugins07 T1548 concio001.thr PokeTZI join007 T11345 T10294a T9339"
+
+SUMMARY for test run started at Tue Feb 14 09:23:10 2017 GMT
+ 1:27:20 spent to go through
+    5729 total tests, which gave rise to
+   16738 test cases, of which
+   10707 were skipped
+
+      53 had missing libraries
+    5810 expected passes
+     158 expected failures
+
+       8 caused framework failures
+       0 unexpected passes
+       7 unexpected failures
+       2 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/plugins07.run                          plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/T10420.run                             T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/T10294a.run                            T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/T10294.run                             T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/T11244.run                             T11244 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/../../libraries/Win32/tests/PokeTZI.run          PokeTZI [bad stdout] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/../../libraries/base/tests/IO/concio001.thr.run  concio001.thr [bad stdout] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./perf/join_points/join007.run  join007 [stat too good] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./perf/should_run/T9339.run     T9339 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./ado/ado002.run                                  ado002 [runTest] (Unhandled exception: [Errno 90] Directory not empty: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./ado/ado002.run')
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/plugins07.run                           plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/T10420.run                              T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/T10294a.run                             T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/T10294.run                              T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./plugins/T11244.run                              T11244 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./th/T11345.run                                   T11345 [ext-interp] ([Errno 16] Device or resource busy: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/./th/T11345.run')
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/../../libraries/base/tests/Text.Printf/T1548.run  T1548 [runTest] (Unhandled exception: [Errno 16] Device or resource busy: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-g751e1s4/test   spaces/../../libraries/base/tests/Text.Printf/T1548.run')
+

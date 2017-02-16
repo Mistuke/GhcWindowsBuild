@@ -1,0 +1,10 @@
+ghc-pkg.exe: Can't find package database in C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/test   sp\lib
+ghc-pkg.exe: Can't find package database in C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/test   sp\lib
+Traceback (most recent call last):
+  File "../../driver/runtests.py", line 210, in <module>
+    from testlib import *
+  File "/c/TeamCity/buildAgent/work/28754042a1be6052/testsuite/driver/testlib.py", line 855
+    t.n_expected_passes += 1
+                           ^
+IndentationError: unindent does not match any outer indentation level
+make: *** [../../mk/test.mk:299: test] Error 1

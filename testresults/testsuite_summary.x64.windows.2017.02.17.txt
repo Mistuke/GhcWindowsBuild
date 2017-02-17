@@ -1,0 +1,38 @@
+
+Unexpected results from:
+TEST="T10420 T11244 plugins07 T10294 join007 T9339 PokeTZI T10294a"
+
+SUMMARY for test run started at Fri Feb 17 02:08:22 2017 GMT
+ 1:27:35 spent to go through
+    5747 total tests, which gave rise to
+   16787 test cases, of which
+   10738 were skipped
+
+      53 had missing libraries
+    5830 expected passes
+     158 expected failures
+
+       5 caused framework failures
+       0 unexpected passes
+       6 unexpected failures
+       2 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/plugins07.run                  plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/T10420.run                     T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/T10294.run                     T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/T10294a.run                    T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/T11244.run                     T11244 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/../../libraries/Win32/tests/PokeTZI.run  PokeTZI [bad stdout] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./perf/join_points/join007.run  join007 [stat too good] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./perf/should_run/T9339.run     T9339 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/plugins07.run  plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/T10420.run     T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/T10294.run     T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/T10294a.run    T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xh4cdip_/test   spaces/./plugins/T11244.run     T11244 [normal] (pre_cmd failed: 2)
+

@@ -1,0 +1,9 @@
+ghc-pkg.exe: Can't find package database in C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/test   sp\lib
+ghc-pkg.exe: Can't find package database in C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/test   sp\lib
+Traceback (most recent call last):
+  File "../../driver/runtests.py", line 215, in <module>
+    pkginfo = str(getStdout([config.ghc_pkg, 'dump']))
+  File "/c/TeamCity/buildAgent/work/28754042a1be6052/testsuite/driver/testutil.py", line 23, in getStdout
+    raise Exception("Command failed: " + str(cmd_and_args))
+Exception: Command failed: ['"/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/test   spaces/ghc-pkg.exe"', 'dump']
+make: *** [../../mk/test.mk:299: test] Error 1

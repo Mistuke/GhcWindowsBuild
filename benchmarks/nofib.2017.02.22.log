@@ -1,0 +1,69 @@
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: line 0: [: -gt: unary operator expected
+/bin/sh: line 0: [: -ge: unary operator expected
+------------------------------------------------------------------------
+== Recursively making `all' in runstdtest nofib-analyse imaginary spectral real shootout ...
+PWD = /c/TeamCity/buildAgent/work/28754042a1be6052/nofib
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+== make all ;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/runstdtest
+------------------------------------------------------------------------
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: line 0: [: -gt: unary operator expected
+/bin/sh: line 0: [: -ge: unary operator expected
+rm -f -f runstdtest
+echo '#!/usr/bin/perl'                               >> runstdtest
+echo '$RM             = "rm -f";'             >> runstdtest
+echo '$CONTEXT_DIFF   = "diff -U 1 --strip-trailing-cr";'   >> runstdtest
+cat runstdtest.prl                                >> runstdtest
+chmod +x runstdtest
+Finished making all in runstdtest: 0
+------------------------------------------------------------------------
+== make all ;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/nofib-analyse
+------------------------------------------------------------------------
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: line 0: [: -gt: unary operator expected
+/bin/sh: line 0: [: -ge: unary operator expected
+make[1]: Nothing to be done for 'all'.
+Finished making all in nofib-analyse: 0
+------------------------------------------------------------------------
+== make all ;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary
+------------------------------------------------------------------------
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: line 0: [: -gt: unary operator expected
+/bin/sh: line 0: [: -ge: unary operator expected
+------------------------------------------------------------------------
+== Recursively making `all' in bernouilli digits-of-e1 digits-of-e2 exp3_8 gen_regexps integrate paraffins primes queens rfib tak wheel-sieve1 wheel-sieve2 x2n1 kahan ...
+PWD = /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/bernouilli
+------------------------------------------------------------------------
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: No such file or directory
+/bin/sh: line 0: [: -gt: unary operator expected
+/bin/sh: line 0: [: -ge: unary operator expected
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi
+RUNTEST_OPTS = -ghc-timing
+==nofib== bernouilli: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -c Main.hs -o Main.o
+make[2]: /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2: Command not found
+make[2]: *** [../../mk/suffix.mk:23: Main.o] Error 127
+Failed making all in bernouilli: 1
+make[1]: *** [../mk/ghc-recurse.mk:69: all] Error 1
+Failed making all in imaginary: 1
+make: *** [mk/ghc-recurse.mk:69: all] Error 1

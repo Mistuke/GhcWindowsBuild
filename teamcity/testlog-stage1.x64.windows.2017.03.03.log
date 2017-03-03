@@ -1,0 +1,11 @@
+WARNING: cache is out of date: C:\TeamCity\buildAgent\work\28754042a1be6052\inplace\lib\package.conf.d\package.cache
+ghc will see an old view of this package db. Use 'ghc-pkg recache' to fix.
+WARNING: cache is out of date: C:\TeamCity\buildAgent\work\28754042a1be6052\inplace\lib\package.conf.d\package.cache
+ghc will see an old view of this package db. Use 'ghc-pkg recache' to fix.
+Traceback (most recent call last):
+  File "../../driver/runtests.py", line 189, in <module>
+    pkginfo = str(getStdout([config.ghc_pkg, 'dump']))
+  File "/c/TeamCity/buildAgent/work/28754042a1be6052/testsuite/driver/testutil.py", line 25, in getStdout
+    raise Exception("stderr from command: " + str(cmd_and_args))
+Exception: stderr from command: ['"/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/test   spaces/ghc-pkg.exe"', 'dump']
+make: *** [../../mk/test.mk:299: test] Error 1

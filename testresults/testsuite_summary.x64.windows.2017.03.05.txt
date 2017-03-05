@@ -1,0 +1,44 @@
+
+Unexpected results from:
+TEST="T12234 drvrun006 T5837 linkwhole T4029 T3994 T11244 T10294a T1969 conc064 plugins07 numrun015 T10294 T10420"
+
+SUMMARY for test run started at Sun Mar  5 02:21:21 2017 GMT
+ 1:39:31 spent to go through
+    5790 total tests, which gave rise to
+   16886 test cases, of which
+   10791 were skipped
+
+      53 had missing libraries
+    5875 expected passes
+     154 expected failures
+
+       6 caused framework failures
+       0 unexpected passes
+       9 unexpected failures
+       4 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./concurrent/should_run/conc064.run      conc064 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./driver/linkwhole/linkwhole.run         linkwhole [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./numeric/should_run/numrun015.run       numrun015 [bad stdout] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/plugins07.run                  plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/T10420.run                     T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/T10294.run                     T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/T10294a.run                    T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/T11244.run                     T11244 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/../../libraries/process/tests/T3994.run  T3994 [bad exit code] (threaded1)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./perf/compiler/T1969.run     T1969 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./perf/compiler/T5837.run     T5837 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./perf/compiler/T12234.run    T12234 [stat too good] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./perf/space_leaks/T4029.run  T4029 [stat too good] (ghci)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./deriving/should_run/drvrun006.run  drvrun006 [runTest] (Unhandled exception: [Errno 16] Device or resource busy: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./deriving/should_run/drvrun006.run')
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/plugins07.run              plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/T10420.run                 T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/T10294.run                 T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/T10294a.run                T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-y2z3bepd/test   spaces/./plugins/T11244.run                 T11244 [normal] (pre_cmd failed: 2)
+

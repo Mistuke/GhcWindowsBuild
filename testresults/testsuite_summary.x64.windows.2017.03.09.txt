@@ -1,0 +1,43 @@
+
+Unexpected results from:
+TEST="T10294 T1969 T4029 T12234 T7702 T1647 T5837 numrun015 plugins07 T10420 T10294a T11244"
+
+SUMMARY for test run started at Thu Mar  9 02:20:20 2017 GMT
+ 1:34:28 spent to go through
+    5796 total tests, which gave rise to
+   16901 test cases, of which
+   10801 were skipped
+
+      53 had missing libraries
+    5881 expected passes
+     155 expected failures
+
+       7 caused framework failures
+       0 unexpected passes
+       6 unexpected failures
+       5 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./numeric/should_run/numrun015.run  numrun015 [bad stdout] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/plugins07.run             plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/T10420.run                T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/T10294.run                T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/T10294a.run               T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/T11244.run                T11244 [bad stderr] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./perf/compiler/T1969.run             T1969 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./perf/compiler/T5837.run             T5837 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./perf/compiler/T12234.run            T12234 [stat too good] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./perf/space_leaks/T4029.run          T4029 [stat too good] (ghci)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./simplCore/should_compile/T7702.run  T7702 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/plugins07.run               plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/T10420.run                  T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/T10294.run                  T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/T10294a.run                 T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./plugins/T11244.run                  T11244 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./simplCore/should_compile/T1647.run  T1647 [runTest] (Unhandled exception: [Errno 90] Directory not empty: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./simplCore/should_compile/T1647.run')
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-rht30che/test   spaces/./simplCore/should_compile/T7702.run  T7702 [normal] (pre_cmd failed: 99)
+

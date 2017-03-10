@@ -1,0 +1,41 @@
+
+Unexpected results from:
+TEST="T1969 T11244 T5837 T10294 T10294a T12234 T4029 TH_finalizer2 T10420 plugins07"
+
+SUMMARY for test run started at Fri Mar 10 02:16:37 2017 GMT
+ 1:33:58 spent to go through
+    5795 total tests, which gave rise to
+   16899 test cases, of which
+   10801 were skipped
+
+      53 had missing libraries
+    5881 expected passes
+     154 expected failures
+
+       7 caused framework failures
+       0 unexpected passes
+       5 unexpected failures
+       4 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/plugins07.run  plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/T10420.run     T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/T10294.run     T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/T10294a.run    T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/T11244.run     T11244 [bad stderr] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./perf/compiler/T1969.run     T1969 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./perf/compiler/T5837.run     T5837 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./perf/compiler/T12234.run    T12234 [stat too good] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./perf/space_leaks/T4029.run  T4029 [stat too good] (ghci)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/plugins07.run  plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/T10420.run     T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/T10294.run     T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/T10294a.run    T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./plugins/T11244.run     T11244 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./th/TH_finalizer2.run   TH_finalizer2 [ext-interp] ([Errno 16] Device or resource busy: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./th/TH_finalizer2.run/TH_finalizer2.exe')
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./th/TH_finalizer2.run   TH_finalizer2 [runTest] (Unhandled exception: [Errno 16] Device or resource busy: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-0w47q994/test   spaces/./th/TH_finalizer2.run/TH_finalizer2.exe')
+

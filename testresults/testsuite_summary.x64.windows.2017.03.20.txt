@@ -1,0 +1,39 @@
+
+Unexpected results from:
+TEST="T5837 T12234 plugins07 T11244 T1969 T10294a T10294 openFile005 T10420"
+
+SUMMARY for test run started at Mon Mar 20 02:28:26 2017 GMT
+ 1:46:49 spent to go through
+    5811 total tests, which gave rise to
+   16940 test cases, of which
+   10826 were skipped
+
+      53 had missing libraries
+    5899 expected passes
+     154 expected failures
+
+       6 caused framework failures
+       0 unexpected passes
+       5 unexpected failures
+       3 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/plugins07.run  plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/T10420.run     T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/T10294.run     T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/T10294a.run    T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/T11244.run     T11244 [bad stderr] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./perf/compiler/T1969.run   T1969 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./perf/compiler/T5837.run   T5837 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./perf/compiler/T12234.run  T12234 [stat too good] (optasm)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/plugins07.run                        plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/T10420.run                           T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/T10294.run                           T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/T10294a.run                          T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/./plugins/T11244.run                           T11244 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/../../libraries/base/tests/IO/openFile005.run  openFile005 [runTest] (Unhandled exception: [Errno 16] Device or resource busy: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-wz811y7l/test   spaces/../../libraries/base/tests/IO/openFile005.run')
+

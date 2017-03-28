@@ -1,0 +1,39 @@
+
+Unexpected results from:
+TEST="T10294a T10294 T9128 T11244 plugins07 T3994 T1969 T12234 T10420"
+
+SUMMARY for test run started at Tue Mar 28 05:06:17 2017 BST
+ 2:05:52 spent to go through
+    5820 total tests, which gave rise to
+   16963 test cases, of which
+   10839 were skipped
+
+      53 had missing libraries
+    5909 expected passes
+     154 expected failures
+
+       6 caused framework failures
+       0 unexpected passes
+       6 unexpected failures
+       2 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/plugins07.run                  plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/T10420.run                     T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/T10294.run                     T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/T10294a.run                    T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/T11244.run                     T11244 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/../../libraries/process/tests/T3994.run  T3994 [bad stderr] (threaded1)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./perf/compiler/T1969.run   T1969 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./perf/compiler/T12234.run  T12234 [stat too good] (optasm)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/plugins07.run           plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/T10420.run              T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/T10294.run              T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/T10294a.run             T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./plugins/T11244.run              T11244 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./simplCore/should_run/T9128.run  T9128 [runTest] (Unhandled exception: [Errno 16] Device or resource busy: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-psc4mnxu/test   spaces/./simplCore/should_run/T9128.run/T9128.exe')
+

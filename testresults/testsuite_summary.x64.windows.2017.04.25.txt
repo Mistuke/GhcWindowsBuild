@@ -1,0 +1,40 @@
+
+Unexpected results from:
+TEST="T11244 bkpcabal07 T10294 plugins07 T10420 T10294a T3994 T5837 bkpcabal06"
+
+SUMMARY for test run started at Tue Apr 25 02:02:48 2017 BST
+ 1:38:15 spent to go through
+    5867 total tests, which gave rise to
+   17095 test cases, of which
+   10923 were skipped
+
+      53 had missing libraries
+    5949 expected passes
+     161 expected failures
+
+       5 caused framework failures
+       0 caused framework warnings
+       0 unexpected passes
+       8 unexpected failures
+       1 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run  bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run  bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/plugins07.run                     plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/T10420.run                        T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/T10294.run                        T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/T10294a.run                       T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/T11244.run                        T11244 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/../../libraries/process/tests/T3994.run     T3994 [bad stderr] (threaded1)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./perf/compiler/T5837.run  T5837 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/plugins07.run  plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/T10420.run     T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/T10294.run     T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/T10294a.run    T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-xjpcw9wf/test   spaces/./plugins/T11244.run     T11244 [normal] (pre_cmd failed: 2)
+

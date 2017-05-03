@@ -1,0 +1,41 @@
+
+Unexpected results from:
+TEST="T10420 plugins07 T10858 T13623 bkpcabal07 T10294 T5837 T10294a T11244 bkpcabal06"
+
+SUMMARY for test run started at Wed May  3 04:10:39 2017 BST
+ 1:38:34 spent to go through
+    5877 total tests, which gave rise to
+   17137 test cases, of which
+   10955 were skipped
+
+      53 had missing libraries
+    5958 expected passes
+     161 expected failures
+
+       5 caused framework failures
+       0 caused framework warnings
+       0 unexpected passes
+       7 unexpected failures
+       3 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run  bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run  bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/plugins07.run                     plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/T10294.run                        T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/T10420.run                        T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/T10294a.run                       T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/T11244.run                        T11244 [bad stderr] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./deriving/perf/T10858.run    T10858 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./perf/compiler/T5837.run     T5837 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./perf/should_run/T13623.run  T13623 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/plugins07.run  plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/T10294.run     T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/T10420.run     T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/T10294a.run    T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-4yq0d_hd/test   spaces/./plugins/T11244.run     T11244 [normal] (pre_cmd failed: 2)
+

@@ -1,0 +1,54 @@
+using THREADS=3
+['libraries/array/', 'libraries/base/', 'libraries/binary/', 'libraries/bytestring/', 'libraries/Cabal/Cabal', 'libraries/Cabal/', 'libraries/containers/', 'libraries/deepseq/', 'libraries/directory/', 'libraries/doc/', 'libraries/dph/dph-base', 'libraries/dph/dph-prim-interface', 'libraries/dph/dph-prim-seq', 'libraries/dph/dph-prim-par', 'libraries/dph/dph-lifted-base', 'libraries/dph/dph-lifted-boxed', 'libraries/dph/dph-lifted-copy', 'libraries/dph/dph-lifted-vseg', 'libraries/dph/', 'libraries/dph/', 'libraries/filepath/', 'libraries/ghc-boot/', 'libraries/ghc-boot-th/', 'libraries/ghc-compact/', 'libraries/ghc-prim/', 'libraries/ghci/', 'libraries/haskeline/', 'libraries/hoopl/', 'libraries/hpc/', 'libraries/integer-gmp/', 'libraries/integer-simple/', 'libraries/parallel/', 'libraries/pretty/', 'libraries/primitive/', 'libraries/process/', 'libraries/random/', 'libraries/stm/', 'libraries/template-haskell/', 'libraries/terminfo/', 'libraries/time/', 'libraries/transformers/', 'libraries/unix/', 'libraries/vector/', 'libraries/Win32/', 'libraries/xhtml/']
+Creating libraries/array/ghc.mk
+Creating libraries/base/ghc.mk
+Creating libraries/binary/ghc.mk
+Creating libraries/bytestring/ghc.mk
+Creating libraries/Cabal/Cabal/ghc.mk
+Creating libraries/containers/ghc.mk
+Creating libraries/deepseq/ghc.mk
+Creating libraries/directory/ghc.mk
+Creating libraries/dph/dph-base/ghc.mk
+Creating libraries/dph/dph-prim-interface/ghc.mk
+Creating libraries/dph/dph-prim-seq/ghc.mk
+Creating libraries/dph/dph-prim-par/ghc.mk
+Creating libraries/dph/dph-lifted-base/ghc.mk
+Creating libraries/dph/dph-lifted-boxed/ghc.mk
+Creating libraries/dph/dph-lifted-copy/ghc.mk
+Creating libraries/dph/dph-lifted-vseg/ghc.mk
+Creating libraries/filepath/ghc.mk
+Creating libraries/ghc-boot/ghc.mk
+Creating libraries/ghc-boot-th/ghc.mk
+Creating libraries/ghc-compact/ghc.mk
+Creating libraries/ghc-prim/ghc.mk
+Creating libraries/ghci/ghc.mk
+Creating libraries/haskeline/ghc.mk
+Creating libraries/hoopl/ghc.mk
+Creating libraries/hpc/ghc.mk
+Creating libraries/integer-gmp/ghc.mk
+Creating libraries/integer-simple/ghc.mk
+Creating libraries/parallel/ghc.mk
+Creating libraries/pretty/ghc.mk
+Creating libraries/primitive/ghc.mk
+Creating libraries/process/ghc.mk
+Creating libraries/random/ghc.mk
+Creating libraries/stm/ghc.mk
+Creating libraries/template-haskell/ghc.mk
+Creating libraries/terminfo/ghc.mk
+Creating libraries/time/ghc.mk
+Creating libraries/transformers/ghc.mk
+Creating libraries/unix/ghc.mk
+Creating libraries/vector/ghc.mk
+Creating libraries/Win32/ghc.mk
+Creating libraries/xhtml/ghc.mk
+Booting .
+Traceback (most recent call last):
+  File "./boot", line 171, in <module>
+    autoreconf()
+  File "./boot", line 141, in autoreconf
+    processes[dir_] = subprocess.Popen('autoreconf', cwd=dir_)
+  File "C:/ghc-dev/msys64/mingw64/lib/python3.5\subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "C:/ghc-dev/msys64/mingw64/lib/python3.5\subprocess.py", line 1224, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified

@@ -1,0 +1,48 @@
+
+Unexpected results from:
+TEST="T11244 bkpcabal07 T10420 T10294 castFloatWord T13035 T13623 T13701 MultiLayerModules bkpcabal06 T12425 T13606 T10294a T12234 plugins07 T13719"
+
+SUMMARY for test run started at Tue Jun 20 02:04:54 2017 BST
+ 1:40:58 spent to go through
+    5958 total tests, which gave rise to
+   17350 test cases, of which
+   11083 were skipped
+
+      54 had missing libraries
+    6032 expected passes
+     166 expected failures
+
+       6 caused framework failures
+       0 caused framework warnings
+       0 unexpected passes
+       8 unexpected failures
+       7 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run  bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run  bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./ghci/linking/dyn/T13606.run               T13606 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/plugins07.run                     plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/T10420.run                        T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/T10294.run                        T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/T10294a.run                       T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/T11244.run                        T11244 [bad stderr] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./perf/compiler/T12425.run             T12425 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./perf/compiler/T12234.run             T12234 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./perf/compiler/T13035.run             T13035 [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./perf/compiler/T13719.run             T13719 [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./perf/compiler/T13701.run             T13701 [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./perf/compiler/MultiLayerModules.run  MultiLayerModules [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./perf/should_run/T13623.run           T13623 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./codeGen/should_run/castFloatWord.run  castFloatWord [runTest] (Unhandled exception during cleanup: Unable to remove folder '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./codeGen/should_run/castFloatWord.run': [Errno 13] Permission denied: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./codeGen/should_run/castFloatWord.run'
+Unable to start current test.)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/plugins07.run                 plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/T10420.run                    T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/T10294.run                    T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/T10294a.run                   T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-6172jo7u/test   spaces/./plugins/T11244.run                    T11244 [normal] (pre_cmd failed: 2)
+

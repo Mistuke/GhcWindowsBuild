@@ -1,0 +1,45 @@
+
+Unexpected results from:
+TEST="bkpcabal07 T13606 T10294 T13623 bkpcabal06 MultiLayerModules T13719 T12425 T10294a T11244 T13701 plugins07 T10420 T13035"
+
+SUMMARY for test run started at Sat Jun 24 04:15:46 2017 BST
+ 1:46:22 spent to go through
+    5960 total tests, which gave rise to
+   17358 test cases, of which
+   11087 were skipped
+
+      54 had missing libraries
+    6037 expected passes
+     166 expected failures
+
+       5 caused framework failures
+       0 caused framework warnings
+       0 unexpected passes
+       8 unexpected failures
+       6 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run  bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run  bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./ghci/linking/dyn/T13606.run               T13606 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/plugins07.run                     plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/T10420.run                        T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/T10294.run                        T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/T10294a.run                       T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/T11244.run                        T11244 [bad stderr] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./perf/compiler/T12425.run             T12425 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./perf/compiler/T13035.run             T13035 [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./perf/compiler/T13719.run             T13719 [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./perf/compiler/T13701.run             T13701 [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./perf/compiler/MultiLayerModules.run  MultiLayerModules [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./perf/should_run/T13623.run           T13623 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/plugins07.run  plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/T10420.run     T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/T10294.run     T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/T10294a.run    T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-s1jnv9fe/test   spaces/./plugins/T11244.run     T11244 [normal] (pre_cmd failed: 2)
+

@@ -1,0 +1,17 @@
+
+SUMMARY for test run started at Wed Jul  5 05:20:52 2017 BST
+ 0:00:01 spent to go through
+       2 total tests, which gave rise to
+       6 test cases, of which
+       4 were skipped
+
+       0 had missing libraries
+       2 expected passes
+       0 expected failures
+
+       0 caused framework failures
+       0 caused framework warnings
+       0 unexpected passes
+       0 unexpected failures
+       0 unexpected stat failures
+

@@ -1,0 +1,1270 @@
+NoFib Results
+
+--------------------------------------------------------------------------------
+        Program           Size    Allocs   Runtime   Elapsed  TotalMem
+--------------------------------------------------------------------------------
+           ansi           0.0%      0.0%    +10.1%     +8.6%      0.0%
+           atom           0.0%      0.0%     -3.4%     -3.7%      0.0%
+         awards           0.0%     -0.0%     0.003     0.002      0.0%
+         banner           0.0%      0.0%     0.000     0.002      0.0%
+     bernouilli           0.0%      0.0%     0.191     -4.3%      0.0%
+          boyer           0.0%      0.0%     +3.3%     +2.6%      0.0%
+         boyer2           0.0%      0.0%     0.003     0.012      0.0%
+       calendar           0.0%      0.0%     0.000     0.007      0.0%
+       cichelli           0.0%      0.0%     0.106     0.112      0.0%
+        circsim           0.0%      0.0%     +1.6%     +1.9%      0.0%
+       clausify           0.0%      0.0%     +7.7%     +1.5%      0.0%
+    constraints           0.0%      0.0%     -2.1%     -1.6%      0.0%
+   cryptarithm1           0.0%      0.0%     -5.7%     -5.4%      0.0%
+   cryptarithm2           0.0%      0.0%     0.010     0.012      0.0%
+            cse           0.0%      0.0%     0.000     0.004      0.0%
+   digits-of-e1           0.0%      0.0%     -1.9%     -0.8%      0.0%
+   digits-of-e2           0.0%      0.0%     -3.3%     -3.0%      0.0%
+          eliza           0.0%      0.0%     0.000     0.002      0.0%
+         exp3_8           0.0%      0.0%     +1.8%     +1.4%      0.0%
+         expert           0.0%     -0.0%     0.003     0.004      0.0%
+           fft2          -----     -----     -----     -----     -----
+    gen_regexps           0.0%      0.0%     -3.7%     -3.1%      0.0%
+      integrate           0.0%      0.0%     -9.7%    -11.7%      0.0%
+          kahan           0.0%     -0.0%     +2.8%     +2.2%      0.0%
+      paraffins           0.0%     -0.0%     -2.9%     +1.6%      0.0%
+         primes           0.0%      0.0%     +2.8%     +3.7%      0.0%
+         queens           0.0%      0.0%     -1.9%     -1.4%      0.0%
+           rfib           0.0%     +0.0%     +1.4%     +0.3%      0.0%
+            tak           0.0%      0.0%     +3.3%     +2.5%      0.0%
+   wheel-sieve1           0.0%     +0.0%     +7.9%     +8.6%      0.0%
+   wheel-sieve2           0.0%      0.0%     +1.8%     -0.9%      0.0%
+           x2n1           0.0%     +0.0%     0.053     0.062      0.0%
+--------------------------------------------------------------------------------
+            Min           0.0%     -0.0%     -9.7%    -11.7%      0.0%
+            Max           0.0%     +0.0%    +10.1%     +8.6%      0.0%
+ Geometric Mean          -0.0%     +0.0%     +0.4%     -0.2%     -0.0%
+
+Binary Sizes
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi              4737440             0.0%
+           atom              4734672             0.0%
+         awards              4738032             0.0%
+         banner              4724900             0.0%
+     bernouilli              4731496             0.0%
+          boyer              4759184             0.0%
+         boyer2              4761828             0.0%
+       calendar              4741800             0.0%
+       cichelli              4732924             0.0%
+        circsim              4786752             0.0%
+       clausify              4751072             0.0%
+    constraints              4758760             0.0%
+   cryptarithm1              4701516             0.0%
+   cryptarithm2              4723980             0.0%
+            cse              4727220             0.0%
+   digits-of-e1              4729384             0.0%
+   digits-of-e2              4730792             0.0%
+          eliza              4741348             0.0%
+         exp3_8              4731088             0.0%
+         expert              4939760             0.0%
+           fft2                -----            -----
+    gen_regexps              4704540             0.0%
+      integrate              4731016             0.0%
+          kahan              5045536             0.0%
+      paraffins              4745968             0.0%
+         primes              4726464             0.0%
+         queens              4726160             0.0%
+           rfib              4725144             0.0%
+            tak              4726000             0.0%
+   wheel-sieve1              4739384             0.0%
+   wheel-sieve2              4734632             0.0%
+           x2n1              4727608             0.0%
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----            +0.0%
+        Average                -----            -0.0%
+
+Allocations
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi           4164831760             0.0%
+           atom           1626340832             0.0%
+         awards               279544            -0.0%
+         banner               262008             0.0%
+     bernouilli            257369952             0.0%
+          boyer            884982840             0.0%
+         boyer2              3409192             0.0%
+       calendar              2659592             0.0%
+       cichelli             61914000             0.0%
+        circsim           1271970504             0.0%
+       clausify            455202400             0.0%
+    constraints           2082163200             0.0%
+   cryptarithm1           2051815600             0.0%
+   cryptarithm2             12771856             0.0%
+            cse              1243728             0.0%
+   digits-of-e1            949574256             0.0%
+   digits-of-e2           1859780496             0.0%
+          eliza               709112             0.0%
+         exp3_8           5887836032             0.0%
+         expert               372080            -0.0%
+           fft2                -----            -----
+    gen_regexps            355674784             0.0%
+      integrate            370469432             0.0%
+          kahan              1528616            -0.0%
+      paraffins            359580952            -0.0%
+         primes           1360848800             0.0%
+         queens            149875496             0.0%
+           rfib               113224            +0.0%
+            tak               103448             0.0%
+   wheel-sieve1             23756480            +0.0%
+   wheel-sieve2            160681248             0.0%
+           x2n1              2623896            +0.0%
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----            +0.0%
+        Average                -----            +0.0%
+
+Run Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                1.147           +10.1%
+           atom                1.656            -3.4%
+         awards                0.000            0.003
+         banner                0.003            0.000
+     bernouilli                0.197            0.191
+          boyer                0.750            +3.3%
+         boyer2                0.013            0.003
+       calendar                0.003            0.000
+       cichelli                0.094            0.106
+        circsim                1.168            +1.6%
+       clausify                0.575            +7.7%
+    constraints                3.409            -2.1%
+   cryptarithm1                0.828            -5.7%
+   cryptarithm2                0.013            0.010
+            cse                0.000            0.000
+   digits-of-e1                1.959            -1.9%
+   digits-of-e2                2.475            -3.3%
+          eliza                0.010            0.000
+         exp3_8                2.706            +1.8%
+         expert                0.000            0.003
+           fft2                -----            -----
+    gen_regexps                1.097            -3.7%
+      integrate                0.287            -9.7%
+          kahan                1.216            +2.8%
+      paraffins                1.097            -2.9%
+         primes                1.110            +2.8%
+         queens                0.500            -1.9%
+           rfib                0.219            +1.4%
+            tak                1.216            +3.3%
+   wheel-sieve1                1.503            +7.9%
+   wheel-sieve2                0.534            +1.8%
+           x2n1                0.056            0.053
+        -1 s.d.                -----            -4.2%
+        +1 s.d.                -----            +5.2%
+        Average                -----            +0.4%
+
+Elapsed Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                1.178            +8.6%
+           atom                1.673            -3.7%
+         awards                0.002            0.002
+         banner                0.002            0.002
+     bernouilli                0.204            -4.3%
+          boyer                0.750            +2.6%
+         boyer2                0.012            0.012
+       calendar                0.006            0.007
+       cichelli                0.110            0.112
+        circsim                1.187            +1.9%
+       clausify                0.623            +1.5%
+    constraints                3.481            -1.6%
+   cryptarithm1                0.832            -5.4%
+   cryptarithm2                0.012            0.012
+            cse                0.004            0.004
+   digits-of-e1                1.971            -0.8%
+   digits-of-e2                2.503            -3.0%
+          eliza                0.003            0.002
+         exp3_8                2.739            +1.4%
+         expert                0.005            0.004
+           fft2                -----            -----
+    gen_regexps                1.120            -3.1%
+      integrate                0.311           -11.7%
+          kahan                1.226            +2.2%
+      paraffins                1.166            +1.6%
+         primes                1.113            +3.7%
+         queens                0.502            -1.4%
+           rfib                0.223            +0.3%
+            tak                1.232            +2.5%
+   wheel-sieve1                1.514            +8.6%
+   wheel-sieve2                0.572            -0.9%
+           x2n1                0.062            0.062
+        -1 s.d.                -----            -4.5%
+        +1 s.d.                -----            +4.4%
+        Average                -----            -0.2%
+
+Mutator Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                0.891           +12.3%
+           atom                0.890            -9.5%
+         awards                0.000            0.003
+         banner                0.003            0.000
+     bernouilli                0.122            0.141
+          boyer                0.378           +19.8%
+         boyer2                0.013            0.000
+       calendar                0.003            0.000
+       cichelli                0.081            0.072
+        circsim                0.678            -7.3%
+       clausify                0.419            +9.0%
+    constraints                1.022            +8.0%
+   cryptarithm1                0.803            -3.1%
+   cryptarithm2                0.013            0.010
+            cse                0.000            0.000
+   digits-of-e1                1.675            -3.0%
+   digits-of-e2                1.422            -7.2%
+          eliza                0.006            0.000
+         exp3_8                2.231            +0.3%
+         expert                0.000            0.003
+           fft2                -----            -----
+    gen_regexps                0.747            -8.3%
+      integrate                0.287           -10.9%
+          kahan                1.216            +2.8%
+      paraffins                0.150            0.131
+         primes                0.881            +3.9%
+         queens                0.497            -1.3%
+           rfib                0.219            +1.4%
+            tak                1.216            +3.3%
+   wheel-sieve1                1.453            +8.4%
+   wheel-sieve2                0.125            0.157
+           x2n1                0.056            0.053
+        -1 s.d.                -----            -6.9%
+        +1 s.d.                -----            +9.0%
+        Average                -----            +0.7%
+
+Mutator Elapsed Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                0.959            +8.6%
+           atom                0.877            -4.5%
+         awards                0.001            0.001
+         banner                0.001            0.001
+     bernouilli                0.138            0.132
+          boyer                0.408            +3.0%
+         boyer2                0.006            0.006
+       calendar                0.004            0.004
+       cichelli                0.085            0.086
+        circsim                0.673            +2.0%
+       clausify                0.476            +0.6%
+    constraints                1.063            -2.4%
+   cryptarithm1                0.814            -5.4%
+   cryptarithm2                0.010            0.010
+            cse                0.002            0.002
+   digits-of-e1                1.725            -3.7%
+   digits-of-e2                1.364            -4.2%
+          eliza                0.002            0.001
+         exp3_8                2.228            +1.4%
+         expert                0.004            0.003
+           fft2                -----            -----
+    gen_regexps                0.731            -2.9%
+      integrate                0.308           -11.8%
+          kahan                1.225            +2.2%
+      paraffins                0.140            0.139
+         primes                0.896            +3.8%
+         queens                0.499            -1.4%
+           rfib                0.222            +0.3%
+            tak                1.231            +2.5%
+   wheel-sieve1                1.468            +8.6%
+   wheel-sieve2                0.137            0.135
+           x2n1                0.061            0.061
+        -1 s.d.                -----            -5.1%
+        +1 s.d.                -----            +4.7%
+        Average                -----            -0.3%
+
+GC Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                0.256            +2.3%
+           atom                0.766            +3.7%
+         awards                0.000            0.000
+         banner                0.000            0.000
+     bernouilli                0.075            0.050
+          boyer                0.372           -13.5%
+         boyer2                0.000            0.003
+       calendar                0.000            0.000
+       cichelli                0.013            0.031
+        circsim                0.490           +14.1%
+       clausify                0.156            0.163
+    constraints                2.387            -6.4%
+   cryptarithm1                0.025            0.003
+   cryptarithm2                0.000            0.000
+            cse                0.000            0.000
+   digits-of-e1                0.284            +4.4%
+   digits-of-e2                1.053            +1.8%
+          eliza                0.000            0.000
+         exp3_8                0.475            +8.6%
+         expert                0.000            0.000
+           fft2                -----            -----
+    gen_regexps                0.350            +6.3%
+      integrate                0.000            0.003
+          kahan                0.000            0.000
+      paraffins                0.947            -1.4%
+         primes                0.228            -1.4%
+         queens                0.003            0.000
+           rfib                0.000            0.000
+            tak                0.000            0.000
+   wheel-sieve1                0.050            0.047
+   wheel-sieve2                0.409            -5.3%
+           x2n1                0.000            0.000
+        -1 s.d.                -----            -6.0%
+        +1 s.d.                -----            +8.2%
+        Average                -----            +0.8%
+
+GC Elapsed Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                0.219            +8.8%
+           atom                0.794            -2.8%
+         awards                0.000            0.000
+         banner                0.000            0.000
+     bernouilli                0.065            0.062
+          boyer                0.342            +2.0%
+         boyer2                0.004            0.004
+       calendar                0.001            0.001
+       cichelli                0.025            0.025
+        circsim                0.513            +1.7%
+       clausify                0.146            0.153
+    constraints                2.417            -1.3%
+   cryptarithm1                0.017            0.016
+   cryptarithm2                0.001            0.001
+            cse                0.001            0.001
+   digits-of-e1                0.245           +20.2%
+   digits-of-e2                1.138            -1.4%
+          eliza                0.000            0.000
+         exp3_8                0.510            +1.6%
+         expert                0.000            0.000
+           fft2                -----            -----
+    gen_regexps                0.388            -3.6%
+      integrate                0.002            0.002
+          kahan                0.000            0.000
+      paraffins                1.025            +1.9%
+         primes                0.217            +3.3%
+         queens                0.002            0.002
+           rfib                0.000            0.000
+            tak                0.000            0.000
+   wheel-sieve1                0.044            0.049
+   wheel-sieve2                0.434            -0.7%
+           x2n1                0.000            0.000
+        -1 s.d.                -----            -3.4%
+        +1 s.d.                -----            +8.4%
+        Average                -----            +2.3%
+
+GC(0) Count
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                 4012             0.0%
+           atom                 1150             0.0%
+         awards                    0             0.0%
+         banner                    0             0.0%
+     bernouilli                  203             0.0%
+          boyer                  779             0.0%
+         boyer2                    2             0.0%
+       calendar                    1             0.0%
+       cichelli                   55             0.0%
+        circsim                  551             0.0%
+       clausify                  385             0.0%
+    constraints                 1972             0.0%
+   cryptarithm1                 1963             0.0%
+   cryptarithm2                   11             0.0%
+            cse                    1             0.0%
+   digits-of-e1                  799             0.0%
+   digits-of-e2                  905             0.0%
+          eliza                    0             0.0%
+         exp3_8                 3375             0.0%
+         expert                    0             0.0%
+           fft2                -----            -----
+    gen_regexps                  331             0.0%
+      integrate                    3             0.0%
+          kahan                    1             0.0%
+      paraffins                  319             0.0%
+         primes                  791             0.0%
+         queens                  143             0.0%
+           rfib                    0             0.0%
+            tak                    0             0.0%
+   wheel-sieve1                   18             0.0%
+   wheel-sieve2                  147             0.0%
+           x2n1                    2             0.0%
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----            +0.0%
+        Average                -----            -0.0%
+
+GC(0) Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                0.253            -1.2%
+           atom                0.500            +5.6%
+         awards                0.000            0.000
+         banner                0.000            0.000
+     bernouilli                0.056            0.044
+          boyer                0.353           -20.4%
+         boyer2                0.000            0.003
+       calendar                0.000            0.000
+       cichelli                0.013            0.028
+        circsim                0.475           +13.2%
+       clausify                0.103            0.125
+    constraints                2.363            -6.0%
+   cryptarithm1                0.025            0.003
+   cryptarithm2                0.000            0.000
+            cse                0.000            0.000
+   digits-of-e1                0.247           +10.1%
+   digits-of-e2                0.731            +1.3%
+          eliza                0.000            0.000
+         exp3_8                0.475            +8.6%
+         expert                0.000            0.000
+           fft2                -----            -----
+    gen_regexps                0.347            +6.4%
+      integrate                0.000            0.000
+          kahan                0.000            0.000
+      paraffins                0.913            +0.7%
+         primes                0.194            0.197
+         queens                0.003            0.000
+           rfib                0.000            0.000
+            tak                0.000            0.000
+   wheel-sieve1                0.047            0.037
+   wheel-sieve2                0.403            -6.2%
+           x2n1                0.000            0.000
+        -1 s.d.                -----            -8.4%
+        +1 s.d.                -----           +10.6%
+        Average                -----            +0.7%
+
+GC(0) Elapsed Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                0.216            +8.7%
+           atom                0.553            -4.0%
+         awards                0.000            0.000
+         banner                0.000            0.000
+     bernouilli                0.047            0.047
+          boyer                0.310            +2.1%
+         boyer2                0.002            0.002
+       calendar                0.000            0.000
+       cichelli                0.020            0.020
+        circsim                0.493            +1.7%
+       clausify                0.108            0.113
+    constraints                2.394            -1.3%
+   cryptarithm1                0.017            0.016
+   cryptarithm2                0.001            0.001
+            cse                0.000            0.000
+   digits-of-e1                0.218           +20.0%
+   digits-of-e2                0.787            -2.1%
+          eliza                0.000            0.000
+         exp3_8                0.510            +1.6%
+         expert                0.000            0.000
+           fft2                -----            -----
+    gen_regexps                0.380            -3.5%
+      integrate                0.001            0.001
+          kahan                0.000            0.000
+      paraffins                1.000            +2.1%
+         primes                0.183            0.190
+         queens                0.002            0.002
+           rfib                0.000            0.000
+            tak                0.000            0.000
+   wheel-sieve1                0.040            0.044
+   wheel-sieve2                0.426            -0.8%
+           x2n1                0.000            0.000
+        -1 s.d.                -----            -4.0%
+        +1 s.d.                -----            +8.4%
+        Average                -----            +2.0%
+
+GC(1) Count
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                   38             0.0%
+           atom                  158             0.0%
+         awards                    1             0.0%
+         banner                    1             0.0%
+     bernouilli                   56             0.0%
+          boyer                   75             0.0%
+         boyer2                    2             0.0%
+       calendar                    2             0.0%
+       cichelli                    5             0.0%
+        circsim                    6             0.0%
+       clausify                   51             0.0%
+    constraints                   29             0.0%
+   cryptarithm1                    2             0.0%
+   cryptarithm2                    2             0.0%
+            cse                    1             0.0%
+   digits-of-e1                   95             0.0%
+   digits-of-e2                  339             0.0%
+          eliza                    1             0.0%
+         exp3_8                    2             0.0%
+         expert                    1             0.0%
+           fft2                -----            -----
+    gen_regexps                   10             0.0%
+      integrate                    2             0.0%
+          kahan                    1             0.0%
+      paraffins                    6             0.0%
+         primes                   33             0.0%
+         queens                    2             0.0%
+           rfib                    1             0.0%
+            tak                    1             0.0%
+   wheel-sieve1                    5             0.0%
+   wheel-sieve2                    7             0.0%
+           x2n1                    1             0.0%
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----            +0.0%
+        Average                -----            -0.0%
+
+GC(1) Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                0.003            0.013
+           atom                0.266             0.0%
+         awards                0.000            0.000
+         banner                0.000            0.000
+     bernouilli                0.019            0.006
+          boyer                0.019            0.041
+         boyer2                0.000            0.000
+       calendar                0.000            0.000
+       cichelli                0.000            0.003
+        circsim                0.016            0.022
+       clausify                0.053            0.038
+    constraints                0.025            0.013
+   cryptarithm1                0.000            0.000
+   cryptarithm2                0.000            0.000
+            cse                0.000            0.000
+   digits-of-e1                0.037            0.025
+   digits-of-e2                0.322            +2.9%
+          eliza                0.000            0.000
+         exp3_8                0.000            0.000
+         expert                0.000            0.000
+           fft2                -----            -----
+    gen_regexps                0.003            0.003
+      integrate                0.000            0.003
+          kahan                0.000            0.000
+      paraffins                0.034            0.016
+         primes                0.034            0.028
+         queens                0.000            0.000
+           rfib                0.000            0.000
+            tak                0.000            0.000
+   wheel-sieve1                0.003            0.009
+   wheel-sieve2                0.006            0.009
+           x2n1                0.000            0.000
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----            +2.9%
+        Average                -----            +1.4%
+
+GC(1) Elapsed Time
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                0.003            0.003
+           atom                0.241            -0.3%
+         awards                0.000            0.000
+         banner                0.000            0.000
+     bernouilli                0.018            0.016
+          boyer                0.032            0.032
+         boyer2                0.002            0.002
+       calendar                0.001            0.001
+       cichelli                0.004            0.004
+        circsim                0.021            0.021
+       clausify                0.038            0.039
+    constraints                0.023            0.023
+   cryptarithm1                0.000            0.000
+   cryptarithm2                0.000            0.000
+            cse                0.001            0.001
+   digits-of-e1                0.027            0.033
+   digits-of-e2                0.350            +0.0%
+          eliza                0.000            0.000
+         exp3_8                0.000            0.000
+         expert                0.000            0.000
+           fft2                -----            -----
+    gen_regexps                0.009            0.008
+      integrate                0.002            0.002
+          kahan                0.000            0.000
+      paraffins                0.025            0.023
+         primes                0.034            0.034
+         queens                0.000            0.000
+           rfib                0.000            0.000
+            tak                0.000            0.000
+   wheel-sieve1                0.004            0.004
+   wheel-sieve2                0.009            0.009
+           x2n1                0.000            0.000
+        -1 s.d.                -----            -0.3%
+        +1 s.d.                -----            +0.0%
+        Average                -----            -0.2%
+
+GC Work
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi            118317032            +0.1%
+           atom            419820448             0.0%
+         awards                 1824             0.0%
+         banner                 2496             0.0%
+     bernouilli             69050000             0.0%
+          boyer            102602120             0.0%
+         boyer2               721120             0.0%
+       calendar                12448             0.0%
+       cichelli             12810177            +0.0%
+        circsim            202851262            -0.0%
+       clausify             64007520             0.0%
+    constraints           1092616360             0.0%
+   cryptarithm1              2721736             0.0%
+   cryptarithm2                53272             0.0%
+            cse               212696             0.0%
+   digits-of-e1            107056864            -0.0%
+   digits-of-e2            462942467             0.0%
+          eliza                 2496             0.0%
+         exp3_8            326891708             0.0%
+         expert                 3320             0.0%
+           fft2                -----            -----
+    gen_regexps            236857548            +0.0%
+      integrate                74192             0.0%
+          kahan                42656             0.0%
+      paraffins            531909520             0.0%
+         primes            103705144             0.0%
+         queens               185024            +0.0%
+           rfib                 1824             0.0%
+            tak                 1824             0.0%
+   wheel-sieve1             30548406            -0.0%
+   wheel-sieve2            143618352             0.0%
+           x2n1                 6528             0.0%
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----            +0.0%
+        Average                -----            +0.0%
+
+GC work balance
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi                1.000             0.0%
+           atom                1.000             0.0%
+         awards                1.000             0.0%
+         banner                1.000             0.0%
+     bernouilli                1.000             0.0%
+          boyer                1.000             0.0%
+         boyer2                1.000             0.0%
+       calendar                1.000             0.0%
+       cichelli                1.000             0.0%
+        circsim                1.000             0.0%
+       clausify                1.000             0.0%
+    constraints                1.000             0.0%
+   cryptarithm1                1.000             0.0%
+   cryptarithm2                1.000             0.0%
+            cse                1.000             0.0%
+   digits-of-e1                1.000             0.0%
+   digits-of-e2                1.000             0.0%
+          eliza                1.000             0.0%
+         exp3_8                1.000             0.0%
+         expert                1.000             0.0%
+           fft2                -----            -----
+    gen_regexps                1.000             0.0%
+      integrate                1.000             0.0%
+          kahan                1.000             0.0%
+      paraffins                1.000             0.0%
+         primes                1.000             0.0%
+         queens                1.000             0.0%
+           rfib                1.000             0.0%
+            tak                1.000             0.0%
+   wheel-sieve1                1.000             0.0%
+   wheel-sieve2                1.000             0.0%
+           x2n1                1.000             0.0%
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----            +0.0%
+        Average                -----            -0.0%
+
+Instructions
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi          (no result)      (no result)
+           atom          (no result)      (no result)
+         awards          (no result)      (no result)
+         banner          (no result)      (no result)
+     bernouilli          (no result)      (no result)
+          boyer          (no result)      (no result)
+         boyer2          (no result)      (no result)
+       calendar          (no result)      (no result)
+       cichelli          (no result)      (no result)
+        circsim          (no result)      (no result)
+       clausify          (no result)      (no result)
+    constraints          (no result)      (no result)
+   cryptarithm1          (no result)      (no result)
+   cryptarithm2          (no result)      (no result)
+            cse          (no result)      (no result)
+   digits-of-e1          (no result)      (no result)
+   digits-of-e2          (no result)      (no result)
+          eliza          (no result)      (no result)
+         exp3_8          (no result)      (no result)
+         expert          (no result)      (no result)
+           fft2                -----            -----
+    gen_regexps          (no result)      (no result)
+      integrate          (no result)      (no result)
+          kahan          (no result)      (no result)
+      paraffins          (no result)      (no result)
+         primes          (no result)      (no result)
+         queens          (no result)      (no result)
+           rfib          (no result)      (no result)
+            tak          (no result)      (no result)
+   wheel-sieve1          (no result)      (no result)
+   wheel-sieve2          (no result)      (no result)
+           x2n1          (no result)      (no result)
+        -1 s.d.                -----            -----
+        +1 s.d.                -----            -----
+        Average                -----            -----
+
+Memory Reads
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi          (no result)      (no result)
+           atom          (no result)      (no result)
+         awards          (no result)      (no result)
+         banner          (no result)      (no result)
+     bernouilli          (no result)      (no result)
+          boyer          (no result)      (no result)
+         boyer2          (no result)      (no result)
+       calendar          (no result)      (no result)
+       cichelli          (no result)      (no result)
+        circsim          (no result)      (no result)
+       clausify          (no result)      (no result)
+    constraints          (no result)      (no result)
+   cryptarithm1          (no result)      (no result)
+   cryptarithm2          (no result)      (no result)
+            cse          (no result)      (no result)
+   digits-of-e1          (no result)      (no result)
+   digits-of-e2          (no result)      (no result)
+          eliza          (no result)      (no result)
+         exp3_8          (no result)      (no result)
+         expert          (no result)      (no result)
+           fft2                -----            -----
+    gen_regexps          (no result)      (no result)
+      integrate          (no result)      (no result)
+          kahan          (no result)      (no result)
+      paraffins          (no result)      (no result)
+         primes          (no result)      (no result)
+         queens          (no result)      (no result)
+           rfib          (no result)      (no result)
+            tak          (no result)      (no result)
+   wheel-sieve1          (no result)      (no result)
+   wheel-sieve2          (no result)      (no result)
+           x2n1          (no result)      (no result)
+        -1 s.d.                -----            -----
+        +1 s.d.                -----            -----
+        Average                -----            -----
+
+Memory Writes
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi          (no result)      (no result)
+           atom          (no result)      (no result)
+         awards          (no result)      (no result)
+         banner          (no result)      (no result)
+     bernouilli          (no result)      (no result)
+          boyer          (no result)      (no result)
+         boyer2          (no result)      (no result)
+       calendar          (no result)      (no result)
+       cichelli          (no result)      (no result)
+        circsim          (no result)      (no result)
+       clausify          (no result)      (no result)
+    constraints          (no result)      (no result)
+   cryptarithm1          (no result)      (no result)
+   cryptarithm2          (no result)      (no result)
+            cse          (no result)      (no result)
+   digits-of-e1          (no result)      (no result)
+   digits-of-e2          (no result)      (no result)
+          eliza          (no result)      (no result)
+         exp3_8          (no result)      (no result)
+         expert          (no result)      (no result)
+           fft2                -----            -----
+    gen_regexps          (no result)      (no result)
+      integrate          (no result)      (no result)
+          kahan          (no result)      (no result)
+      paraffins          (no result)      (no result)
+         primes          (no result)      (no result)
+         queens          (no result)      (no result)
+           rfib          (no result)      (no result)
+            tak          (no result)      (no result)
+   wheel-sieve1          (no result)      (no result)
+   wheel-sieve2          (no result)      (no result)
+           x2n1          (no result)      (no result)
+        -1 s.d.                -----            -----
+        +1 s.d.                -----            -----
+        Average                -----            -----
+
+Cache Misses
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi          (no result)      (no result)
+           atom          (no result)      (no result)
+         awards          (no result)      (no result)
+         banner          (no result)      (no result)
+     bernouilli          (no result)      (no result)
+          boyer          (no result)      (no result)
+         boyer2          (no result)      (no result)
+       calendar          (no result)      (no result)
+       cichelli          (no result)      (no result)
+        circsim          (no result)      (no result)
+       clausify          (no result)      (no result)
+    constraints          (no result)      (no result)
+   cryptarithm1          (no result)      (no result)
+   cryptarithm2          (no result)      (no result)
+            cse          (no result)      (no result)
+   digits-of-e1          (no result)      (no result)
+   digits-of-e2          (no result)      (no result)
+          eliza          (no result)      (no result)
+         exp3_8          (no result)      (no result)
+         expert          (no result)      (no result)
+           fft2                -----            -----
+    gen_regexps          (no result)      (no result)
+      integrate          (no result)      (no result)
+          kahan          (no result)      (no result)
+      paraffins          (no result)      (no result)
+         primes          (no result)      (no result)
+         queens          (no result)      (no result)
+           rfib          (no result)      (no result)
+            tak          (no result)      (no result)
+   wheel-sieve1          (no result)      (no result)
+   wheel-sieve2          (no result)      (no result)
+           x2n1          (no result)      (no result)
+        -1 s.d.                -----            -----
+        +1 s.d.                -----            -----
+        Average                -----            -----
+
+Total Memory in use
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+           ansi              3145728             0.0%
+           atom              4194304             0.0%
+         awards              2097152             0.0%
+         banner              2097152             0.0%
+     bernouilli              3145728             0.0%
+          boyer              3145728             0.0%
+         boyer2              2097152             0.0%
+       calendar              2097152             0.0%
+       cichelli              7340032             0.0%
+        circsim             74448896             0.0%
+       clausify              3145728             0.0%
+    constraints            134217728             0.0%
+   cryptarithm1              2097152             0.0%
+   cryptarithm2              2097152             0.0%
+            cse              2097152             0.0%
+   digits-of-e1              3145728             0.0%
+   digits-of-e2              4194304             0.0%
+          eliza              2097152             0.0%
+         exp3_8              3145728             0.0%
+         expert              2097152             0.0%
+           fft2                -----            -----
+    gen_regexps             63963136             0.0%
+      integrate            106954752             0.0%
+          kahan              2097152             0.0%
+      paraffins            340787200             0.0%
+         primes              4194304             0.0%
+         queens              2097152             0.0%
+           rfib              2097152             0.0%
+            tak              2097152             0.0%
+   wheel-sieve1             26214400             0.0%
+   wheel-sieve2             84934656             0.0%
+           x2n1              2097152             0.0%
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----            +0.0%
+        Average                -----            -0.0%
+Module Sizes
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+
+ansi
+           Main                14512             0.0%
+
+atom
+           Main                11760             0.0%
+
+awards
+           Main                12304             0.0%
+          QSort                 2864             0.0%
+
+banner
+           Main                28208             0.0%
+
+bernouilli
+           Main                 8608             0.0%
+
+boyer
+           Main                36304             0.0%
+
+boyer2
+        Checker                 4160             0.0%
+    Lisplikefns                21872             0.0%
+           Main                 6256             0.0%
+     Rewritefns                10256             0.0%
+   Rulebasetext                22784             0.0%
+
+calendar
+           Main                18928             0.0%
+
+cichelli
+          Auxil                16080             0.0%
+       Interval                  160             0.0%
+            Key                 3584             0.0%
+           Main                  512             0.0%
+           Prog                16208             0.0%
+
+circsim
+           Main                63824             0.0%
+
+clausify
+           Main                28200             0.0%
+
+constraints
+           Main                35776             0.0%
+
+cryptarithm1
+           Main                 4832             0.0%
+
+cryptarithm2
+           Main                27312             0.0%
+
+cse
+           Main                26432             0.0%
+     StateMonad                 4144             0.0%
+
+digits-of-e1
+           Main                 6496             0.0%
+
+digits-of-e2
+           Main                 7888             0.0%
+
+eliza
+           Main                44704             0.0%
+
+exp3_8
+           Main                 8192             0.0%
+
+expert
+      Knowledge                14432             0.0%
+           Main                 9168             0.0%
+          Match                 4288             0.0%
+         Result                 2128             0.0%
+         Search                12080             0.0%
+          Table                19232             0.0%
+
+fft2
+Complex_Vectors                 3320             0.0%
+        Fourier                22848             0.0%
+           Main                 4480             0.0%
+
+gen_regexps
+           Main                 7888             0.0%
+
+integrate
+           Main                 8096             0.0%
+
+kahan
+           Main                 3344             0.0%
+
+paraffins
+           Main                23064             0.0%
+
+primes
+           Main                 3520             0.0%
+
+queens
+           Main                 3232             0.0%
+
+rfib
+           Main                 2264             0.0%
+
+tak
+           Main                 3088             0.0%
+
+wheel-sieve1
+           Main                16464             0.0%
+
+wheel-sieve2
+           Main                11744             0.0%
+
+x2n1
+           Main                 4760             0.0%
+
+        -1 s.d.                -----            -0.0%
+        +1 s.d.                -----             0.0%
+        Average                -----            -0.0%
+
+Compile Times
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+
+ansi
+           Main                0.672            -4.6%
+
+atom
+           Main                0.532            +8.6%
+
+awards
+           Main                0.704            -4.5%
+          QSort                0.265            +0.4%
+
+banner
+           Main                0.844            -3.8%
+
+bernouilli
+           Main                0.546           +11.5%
+
+boyer
+           Main                1.516            +2.0%
+
+boyer2
+        Checker                0.281            -5.3%
+    Lisplikefns                0.641            -9.8%
+           Main                0.328             0.0%
+     Rewritefns                0.391            +7.9%
+   Rulebasetext                0.375            -8.5%
+
+calendar
+           Main                0.781           +10.1%
+
+cichelli
+          Auxil                0.641            -7.3%
+       Interval                0.093            0.109
+            Key                0.109            0.109
+           Main                0.234            -6.4%
+           Prog                0.578            -5.4%
+
+circsim
+           Main                2.188            -1.5%
+
+clausify
+           Main                0.969            -4.9%
+
+constraints
+           Main                1.219             0.0%
+
+cryptarithm1
+           Main                0.328             0.0%
+
+cryptarithm2
+           Main                0.906           -12.0%
+
+cse
+           Main                0.907            -5.3%
+     StateMonad                0.218            +0.5%
+
+digits-of-e1
+           Main                0.360            -8.9%
+
+digits-of-e2
+           Main                0.547           -17.0%
+
+eliza
+           Main                1.000            +4.7%
+
+exp3_8
+           Main                0.438            +7.1%
+
+expert
+      Knowledge                0.469            +3.2%
+           Main                0.500            +9.4%
+          Match                0.218           +29.4%
+         Result                0.171            0.156
+         Search                0.375           +20.8%
+          Table                0.766           -10.2%
+
+fft2
+Complex_Vectors                0.344            -9.0%
+        Fourier                0.828            +1.9%
+           Main                0.438           +24.7%
+
+gen_regexps
+           Main                0.594            +2.5%
+
+integrate
+           Main                0.501            -0.2%
+
+kahan
+           Main                0.515            -2.9%
+
+paraffins
+           Main                1.000            -6.3%
+
+primes
+           Main                0.281           +11.4%
+
+queens
+           Main                0.359           -13.1%
+
+rfib
+           Main                0.250             0.0%
+
+tak
+           Main                0.360            -4.4%
+
+wheel-sieve1
+           Main                0.625           -10.1%
+
+wheel-sieve2
+           Main                0.562           -16.7%
+
+x2n1
+           Main                0.500             0.0%
+
+        -1 s.d.                -----            -9.8%
+        +1 s.d.                -----            +8.9%
+        Average                -----            -0.9%
+
+Compile Allocations
+
+-------------------------------------------------------------------------------
+        Program     nofib_previous.l nofib.2017.07.06
+-------------------------------------------------------------------------------
+
+ansi
+           Main            256589288             0.0%
+
+atom
+           Main            203320368            -0.0%
+
+awards
+           Main            272697368            +0.0%
+          QSort             83213016            -3.2%
+
+banner
+           Main            403967544            +0.0%
+
+bernouilli
+           Main            184953144            +0.0%
+
+boyer
+           Main            768924376            +0.0%
+
+boyer2
+        Checker            101835872            +0.0%
+    Lisplikefns            277256936             0.0%
+           Main            116349648            -0.1%
+     Rewritefns            169552960            +0.0%
+   Rulebasetext            162381544            +0.1%
+
+calendar
+           Main            344851320            +0.0%
+
+cichelli
+          Auxil            266422272            +0.0%
+       Interval             33610848            +0.0%
+            Key             56696624            +3.1%
+           Main             52458736            -0.0%
+           Prog            229467176             0.0%
+
+circsim
+           Main           1094819096            +0.0%
+
+clausify
+           Main            470543440            +0.0%
+
+constraints
+           Main            574403208            -0.0%
+
+cryptarithm1
+           Main            119198632            -0.1%
+
+cryptarithm2
+           Main            388301800            -0.0%
+
+cse
+           Main            397126648            +0.0%
+     StateMonad             90181864            -0.3%
+
+digits-of-e1
+           Main            137358128            +2.5%
+
+digits-of-e2
+           Main            166186904            -0.0%
+
+eliza
+           Main            500998344            -0.0%
+
+exp3_8
+           Main            163770800            +0.0%
+
+expert
+      Knowledge            199038640            +0.0%
+           Main            190677576            -2.1%
+          Match            101677608            +0.0%
+         Result             62342232            +0.2%
+         Search            177021528            -1.6%
+          Table            297562536            -0.1%
+
+fft2
+Complex_Vectors             99636304            +0.0%
+        Fourier            339333488            +0.0%
+           Main            132285104            -0.2%
+
+gen_regexps
+           Main            193284616            -0.1%
+
+integrate
+           Main            177692648            +0.0%
+
+kahan
+           Main            170520144            -0.0%
+
+paraffins
+           Main            439472000            +0.0%
+
+primes
+           Main            111110248            -3.4%
+
+queens
+           Main            115983368            +3.4%
+
+rfib
+           Main             95839656            -0.0%
+
+tak
+           Main            102708944            +0.0%
+
+wheel-sieve1
+           Main            227564512            +0.0%
+
+wheel-sieve2
+           Main            201793128            +0.0%
+
+x2n1
+           Main            162029072            +0.1%
+
+        -1 s.d.                -----            -1.1%
+        +1 s.d.                -----            +1.0%
+        Average                -----            -0.0%

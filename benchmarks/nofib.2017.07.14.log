@@ -1,0 +1,1885 @@
+------------------------------------------------------------------------
+== Recursively making `all' in runstdtest nofib-analyse imaginary spectral real shootout ...
+PWD = /c/TeamCity/buildAgent/work/28754042a1be6052/nofib
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+== make all ;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/runstdtest
+------------------------------------------------------------------------
+rm -f -f runstdtest
+echo '#!/usr/bin/perl'                               >> runstdtest
+echo '$RM             = "rm -f";'             >> runstdtest
+echo '$CONTEXT_DIFF   = "diff -U 1 --strip-trailing-cr";'   >> runstdtest
+cat runstdtest.prl                                >> runstdtest
+chmod +x runstdtest
+Finished making all in runstdtest: 0
+------------------------------------------------------------------------
+== make all ;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/nofib-analyse
+------------------------------------------------------------------------
+make[1]: Nothing to be done for 'all'.
+Finished making all in nofib-analyse: 0
+------------------------------------------------------------------------
+== make all ;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+== Recursively making `all' in bernouilli digits-of-e1 digits-of-e2 exp3_8 gen_regexps integrate paraffins primes queens rfib tak wheel-sieve1 wheel-sieve2 x2n1 kahan ...
+PWD = /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/bernouilli
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== bernouilli: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:26:21: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+   |
+26 | bernoulli 1 = -(1%2)    
+   |                     ^^^^
+<<ghc: 184951984 bytes, 39 GCs, 9795494/22095560 avg/max bytes residency (5 samples), 46M in use, 0.000 INIT (0.000 elapsed), 0.281 MUT (0.448 elapsed), 0.281 GC (0.268 elapsed) :ghc>>
+==nofib== bernouilli: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   7488	   1120	      0	   8608	   21a0	Main.o
+==nofib== bernouilli: time to link bernouilli follows...
+<<ghc: 16888872 bytes, 7 GCs, 362356/584288 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.877 elapsed), 0.016 GC (0.033 elapsed) :ghc>>
+==nofib== bernouilli: size of bernouilli follows...
+   text	   data	    bss	    dec	    hex	filename
+3529524	1204564	  57684	4791772	 491ddc	bernouilli.exe
+==nofib== bernouilli: time to run bernouilli follows...
+../../runstdtest/runstdtest ./bernouilli  -o1 bernouilli.stdout  -ghc-timing      500;   ../../runstdtest/runstdtest ./bernouilli  -o1 bernouilli.stdout  -ghc-timing      500;   ../../runstdtest/runstdtest ./bernouilli  -o1 bernouilli.stdout  -ghc-timing      500;   ../../runstdtest/runstdtest ./bernouilli  -o1 bernouilli.stdout  -ghc-timing      500;   ../../runstdtest/runstdtest ./bernouilli  -o1 bernouilli.stdout  -ghc-timing      500;
+
+real	0m0.294s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 257369952 bytes, 259 GCs (203 + 56), 0/0 avg/max bytes residency (0 samples), 69050000 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.156 MUT (0.158 elapsed), 0.062 GC (0.064 elapsed), 0.047 GC(0) (0.049 elapsed), 0.016 GC(1) (0.016 elapsed), 1 balance :ghc>>
+
+real	0m0.284s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 257369952 bytes, 259 GCs (203 + 56), 0/0 avg/max bytes residency (0 samples), 69050000 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.172 MUT (0.173 elapsed), 0.062 GC (0.068 elapsed), 0.062 GC(0) (0.051 elapsed), 0.000 GC(1) (0.017 elapsed), 1 balance :ghc>>
+
+real	0m0.288s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 257369952 bytes, 259 GCs (203 + 56), 0/0 avg/max bytes residency (0 samples), 69050000 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.141 MUT (0.166 elapsed), 0.094 GC (0.067 elapsed), 0.047 GC(0) (0.051 elapsed), 0.047 GC(1) (0.017 elapsed), 1 balance :ghc>>
+
+real	0m0.279s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 257369952 bytes, 259 GCs (203 + 56), 0/0 avg/max bytes residency (0 samples), 69050000 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.156 MUT (0.167 elapsed), 0.078 GC (0.068 elapsed), 0.031 GC(0) (0.052 elapsed), 0.047 GC(1) (0.017 elapsed), 1 balance :ghc>>
+
+real	0m0.291s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 257369952 bytes, 259 GCs (203 + 56), 0/0 avg/max bytes residency (0 samples), 69050000 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.203 MUT (0.174 elapsed), 0.047 GC (0.070 elapsed), 0.031 GC(0) (0.053 elapsed), 0.016 GC(1) (0.017 elapsed), 1 balance :ghc>>
+Finished making all in bernouilli: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/digits-of-e1
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== digits-of-e1: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.lhs -o Main.o
+<<ghc: 137359976 bytes, 62 GCs, 6498966/11514144 avg/max bytes residency (4 samples), 33M in use, 0.000 INIT (0.000 elapsed), 0.219 MUT (0.355 elapsed), 0.156 GC (0.203 elapsed) :ghc>>
+==nofib== digits-of-e1: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   5632	    864	      0	   6496	   1960	Main.o
+==nofib== digits-of-e1: time to link digits-of-e1 follows...
+<<ghc: 15959168 bytes, 7 GCs, 362444/584384 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (2.815 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== digits-of-e1: size of digits-of-e1 follows...
+   text	   data	    bss	    dec	    hex	filename
+3527572	1204404	  57684	4789660	 49159c	digits-of-e1.exe
+==nofib== digits-of-e1: time to run digits-of-e1 follows...
+../../runstdtest/runstdtest ./digits-of-e1  -o1 digits-of-e1.slowstdout -o1 digits-of-e1.stdout  -ghc-timing     1400;   ../../runstdtest/runstdtest ./digits-of-e1  -o1 digits-of-e1.slowstdout -o1 digits-of-e1.stdout  -ghc-timing     1400;   ../../runstdtest/runstdtest ./digits-of-e1  -o1 digits-of-e1.slowstdout -o1 digits-of-e1.stdout  -ghc-timing     1400;   ../../runstdtest/runstdtest ./digits-of-e1  -o1 digits-of-e1.slowstdout -o1 digits-of-e1.stdout  -ghc-timing     1400;   ../../runstdtest/runstdtest ./digits-of-e1  -o1 digits-of-e1.slowstdout -o1 digits-of-e1.stdout  -ghc-timing     1400;
+
+real	0m2.198s
+user	0m0.015s
+sys	0m0.015s
+Files digits-of-e1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest14948.1 differ
+<<ghc: 949574264 bytes, 894 GCs (799 + 95), 0/0 avg/max bytes residency (0 samples), 107077248 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 1.844 MUT (1.857 elapsed), 0.266 GC (0.295 elapsed), 0.172 GC(0) (0.263 elapsed), 0.094 GC(1) (0.032 elapsed), 1 balance :ghc>>
+
+real	0m1.989s
+user	0m0.000s
+sys	0m0.046s
+Files digits-of-e1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10444.1 differ
+<<ghc: 949574264 bytes, 894 GCs (799 + 95), 0/0 avg/max bytes residency (0 samples), 106965920 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 1.688 MUT (1.704 elapsed), 0.250 GC (0.251 elapsed), 0.250 GC(0) (0.224 elapsed), 0.000 GC(1) (0.027 elapsed), 1 balance :ghc>>
+
+real	0m2.348s
+user	0m0.000s
+sys	0m0.030s
+Files digits-of-e1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest4940.1 differ
+<<ghc: 949574224 bytes, 894 GCs (799 + 95), 0/0 avg/max bytes residency (0 samples), 107077272 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 1.938 MUT (1.989 elapsed), 0.359 GC (0.316 elapsed), 0.328 GC(0) (0.281 elapsed), 0.031 GC(1) (0.035 elapsed), 1 balance :ghc>>
+
+real	0m1.767s
+user	0m0.000s
+sys	0m0.046s
+Files digits-of-e1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest9608.1 differ
+<<ghc: 949574224 bytes, 894 GCs (799 + 95), 0/0 avg/max bytes residency (0 samples), 107076280 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 1.500 MUT (1.509 elapsed), 0.219 GC (0.221 elapsed), 0.188 GC(0) (0.197 elapsed), 0.031 GC(1) (0.024 elapsed), 1 balance :ghc>>
+
+real	0m1.868s
+user	0m0.015s
+sys	0m0.000s
+Files digits-of-e1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest16488.1 differ
+<<ghc: 949574264 bytes, 894 GCs (799 + 95), 0/0 avg/max bytes residency (0 samples), 107077240 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 1.641 MUT (1.596 elapsed), 0.188 GC (0.235 elapsed), 0.141 GC(0) (0.209 elapsed), 0.047 GC(1) (0.026 elapsed), 1 balance :ghc>>
+Finished making all in digits-of-e1: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/digits-of-e2
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== digits-of-e2: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.lhs -o Main.o
+<<ghc: 166579760 bytes, 59 GCs, 6751640/12620000 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.281 MUT (0.429 elapsed), 0.219 GC (0.210 elapsed) :ghc>>
+==nofib== digits-of-e2: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   6976	    912	      0	   7888	   1ed0	Main.o
+==nofib== digits-of-e2: time to link digits-of-e2 follows...
+<<ghc: 16122432 bytes, 7 GCs, 362444/584384 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (2.912 elapsed), 0.016 GC (0.029 elapsed) :ghc>>
+==nofib== digits-of-e2: size of digits-of-e2 follows...
+   text	   data	    bss	    dec	    hex	filename
+3528948	1204436	  57684	4791068	 491b1c	digits-of-e2.exe
+==nofib== digits-of-e2: time to run digits-of-e2 follows...
+../../runstdtest/runstdtest ./digits-of-e2  -o1 digits-of-e2.slowstdout -o1 digits-of-e2.stdout  -ghc-timing     2700;   ../../runstdtest/runstdtest ./digits-of-e2  -o1 digits-of-e2.slowstdout -o1 digits-of-e2.stdout  -ghc-timing     2700;   ../../runstdtest/runstdtest ./digits-of-e2  -o1 digits-of-e2.slowstdout -o1 digits-of-e2.stdout  -ghc-timing     2700;   ../../runstdtest/runstdtest ./digits-of-e2  -o1 digits-of-e2.slowstdout -o1 digits-of-e2.stdout  -ghc-timing     2700;   ../../runstdtest/runstdtest ./digits-of-e2  -o1 digits-of-e2.slowstdout -o1 digits-of-e2.stdout  -ghc-timing     2700;
+
+real	0m2.747s
+user	0m0.015s
+sys	0m0.015s
+Files digits-of-e2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest7236.1 differ
+<<ghc: 1859780488 bytes, 1244 GCs (905 + 339), 0/0 avg/max bytes residency (0 samples), 462942472 bytes GC work, 4M in use, 0.000 INIT (0.001 elapsed), 1.516 MUT (1.408 elapsed), 1.125 GC (1.294 elapsed), 0.750 GC(0) (0.880 elapsed), 0.375 GC(1) (0.413 elapsed), 1 balance :ghc>>
+
+real	0m2.718s
+user	0m0.015s
+sys	0m0.015s
+Files digits-of-e2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest16848.1 differ
+<<ghc: 1859780528 bytes, 1244 GCs (905 + 339), 0/0 avg/max bytes residency (0 samples), 462942472 bytes GC work, 4M in use, 0.000 INIT (0.001 elapsed), 1.469 MUT (1.408 elapsed), 1.188 GC (1.262 elapsed), 0.859 GC(0) (0.857 elapsed), 0.328 GC(1) (0.406 elapsed), 1 balance :ghc>>
+
+real	0m2.525s
+user	0m0.000s
+sys	0m0.015s
+Files digits-of-e2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest6432.1 differ
+<<ghc: 1859780488 bytes, 1244 GCs (905 + 339), 0/0 avg/max bytes residency (0 samples), 462942472 bytes GC work, 4M in use, 0.000 INIT (0.001 elapsed), 1.266 MUT (1.297 elapsed), 1.172 GC (1.196 elapsed), 0.750 GC(0) (0.809 elapsed), 0.422 GC(1) (0.387 elapsed), 1 balance :ghc>>
+
+real	0m2.705s
+user	0m0.000s
+sys	0m0.030s
+Files digits-of-e2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest25296.1 differ
+<<ghc: 1859780528 bytes, 1244 GCs (905 + 339), 0/0 avg/max bytes residency (0 samples), 462942472 bytes GC work, 4M in use, 0.000 INIT (0.001 elapsed), 1.406 MUT (1.380 elapsed), 1.219 GC (1.283 elapsed), 0.859 GC(0) (0.875 elapsed), 0.359 GC(1) (0.408 elapsed), 1 balance :ghc>>
+
+real	0m2.654s
+user	0m0.015s
+sys	0m0.000s
+Files digits-of-e2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest15620.1 differ
+<<ghc: 1859780528 bytes, 1244 GCs (905 + 339), 0/0 avg/max bytes residency (0 samples), 462942472 bytes GC work, 4M in use, 0.000 INIT (0.001 elapsed), 1.422 MUT (1.334 elapsed), 1.094 GC (1.230 elapsed), 0.797 GC(0) (0.828 elapsed), 0.297 GC(1) (0.401 elapsed), 1 balance :ghc>>
+Finished making all in digits-of-e2: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/exp3_8
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== exp3_8: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:25:10: warning: [-Wmissing-methods]
+    * No explicit implementation for
+        `abs', `signum', and (either `negate' or `-')
+    * In the instance declaration for `Num Nat'
+   |
+25 | instance Num Nat where
+   |          ^^^^^^^
+
+Main.hs:42:1: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+   |
+42 |         [power] <- getArgs
+   | ^^^^^^^^
+<<ghc: 163758808 bytes, 54 GCs, 6341580/11405824 avg/max bytes residency (4 samples), 33M in use, 0.000 INIT (0.000 elapsed), 0.281 MUT (0.316 elapsed), 0.078 GC (0.155 elapsed) :ghc>>
+==nofib== exp3_8: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   6592	   1600	      0	   8192	   2000	Main.o
+==nofib== exp3_8: time to link exp3_8 follows...
+<<ghc: 15846664 bytes, 7 GCs, 362132/584000 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.031 MUT (2.774 elapsed), 0.031 GC (0.025 elapsed) :ghc>>
+==nofib== exp3_8: size of exp3_8 follows...
+   text	   data	    bss	    dec	    hex	filename
+3528484	1205196	  57684	4791364	 491c44	exp3_8.exe
+==nofib== exp3_8: time to run exp3_8 follows...
+../../runstdtest/runstdtest ./exp3_8  -o1 exp3_8.slowstdout -o1 exp3_8.stdout  -ghc-timing     9;   ../../runstdtest/runstdtest ./exp3_8  -o1 exp3_8.slowstdout -o1 exp3_8.stdout  -ghc-timing     9;   ../../runstdtest/runstdtest ./exp3_8  -o1 exp3_8.slowstdout -o1 exp3_8.stdout  -ghc-timing     9;   ../../runstdtest/runstdtest ./exp3_8  -o1 exp3_8.slowstdout -o1 exp3_8.stdout  -ghc-timing     9;   ../../runstdtest/runstdtest ./exp3_8  -o1 exp3_8.slowstdout -o1 exp3_8.stdout  -ghc-timing     9;
+
+real	0m3.113s
+user	0m0.000s
+sys	0m0.015s
+Files exp3_8.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest7064.1 differ
+<<ghc: 5887836000 bytes, 3377 GCs (3375 + 2), 0/0 avg/max bytes residency (0 samples), 326892720 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 2.312 MUT (2.392 elapsed), 0.438 GC (0.513 elapsed), 0.438 GC(0) (0.513 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m2.724s
+user	0m0.015s
+sys	0m0.030s
+Files exp3_8.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest23656.1 differ
+<<ghc: 5887836040 bytes, 3377 GCs (3375 + 2), 0/0 avg/max bytes residency (0 samples), 326891456 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 2.281 MUT (2.197 elapsed), 0.344 GC (0.480 elapsed), 0.344 GC(0) (0.480 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m2.755s
+user	0m0.000s
+sys	0m0.000s
+Files exp3_8.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest13584.1 differ
+<<ghc: 5887836040 bytes, 3377 GCs (3375 + 2), 0/0 avg/max bytes residency (0 samples), 326891456 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 2.250 MUT (2.229 elapsed), 0.359 GC (0.486 elapsed), 0.359 GC(0) (0.486 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m2.740s
+user	0m0.015s
+sys	0m0.000s
+Files exp3_8.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10584.1 differ
+<<ghc: 5887836040 bytes, 3377 GCs (3375 + 2), 0/0 avg/max bytes residency (0 samples), 326891456 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 2.234 MUT (2.214 elapsed), 0.422 GC (0.480 elapsed), 0.422 GC(0) (0.479 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m2.958s
+user	0m0.000s
+sys	0m0.015s
+Files exp3_8.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest8004.1 differ
+<<ghc: 5887836000 bytes, 3377 GCs (3375 + 2), 0/0 avg/max bytes residency (0 samples), 326892720 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 2.344 MUT (2.379 elapsed), 0.359 GC (0.482 elapsed), 0.359 GC(0) (0.481 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in exp3_8: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/gen_regexps
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== gen_regexps: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:18:10: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+   |
+18 | expand []       = [""]
+   |          ^^^^^^^
+<<ghc: 197168304 bytes, 51 GCs, 9657828/22467032 avg/max bytes residency (5 samples), 47M in use, 0.000 INIT (0.000 elapsed), 0.281 MUT (0.441 elapsed), 0.172 GC (0.215 elapsed) :ghc>>
+==nofib== gen_regexps: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   7456	    432	      0	   7888	   1ed0	Main.o
+==nofib== gen_regexps: time to link gen_regexps follows...
+<<ghc: 15854760 bytes, 7 GCs, 362392/584320 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (3.816 elapsed), 0.000 GC (0.025 elapsed) :ghc>>
+==nofib== gen_regexps: size of gen_regexps follows...
+   text	   data	    bss	    dec	    hex	filename
+3505332	1201816	  57684	4764832	 48b4a0	gen_regexps.exe
+==nofib== gen_regexps: time to run gen_regexps follows...
+../../runstdtest/runstdtest ./gen_regexps -i  gen_regexps.slowstdin -o1 gen_regexps.slowstdout -o1 gen_regexps.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./gen_regexps -i  gen_regexps.slowstdin -o1 gen_regexps.slowstdout -o1 gen_regexps.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./gen_regexps -i  gen_regexps.slowstdin -o1 gen_regexps.slowstdout -o1 gen_regexps.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./gen_regexps -i  gen_regexps.slowstdin -o1 gen_regexps.slowstdout -o1 gen_regexps.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./gen_regexps -i  gen_regexps.slowstdin -o1 gen_regexps.slowstdout -o1 gen_regexps.stdout  -ghc-timing     ;
+
+real	0m1.403s
+user	0m0.000s
+sys	0m0.031s
+Files gen_regexps.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest16812.1 differ
+<<ghc: 355674784 bytes, 341 GCs (331 + 10), 0/0 avg/max bytes residency (0 samples), 236866904 bytes GC work, 61M in use, 0.000 INIT (0.001 elapsed), 0.688 MUT (0.847 elapsed), 0.312 GC (0.503 elapsed), 0.312 GC(0) (0.496 elapsed), 0.000 GC(1) (0.007 elapsed), 1 balance :ghc>>
+
+real	0m1.200s
+user	0m0.000s
+sys	0m0.015s
+Files gen_regexps.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10968.1 differ
+<<ghc: 355674784 bytes, 341 GCs (331 + 10), 0/0 avg/max bytes residency (0 samples), 236858456 bytes GC work, 61M in use, 0.000 INIT (0.000 elapsed), 0.594 MUT (0.832 elapsed), 0.375 GC (0.327 elapsed), 0.375 GC(0) (0.320 elapsed), 0.000 GC(1) (0.007 elapsed), 1 balance :ghc>>
+
+real	0m1.124s
+user	0m0.015s
+sys	0m0.015s
+Files gen_regexps.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest15180.1 differ
+<<ghc: 355674784 bytes, 341 GCs (331 + 10), 0/0 avg/max bytes residency (0 samples), 236866904 bytes GC work, 61M in use, 0.000 INIT (0.000 elapsed), 0.625 MUT (0.707 elapsed), 0.344 GC (0.374 elapsed), 0.344 GC(0) (0.367 elapsed), 0.000 GC(1) (0.007 elapsed), 1 balance :ghc>>
+
+real	0m1.043s
+user	0m0.000s
+sys	0m0.015s
+Files gen_regexps.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest12996.1 differ
+<<ghc: 355674784 bytes, 341 GCs (331 + 10), 0/0 avg/max bytes residency (0 samples), 236864768 bytes GC work, 61M in use, 0.000 INIT (0.000 elapsed), 0.688 MUT (0.672 elapsed), 0.266 GC (0.330 elapsed), 0.250 GC(0) (0.323 elapsed), 0.016 GC(1) (0.007 elapsed), 1 balance :ghc>>
+
+real	0m1.064s
+user	0m0.000s
+sys	0m0.030s
+Files gen_regexps.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest14172.1 differ
+<<ghc: 355674784 bytes, 341 GCs (331 + 10), 0/0 avg/max bytes residency (0 samples), 236864768 bytes GC work, 61M in use, 0.000 INIT (0.000 elapsed), 0.656 MUT (0.671 elapsed), 0.328 GC (0.348 elapsed), 0.328 GC(0) (0.341 elapsed), 0.000 GC(1) (0.007 elapsed), 1 balance :ghc>>
+Finished making all in gen_regexps: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/integrate
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing +RTS -K20m -H100m -RTS
+==nofib== integrate: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:20:1: warning: [-Wtabs]
+    Tab character found here, and in 11 further locations.
+    Please use spaces instead.
+   |
+20 |                                     (\y->integrate1D l1 u1 
+   | ^^^^^^^^
+<<ghc: 177684224 bytes, 79 GCs, 6526742/12609384 avg/max bytes residency (4 samples), 31M in use, 0.000 INIT (0.000 elapsed), 0.234 MUT (0.358 elapsed), 0.156 GC (0.170 elapsed) :ghc>>
+==nofib== integrate: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   7136	    960	      0	   8096	   1fa0	Main.o
+==nofib== integrate: time to link integrate follows...
+<<ghc: 16257432 bytes, 7 GCs, 362312/584240 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (3.482 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== integrate: size of integrate follows...
+   text	   data	    bss	    dec	    hex	filename
+3529060	1204564	  57684	4791308	 491c0c	integrate.exe
+==nofib== integrate: time to run integrate follows...
+../../runstdtest/runstdtest ./integrate  -o1 integrate.slowstdout -o1 integrate.stdout  -ghc-timing  +RTS -K20m -H100m -RTS    100000;   ../../runstdtest/runstdtest ./integrate  -o1 integrate.slowstdout -o1 integrate.stdout  -ghc-timing  +RTS -K20m -H100m -RTS    100000;   ../../runstdtest/runstdtest ./integrate  -o1 integrate.slowstdout -o1 integrate.stdout  -ghc-timing  +RTS -K20m -H100m -RTS    100000;   ../../runstdtest/runstdtest ./integrate  -o1 integrate.slowstdout -o1 integrate.stdout  -ghc-timing  +RTS -K20m -H100m -RTS    100000;   ../../runstdtest/runstdtest ./integrate  -o1 integrate.slowstdout -o1 integrate.stdout  -ghc-timing  +RTS -K20m -H100m -RTS    100000;
+
+real	0m0.329s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 370469448 bytes, 5 GCs (3 + 2), 0/0 avg/max bytes residency (0 samples), 74192 bytes GC work, 102M in use, 0.000 INIT (0.001 elapsed), 0.219 MUT (0.243 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.001 elapsed), 1 balance :ghc>>
+
+real	0m0.318s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 370469448 bytes, 5 GCs (3 + 2), 0/0 avg/max bytes residency (0 samples), 74192 bytes GC work, 102M in use, 0.000 INIT (0.001 elapsed), 0.203 MUT (0.222 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.001 elapsed), 1 balance :ghc>>
+
+real	0m0.270s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 370469448 bytes, 5 GCs (3 + 2), 0/0 avg/max bytes residency (0 samples), 74192 bytes GC work, 102M in use, 0.000 INIT (0.000 elapsed), 0.219 MUT (0.222 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.001 elapsed), 1 balance :ghc>>
+
+real	0m0.273s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 370469448 bytes, 5 GCs (3 + 2), 0/0 avg/max bytes residency (0 samples), 74192 bytes GC work, 102M in use, 0.000 INIT (0.000 elapsed), 0.188 MUT (0.222 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.001 elapsed), 1 balance :ghc>>
+
+real	0m0.281s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 370469448 bytes, 5 GCs (3 + 2), 0/0 avg/max bytes residency (0 samples), 74192 bytes GC work, 102M in use, 0.000 INIT (0.001 elapsed), 0.219 MUT (0.228 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.001 elapsed), 1 balance :ghc>>
+Finished making all in integrate: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/paraffins
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing +RTS -H20m -RTS
+==nofib== paraffins: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+<<ghc: 443608736 bytes, 77 GCs, 10055694/21933384 avg/max bytes residency (5 samples), 46M in use, 0.000 INIT (0.000 elapsed), 0.734 MUT (0.709 elapsed), 0.172 GC (0.284 elapsed) :ghc>>
+==nofib== paraffins: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  21568	   1504	      0	  23072	   5a20	Main.o
+==nofib== paraffins: time to link paraffins follows...
+<<ghc: 15852064 bytes, 7 GCs, 362304/584224 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.961 elapsed), 0.000 GC (0.025 elapsed) :ghc>>
+==nofib== paraffins: size of paraffins follows...
+   text	   data	    bss	    dec	    hex	filename
+3543444	1205108	  57684	4806236	 49565c	paraffins.exe
+==nofib== paraffins: time to run paraffins follows...
+../../runstdtest/runstdtest ./paraffins  -o1 paraffins.slowstdout -o1 paraffins.stdout  -ghc-timing  +RTS -H20m -RTS    19;   ../../runstdtest/runstdtest ./paraffins  -o1 paraffins.slowstdout -o1 paraffins.stdout  -ghc-timing  +RTS -H20m -RTS    19;   ../../runstdtest/runstdtest ./paraffins  -o1 paraffins.slowstdout -o1 paraffins.stdout  -ghc-timing  +RTS -H20m -RTS    19;   ../../runstdtest/runstdtest ./paraffins  -o1 paraffins.slowstdout -o1 paraffins.stdout  -ghc-timing  +RTS -H20m -RTS    19;   ../../runstdtest/runstdtest ./paraffins  -o1 paraffins.slowstdout -o1 paraffins.stdout  -ghc-timing  +RTS -H20m -RTS    19;
+
+real	0m1.241s
+user	0m0.000s
+sys	0m0.030s
+Files paraffins.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest15436.1 differ
+<<ghc: 359580960 bytes, 325 GCs (319 + 6), 0/0 avg/max bytes residency (0 samples), 531909520 bytes GC work, 325M in use, 0.000 INIT (0.001 elapsed), 0.094 MUT (0.136 elapsed), 0.781 GC (0.909 elapsed), 0.766 GC(0) (0.891 elapsed), 0.016 GC(1) (0.019 elapsed), 1 balance :ghc>>
+
+real	0m1.293s
+user	0m0.015s
+sys	0m0.015s
+Files paraffins.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest6764.1 differ
+<<ghc: 359580920 bytes, 325 GCs (319 + 6), 0/0 avg/max bytes residency (0 samples), 531909520 bytes GC work, 325M in use, 0.000 INIT (0.000 elapsed), 0.141 MUT (0.141 elapsed), 0.766 GC (0.934 elapsed), 0.750 GC(0) (0.916 elapsed), 0.016 GC(1) (0.019 elapsed), 1 balance :ghc>>
+
+real	0m1.080s
+user	0m0.000s
+sys	0m0.030s
+Files paraffins.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest24408.1 differ
+<<ghc: 359580960 bytes, 325 GCs (319 + 6), 0/0 avg/max bytes residency (0 samples), 531909520 bytes GC work, 325M in use, 0.000 INIT (0.000 elapsed), 0.219 MUT (0.130 elapsed), 0.719 GC (0.878 elapsed), 0.703 GC(0) (0.859 elapsed), 0.016 GC(1) (0.019 elapsed), 1 balance :ghc>>
+
+real	0m1.108s
+user	0m0.000s
+sys	0m0.015s
+Files paraffins.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest20444.1 differ
+<<ghc: 359580960 bytes, 325 GCs (319 + 6), 0/0 avg/max bytes residency (0 samples), 531909520 bytes GC work, 325M in use, 0.000 INIT (0.000 elapsed), 0.172 MUT (0.132 elapsed), 0.797 GC (0.896 elapsed), 0.766 GC(0) (0.877 elapsed), 0.031 GC(1) (0.019 elapsed), 1 balance :ghc>>
+
+real	0m1.094s
+user	0m0.000s
+sys	0m0.030s
+Files paraffins.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest19432.1 differ
+<<ghc: 359580960 bytes, 325 GCs (319 + 6), 0/0 avg/max bytes residency (0 samples), 531909520 bytes GC work, 325M in use, 0.000 INIT (0.000 elapsed), 0.156 MUT (0.130 elapsed), 0.797 GC (0.889 elapsed), 0.781 GC(0) (0.870 elapsed), 0.016 GC(1) (0.019 elapsed), 1 balance :ghc>>
+Finished making all in paraffins: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/primes
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== primes: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:17:1: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+   |
+17 |         [arg] <- getArgs
+   | ^^^^^^^^
+<<ghc: 107295224 bytes, 26 GCs, 6913000/13022536 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.125 MUT (0.220 elapsed), 0.156 GC (0.141 elapsed) :ghc>>
+==nofib== primes: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   2960	    560	      0	   3520	    dc0	Main.o
+==nofib== primes: time to link primes follows...
+<<ghc: 16881984 bytes, 7 GCs, 362180/584096 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (3.143 elapsed), 0.000 GC (0.025 elapsed) :ghc>>
+==nofib== primes: size of primes follows...
+   text	   data	    bss	    dec	    hex	filename
+3524852	1204204	  57684	4786740	 490a34	primes.exe
+==nofib== primes: time to run primes follows...
+../../runstdtest/runstdtest ./primes  -o1 primes.slowstdout -o1 primes.stdout  -ghc-timing     5500;   ../../runstdtest/runstdtest ./primes  -o1 primes.slowstdout -o1 primes.stdout  -ghc-timing     5500;   ../../runstdtest/runstdtest ./primes  -o1 primes.slowstdout -o1 primes.stdout  -ghc-timing     5500;   ../../runstdtest/runstdtest ./primes  -o1 primes.slowstdout -o1 primes.stdout  -ghc-timing     5500;   ../../runstdtest/runstdtest ./primes  -o1 primes.slowstdout -o1 primes.stdout  -ghc-timing     5500;
+
+real	0m1.054s
+user	0m0.015s
+sys	0m0.000s
+Files primes.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest6052.1 differ
+<<ghc: 1360848768 bytes, 824 GCs (791 + 33), 0/0 avg/max bytes residency (0 samples), 103705144 bytes GC work, 4M in use, 0.000 INIT (0.001 elapsed), 0.750 MUT (0.796 elapsed), 0.219 GC (0.190 elapsed), 0.172 GC(0) (0.163 elapsed), 0.047 GC(1) (0.028 elapsed), 1 balance :ghc>>
+
+real	0m0.964s
+user	0m0.015s
+sys	0m0.015s
+Files primes.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest24552.1 differ
+<<ghc: 1360848808 bytes, 824 GCs (791 + 33), 0/0 avg/max bytes residency (0 samples), 103705144 bytes GC work, 4M in use, 0.000 INIT (0.000 elapsed), 0.750 MUT (0.745 elapsed), 0.172 GC (0.179 elapsed), 0.172 GC(0) (0.152 elapsed), 0.000 GC(1) (0.027 elapsed), 1 balance :ghc>>
+
+real	0m1.005s
+user	0m0.000s
+sys	0m0.015s
+Files primes.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest13392.1 differ
+<<ghc: 1360848808 bytes, 824 GCs (791 + 33), 0/0 avg/max bytes residency (0 samples), 103705144 bytes GC work, 4M in use, 0.000 INIT (0.000 elapsed), 0.750 MUT (0.781 elapsed), 0.188 GC (0.189 elapsed), 0.188 GC(0) (0.161 elapsed), 0.000 GC(1) (0.028 elapsed), 1 balance :ghc>>
+
+real	0m0.973s
+user	0m0.015s
+sys	0m0.015s
+Files primes.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest4356.1 differ
+<<ghc: 1360848768 bytes, 824 GCs (791 + 33), 0/0 avg/max bytes residency (0 samples), 103705144 bytes GC work, 4M in use, 0.000 INIT (0.000 elapsed), 0.734 MUT (0.743 elapsed), 0.188 GC (0.178 elapsed), 0.156 GC(0) (0.151 elapsed), 0.031 GC(1) (0.027 elapsed), 1 balance :ghc>>
+
+real	0m1.046s
+user	0m0.000s
+sys	0m0.000s
+Files primes.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest5552.1 differ
+<<ghc: 1360848768 bytes, 824 GCs (791 + 33), 0/0 avg/max bytes residency (0 samples), 103705144 bytes GC work, 4M in use, 0.000 INIT (0.000 elapsed), 0.766 MUT (0.820 elapsed), 0.156 GC (0.187 elapsed), 0.156 GC(0) (0.159 elapsed), 0.000 GC(1) (0.028 elapsed), 1 balance :ghc>>
+Finished making all in primes: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/queens
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== queens: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:8:1: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+  |
+8 |         [arg] <- getArgs
+  | ^^^^^^^^
+<<ghc: 119851816 bytes, 38 GCs, 6369370/11464976 avg/max bytes residency (4 samples), 33M in use, 0.000 INIT (0.000 elapsed), 0.188 MUT (0.224 elapsed), 0.094 GC (0.145 elapsed) :ghc>>
+==nofib== queens: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   2784	    448	      0	   3232	    ca0	Main.o
+==nofib== queens: time to link queens follows...
+<<ghc: 16878408 bytes, 7 GCs, 362132/584000 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.031 MUT (2.566 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== queens: size of queens follows...
+   text	   data	    bss	    dec	    hex	filename
+3524612	1204140	  57684	4786436	 490904	queens.exe
+==nofib== queens: time to run queens follows...
+../../runstdtest/runstdtest ./queens  -o1 queens.slowstdout -o1 queens.stdout  -ghc-timing     12;   ../../runstdtest/runstdtest ./queens  -o1 queens.slowstdout -o1 queens.stdout  -ghc-timing     12;   ../../runstdtest/runstdtest ./queens  -o1 queens.slowstdout -o1 queens.stdout  -ghc-timing     12;   ../../runstdtest/runstdtest ./queens  -o1 queens.slowstdout -o1 queens.stdout  -ghc-timing     12;   ../../runstdtest/runstdtest ./queens  -o1 queens.slowstdout -o1 queens.stdout  -ghc-timing     12;
+
+real	0m0.424s
+user	0m0.000s
+sys	0m0.030s
+Files queens.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest6016.1 differ
+<<ghc: 149875456 bytes, 145 GCs (143 + 2), 0/0 avg/max bytes residency (0 samples), 185024 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.375 MUT (0.364 elapsed), 0.000 GC (0.003 elapsed), 0.000 GC(0) (0.003 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.413s
+user	0m0.000s
+sys	0m0.015s
+Files queens.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest11608.1 differ
+<<ghc: 149875496 bytes, 145 GCs (143 + 2), 0/0 avg/max bytes residency (0 samples), 185024 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.344 MUT (0.365 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.002 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.388s
+user	0m0.000s
+sys	0m0.015s
+Files queens.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest4288.1 differ
+<<ghc: 149875456 bytes, 145 GCs (143 + 2), 0/0 avg/max bytes residency (0 samples), 185024 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.359 MUT (0.351 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.002 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.398s
+user	0m0.015s
+sys	0m0.000s
+Files queens.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest19228.1 differ
+<<ghc: 149875496 bytes, 145 GCs (143 + 2), 0/0 avg/max bytes residency (0 samples), 185024 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.359 MUT (0.359 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.002 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.397s
+user	0m0.000s
+sys	0m0.031s
+Files queens.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest9956.1 differ
+<<ghc: 149875456 bytes, 145 GCs (143 + 2), 0/0 avg/max bytes residency (0 samples), 185024 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.359 MUT (0.358 elapsed), 0.000 GC (0.002 elapsed), 0.000 GC(0) (0.002 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in queens: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/rfib
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== rfib: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:7:1: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+  |
+7 |         [arg] <- getArgs
+  | ^^^^^^^^
+<<ghc: 99463200 bytes, 24 GCs, 6805740/12837464 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.156 MUT (0.334 elapsed), 0.094 GC (0.136 elapsed) :ghc>>
+==nofib== rfib: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   1856	    416	      0	   2272	    8e0	Main.o
+==nofib== rfib: time to link rfib follows...
+<<ghc: 16459832 bytes, 7 GCs, 362092/584000 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.395 elapsed), 0.031 GC (0.025 elapsed) :ghc>>
+==nofib== rfib: size of rfib follows...
+   text	   data	    bss	    dec	    hex	filename
+3523652	1204108	  57684	4785444	 490524	rfib.exe
+==nofib== rfib: time to run rfib follows...
+../../runstdtest/runstdtest ./rfib  -o1 rfib.slowstdout -o1 rfib.stdout  -ghc-timing     35;   ../../runstdtest/runstdtest ./rfib  -o1 rfib.slowstdout -o1 rfib.stdout  -ghc-timing     35;   ../../runstdtest/runstdtest ./rfib  -o1 rfib.slowstdout -o1 rfib.stdout  -ghc-timing     35;   ../../runstdtest/runstdtest ./rfib  -o1 rfib.slowstdout -o1 rfib.stdout  -ghc-timing     35;   ../../runstdtest/runstdtest ./rfib  -o1 rfib.slowstdout -o1 rfib.stdout  -ghc-timing     35;
+
+real	0m0.194s
+user	0m0.015s
+sys	0m0.000s
+Files rfib.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest7728.1 differ
+<<ghc: 113216 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.156 MUT (0.155 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.207s
+user	0m0.015s
+sys	0m0.015s
+Files rfib.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest1344.1 differ
+<<ghc: 113216 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.156 MUT (0.155 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.191s
+user	0m0.015s
+sys	0m0.000s
+Files rfib.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest14936.1 differ
+<<ghc: 113256 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.156 MUT (0.154 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.192s
+user	0m0.000s
+sys	0m0.015s
+Files rfib.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest12160.1 differ
+<<ghc: 113256 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.156 MUT (0.154 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.190s
+user	0m0.000s
+sys	0m0.015s
+Files rfib.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest2820.1 differ
+<<ghc: 113216 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.156 MUT (0.155 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in rfib: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/tak
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== tak: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:11:1: warning: [-Wtabs]
+    Tab character found here, and in five further locations.
+    Please use spaces instead.
+   |
+11 |                 (tak (y-1) z x)
+   | ^^^^^^^^
+<<ghc: 102703728 bytes, 25 GCs, 6930524/13297136 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.125 MUT (0.202 elapsed), 0.141 GC (0.136 elapsed) :ghc>>
+==nofib== tak: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   2672	    416	      0	   3088	    c10	Main.o
+==nofib== tak: time to link tak follows...
+<<ghc: 16876496 bytes, 7 GCs, 362048/583952 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.630 elapsed), 0.000 GC (0.024 elapsed) :ghc>>
+==nofib== tak: size of tak follows...
+   text	   data	    bss	    dec	    hex	filename
+3524484	1204108	  57684	4786276	 490864	tak.exe
+==nofib== tak: time to run tak follows...
+../../runstdtest/runstdtest ./tak  -o1 tak.slowstdout -o1 tak.stdout  -ghc-timing     33 17 8;   ../../runstdtest/runstdtest ./tak  -o1 tak.slowstdout -o1 tak.stdout  -ghc-timing     33 17 8;   ../../runstdtest/runstdtest ./tak  -o1 tak.slowstdout -o1 tak.stdout  -ghc-timing     33 17 8;   ../../runstdtest/runstdtest ./tak  -o1 tak.slowstdout -o1 tak.stdout  -ghc-timing     33 17 8;   ../../runstdtest/runstdtest ./tak  -o1 tak.slowstdout -o1 tak.stdout  -ghc-timing     33 17 8;
+
+real	0m1.370s
+user	0m0.000s
+sys	0m0.000s
+<<ghc: 103472 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.984 MUT (1.313 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m1.160s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 103432 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.984 MUT (1.124 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m1.263s
+user	0m0.000s
+sys	0m0.000s
+<<ghc: 103472 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 1.016 MUT (1.188 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m1.025s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 103472 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 1.000 MUT (0.987 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m1.086s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 103432 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 1.016 MUT (1.014 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in tak: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/wheel-sieve1
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== wheel-sieve1: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:40:1: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+   |
+40 |         [arg] <- getArgs
+   | ^^^^^^^^
+<<ghc: 227559728 bytes, 67 GCs, 7068120/13646888 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.297 MUT (0.429 elapsed), 0.203 GC (0.195 elapsed) :ghc>>
+==nofib== wheel-sieve1: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  15280	   1184	      0	  16464	   4050	Main.o
+==nofib== wheel-sieve1: time to link wheel-sieve1 follows...
+<<ghc: 15857584 bytes, 7 GCs, 362436/584368 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (2.679 elapsed), 0.000 GC (0.025 elapsed) :ghc>>
+==nofib== wheel-sieve1: size of wheel-sieve1 follows...
+   text	   data	    bss	    dec	    hex	filename
+3537124	1204788	  57684	4799596	 493c6c	wheel-sieve1.exe
+==nofib== wheel-sieve1: time to run wheel-sieve1 follows...
+../../runstdtest/runstdtest ./wheel-sieve1  -o1 wheel-sieve1.slowstdout -o1 wheel-sieve1.stdout  -ghc-timing     230000;   ../../runstdtest/runstdtest ./wheel-sieve1  -o1 wheel-sieve1.slowstdout -o1 wheel-sieve1.stdout  -ghc-timing     230000;   ../../runstdtest/runstdtest ./wheel-sieve1  -o1 wheel-sieve1.slowstdout -o1 wheel-sieve1.stdout  -ghc-timing     230000;   ../../runstdtest/runstdtest ./wheel-sieve1  -o1 wheel-sieve1.slowstdout -o1 wheel-sieve1.stdout  -ghc-timing     230000;   ../../runstdtest/runstdtest ./wheel-sieve1  -o1 wheel-sieve1.slowstdout -o1 wheel-sieve1.stdout  -ghc-timing     230000;
+
+real	0m1.441s
+user	0m0.000s
+sys	0m0.015s
+Files wheel-sieve1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest5336.1 differ
+<<ghc: 23756456 bytes, 23 GCs (18 + 5), 0/0 avg/max bytes residency (0 samples), 30548968 bytes GC work, 25M in use, 0.000 INIT (0.001 elapsed), 1.359 MUT (1.359 elapsed), 0.016 GC (0.041 elapsed), 0.016 GC(0) (0.038 elapsed), 0.000 GC(1) (0.004 elapsed), 1 balance :ghc>>
+
+real	0m1.438s
+user	0m0.015s
+sys	0m0.015s
+Files wheel-sieve1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest6676.1 differ
+<<ghc: 23756456 bytes, 23 GCs (18 + 5), 0/0 avg/max bytes residency (0 samples), 30548968 bytes GC work, 25M in use, 0.000 INIT (0.000 elapsed), 1.359 MUT (1.335 elapsed), 0.016 GC (0.039 elapsed), 0.016 GC(0) (0.036 elapsed), 0.000 GC(1) (0.004 elapsed), 1 balance :ghc>>
+
+real	0m1.443s
+user	0m0.000s
+sys	0m0.015s
+Files wheel-sieve1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10620.1 differ
+<<ghc: 23756496 bytes, 23 GCs (18 + 5), 0/0 avg/max bytes residency (0 samples), 30548032 bytes GC work, 25M in use, 0.000 INIT (0.000 elapsed), 1.359 MUT (1.366 elapsed), 0.000 GC (0.040 elapsed), 0.000 GC(0) (0.036 elapsed), 0.000 GC(1) (0.004 elapsed), 1 balance :ghc>>
+
+real	0m1.462s
+user	0m0.000s
+sys	0m0.015s
+Files wheel-sieve1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest19280.1 differ
+<<ghc: 23756496 bytes, 23 GCs (18 + 5), 0/0 avg/max bytes residency (0 samples), 30548032 bytes GC work, 25M in use, 0.000 INIT (0.000 elapsed), 1.359 MUT (1.372 elapsed), 0.047 GC (0.040 elapsed), 0.031 GC(0) (0.037 elapsed), 0.016 GC(1) (0.004 elapsed), 1 balance :ghc>>
+
+real	0m1.524s
+user	0m0.015s
+sys	0m0.030s
+Files wheel-sieve1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest18400.1 differ
+<<ghc: 23756496 bytes, 23 GCs (18 + 5), 0/0 avg/max bytes residency (0 samples), 30548032 bytes GC work, 25M in use, 0.000 INIT (0.000 elapsed), 1.359 MUT (1.382 elapsed), 0.031 GC (0.040 elapsed), 0.031 GC(0) (0.036 elapsed), 0.000 GC(1) (0.004 elapsed), 1 balance :ghc>>
+Finished making all in wheel-sieve1: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/wheel-sieve2
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing +RTS -M300m -RTS
+==nofib== wheel-sieve2: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:45:1: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+   |
+45 |         [arg] <- getArgs
+   | ^^^^^^^^
+<<ghc: 203688280 bytes, 74 GCs, 6932260/12792864 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.219 MUT (0.452 elapsed), 0.234 GC (0.181 elapsed) :ghc>>
+==nofib== wheel-sieve2: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  10560	   1184	      0	  11744	   2de0	Main.o
+==nofib== wheel-sieve2: time to link wheel-sieve2 follows...
+<<ghc: 16892576 bytes, 7 GCs, 362444/584384 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.492 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== wheel-sieve2: size of wheel-sieve2 follows...
+   text	   data	    bss	    dec	    hex	filename
+3532436	1204788	  57684	4794908	 492a1c	wheel-sieve2.exe
+==nofib== wheel-sieve2: time to run wheel-sieve2 follows...
+../../runstdtest/runstdtest ./wheel-sieve2  -o1 wheel-sieve2.slowstdout -o1 wheel-sieve2.stdout  -ghc-timing  +RTS -M300m -RTS    30000;   ../../runstdtest/runstdtest ./wheel-sieve2  -o1 wheel-sieve2.slowstdout -o1 wheel-sieve2.stdout  -ghc-timing  +RTS -M300m -RTS    30000;   ../../runstdtest/runstdtest ./wheel-sieve2  -o1 wheel-sieve2.slowstdout -o1 wheel-sieve2.stdout  -ghc-timing  +RTS -M300m -RTS    30000;   ../../runstdtest/runstdtest ./wheel-sieve2  -o1 wheel-sieve2.slowstdout -o1 wheel-sieve2.stdout  -ghc-timing  +RTS -M300m -RTS    30000;   ../../runstdtest/runstdtest ./wheel-sieve2  -o1 wheel-sieve2.slowstdout -o1 wheel-sieve2.stdout  -ghc-timing  +RTS -M300m -RTS    30000;
+
+real	0m0.626s
+user	0m0.015s
+sys	0m0.015s
+Files wheel-sieve2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10896.1 differ
+<<ghc: 160681256 bytes, 154 GCs (147 + 7), 0/0 avg/max bytes residency (0 samples), 143618352 bytes GC work, 81M in use, 0.000 INIT (0.001 elapsed), 0.094 MUT (0.110 elapsed), 0.422 GC (0.467 elapsed), 0.406 GC(0) (0.460 elapsed), 0.016 GC(1) (0.008 elapsed), 1 balance :ghc>>
+
+real	0m0.565s
+user	0m0.015s
+sys	0m0.000s
+Files wheel-sieve2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest8596.1 differ
+<<ghc: 160681216 bytes, 154 GCs (147 + 7), 0/0 avg/max bytes residency (0 samples), 143618352 bytes GC work, 81M in use, 0.000 INIT (0.000 elapsed), 0.109 MUT (0.111 elapsed), 0.359 GC (0.406 elapsed), 0.359 GC(0) (0.398 elapsed), 0.000 GC(1) (0.008 elapsed), 1 balance :ghc>>
+
+real	0m0.553s
+user	0m0.015s
+sys	0m0.000s
+Files wheel-sieve2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10092.1 differ
+<<ghc: 160681256 bytes, 154 GCs (147 + 7), 0/0 avg/max bytes residency (0 samples), 143618352 bytes GC work, 81M in use, 0.000 INIT (0.000 elapsed), 0.047 MUT (0.107 elapsed), 0.438 GC (0.401 elapsed), 0.438 GC(0) (0.393 elapsed), 0.000 GC(1) (0.008 elapsed), 1 balance :ghc>>
+
+real	0m0.559s
+user	0m0.000s
+sys	0m0.015s
+Files wheel-sieve2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest15736.1 differ
+<<ghc: 160681256 bytes, 154 GCs (147 + 7), 0/0 avg/max bytes residency (0 samples), 143618352 bytes GC work, 81M in use, 0.000 INIT (0.000 elapsed), 0.062 MUT (0.106 elapsed), 0.422 GC (0.406 elapsed), 0.406 GC(0) (0.398 elapsed), 0.016 GC(1) (0.008 elapsed), 1 balance :ghc>>
+
+real	0m0.543s
+user	0m0.015s
+sys	0m0.015s
+Files wheel-sieve2.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest15432.1 differ
+<<ghc: 160681256 bytes, 154 GCs (147 + 7), 0/0 avg/max bytes residency (0 samples), 143618352 bytes GC work, 81M in use, 0.000 INIT (0.000 elapsed), 0.078 MUT (0.103 elapsed), 0.406 GC (0.386 elapsed), 0.406 GC(0) (0.379 elapsed), 0.000 GC(1) (0.007 elapsed), 1 balance :ghc>>
+Finished making all in wheel-sieve2: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/x2n1
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== x2n1: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:31:1: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+   |
+31 |         [arg] <- getArgs
+   | ^^^^^^^^
+<<ghc: 162028160 bytes, 37 GCs, 9306182/21436480 avg/max bytes residency (5 samples), 45M in use, 0.000 INIT (0.000 elapsed), 0.250 MUT (0.544 elapsed), 0.156 GC (0.209 elapsed) :ghc>>
+==nofib== x2n1: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   4224	    528	      0	   4752	   1290	Main.o
+==nofib== x2n1: time to link x2n1 follows...
+<<ghc: 15846936 bytes, 7 GCs, 362092/584000 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.365 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== x2n1: size of x2n1 follows...
+   text	   data	    bss	    dec	    hex	filename
+3526052	1204172	  57684	4787908	 490ec4	x2n1.exe
+==nofib== x2n1: time to run x2n1 follows...
+../../runstdtest/runstdtest ./x2n1  -o1 x2n1.slowstdout -o1 x2n1.stdout  -ghc-timing     80000;   ../../runstdtest/runstdtest ./x2n1  -o1 x2n1.slowstdout -o1 x2n1.stdout  -ghc-timing     80000;   ../../runstdtest/runstdtest ./x2n1  -o1 x2n1.slowstdout -o1 x2n1.stdout  -ghc-timing     80000;   ../../runstdtest/runstdtest ./x2n1  -o1 x2n1.slowstdout -o1 x2n1.stdout  -ghc-timing     80000;   ../../runstdtest/runstdtest ./x2n1  -o1 x2n1.slowstdout -o1 x2n1.stdout  -ghc-timing     80000;
+
+real	0m0.216s
+user	0m0.000s
+sys	0m0.030s
+Files x2n1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest19196.1 differ
+<<ghc: 2623920 bytes, 3 GCs (2 + 1), 0/0 avg/max bytes residency (0 samples), 6528 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.047 MUT (0.042 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.078s
+user	0m0.000s
+sys	0m0.000s
+Files x2n1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest18172.1 differ
+<<ghc: 2623920 bytes, 3 GCs (2 + 1), 0/0 avg/max bytes residency (0 samples), 6528 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.047 MUT (0.042 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.316s
+user	0m0.030s
+sys	0m0.000s
+Files x2n1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest23568.1 differ
+<<ghc: 2623920 bytes, 3 GCs (2 + 1), 0/0 avg/max bytes residency (0 samples), 6528 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.047 MUT (0.042 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.091s
+user	0m0.000s
+sys	0m0.030s
+Files x2n1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest16320.1 differ
+<<ghc: 2623920 bytes, 3 GCs (2 + 1), 0/0 avg/max bytes residency (0 samples), 6528 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.047 MUT (0.053 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.107s
+user	0m0.000s
+sys	0m0.030s
+Files x2n1.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest16672.1 differ
+<<ghc: 2623920 bytes, 3 GCs (2 + 1), 0/0 avg/max bytes residency (0 samples), 6528 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.062 MUT (0.060 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in x2n1: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary/kahan
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -package array -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== kahan: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -package array -rtsopts -c Main.hs -o Main.o
+<<ghc: 170396168 bytes, 43 GCs, 8399652/19085080 avg/max bytes residency (5 samples), 41M in use, 0.000 INIT (0.001 elapsed), 0.281 MUT (0.379 elapsed), 0.203 GC (0.264 elapsed) :ghc>>
+==nofib== kahan: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   2912	    432	      0	   3344	    d10	Main.o
+==nofib== kahan: time to link kahan follows...
+<<ghc: 16942304 bytes, 7 GCs, 363476/585392 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.031 MUT (3.047 elapsed), 0.031 GC (0.031 elapsed) :ghc>>
+==nofib== kahan: size of kahan follows...
+   text	   data	    bss	    dec	    hex	filename
+3820820	1227308	  57684	5105812	 4de894	kahan.exe
+==nofib== kahan: time to run kahan follows...
+../../runstdtest/runstdtest ./kahan  -o1 kahan.slowstdout-x86-linux -o1 kahan.slowstdout -o1 kahan.stdout -o1 kahan.stdout-x86-linux  -ghc-timing     1000000;   ../../runstdtest/runstdtest ./kahan  -o1 kahan.slowstdout-x86-linux -o1 kahan.slowstdout -o1 kahan.stdout -o1 kahan.stdout-x86-linux  -ghc-timing     1000000;   ../../runstdtest/runstdtest ./kahan  -o1 kahan.slowstdout-x86-linux -o1 kahan.slowstdout -o1 kahan.stdout -o1 kahan.stdout-x86-linux  -ghc-timing     1000000;   ../../runstdtest/runstdtest ./kahan  -o1 kahan.slowstdout-x86-linux -o1 kahan.slowstdout -o1 kahan.stdout -o1 kahan.stdout-x86-linux  -ghc-timing     1000000;   ../../runstdtest/runstdtest ./kahan  -o1 kahan.slowstdout-x86-linux -o1 kahan.slowstdout -o1 kahan.stdout -o1 kahan.stdout-x86-linux  -ghc-timing     1000000;
+
+real	0m1.036s
+user	0m0.015s
+sys	0m0.015s
+Files kahan.slowstdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest14492.1 differ
+Files kahan.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest14492.1 differ
+Files kahan.stdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest14492.1 differ
+<<ghc: 1528616 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 42656 bytes GC work, 2M in use, 0.016 INIT (0.001 elapsed), 0.984 MUT (0.993 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m1.015s
+user	0m0.015s
+sys	0m0.000s
+Files kahan.slowstdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest8320.1 differ
+Files kahan.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest8320.1 differ
+Files kahan.stdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest8320.1 differ
+<<ghc: 1528576 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 42656 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.953 MUT (0.976 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m1.380s
+user	0m0.000s
+sys	0m0.015s
+Files kahan.slowstdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest12368.1 differ
+Files kahan.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest12368.1 differ
+Files kahan.stdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest12368.1 differ
+<<ghc: 1528616 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 42656 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.953 MUT (1.183 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m1.035s
+user	0m0.000s
+sys	0m0.015s
+Files kahan.slowstdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest12456.1 differ
+Files kahan.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest12456.1 differ
+Files kahan.stdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest12456.1 differ
+<<ghc: 1528616 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 42656 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.984 MUT (0.988 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m1.026s
+user	0m0.000s
+sys	0m0.030s
+Files kahan.slowstdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest6420.1 differ
+Files kahan.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest6420.1 differ
+Files kahan.stdout-x86-linux and /c/TeamCity/buildAgent/temp/buildTmp/runtest6420.1 differ
+<<ghc: 1528576 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 42656 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.953 MUT (0.991 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in kahan: 0
+------------------------------------------------------------------------
+== Finished making `all' in bernouilli digits-of-e1 digits-of-e2 exp3_8 gen_regexps integrate paraffins primes queens rfib tak wheel-sieve1 wheel-sieve2 x2n1 kahan ...
+PWD = /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/imaginary
+------------------------------------------------------------------------
+Finished making all in imaginary: 0
+------------------------------------------------------------------------
+== make all ;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+== Recursively making `all' in ansi atom awards banner boyer boyer2 calendar cichelli circsim clausify constraints cryptarithm1 cryptarithm2 cse eliza expert fft2 fibheaps fish gcd hartel integer knights lambda last-piece lcss life mandel mandel2 minimax multiplier para power pretty primetest puzzle rewrite scc simple sorting sphere treejoin ...
+PWD = /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/ansi
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== ansi: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+<<ghc: 257412112 bytes, 54 GCs, 9405216/22072608 avg/max bytes residency (5 samples), 46M in use, 0.000 INIT (0.000 elapsed), 0.344 MUT (0.432 elapsed), 0.188 GC (0.228 elapsed) :ghc>>
+==nofib== ansi: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  13216	   1296	      0	  14512	   38b0	Main.o
+==nofib== ansi: time to link ansi follows...
+<<ghc: 15845680 bytes, 7 GCs, 362092/584000 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.548 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== ansi: size of ansi follows...
+   text	   data	    bss	    dec	    hex	filename
+3535220	1204812	  57684	4797716	 493514	ansi.exe
+==nofib== ansi: time to run ansi follows...
+../../runstdtest/runstdtest ./ansi  -o1 ansi.slowstdout -o1 ansi.stdout  -ghc-timing     300;   ../../runstdtest/runstdtest ./ansi  -o1 ansi.slowstdout -o1 ansi.stdout  -ghc-timing     300;   ../../runstdtest/runstdtest ./ansi  -o1 ansi.slowstdout -o1 ansi.stdout  -ghc-timing     300;   ../../runstdtest/runstdtest ./ansi  -o1 ansi.slowstdout -o1 ansi.stdout  -ghc-timing     300;   ../../runstdtest/runstdtest ./ansi  -o1 ansi.slowstdout -o1 ansi.stdout  -ghc-timing     300;
+
+real	0m1.219s
+user	0m0.000s
+sys	0m0.031s
+Files ansi.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest21884.1 differ
+<<ghc: 4164831768 bytes, 4050 GCs (4012 + 38), 0/0 avg/max bytes residency (0 samples), 118394224 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.984 MUT (0.909 elapsed), 0.125 GC (0.254 elapsed), 0.125 GC(0) (0.251 elapsed), 0.000 GC(1) (0.003 elapsed), 1 balance :ghc>>
+
+real	0m1.164s
+user	0m0.000s
+sys	0m0.015s
+Files ansi.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10108.1 differ
+<<ghc: 4164831768 bytes, 4050 GCs (4012 + 38), 0/0 avg/max bytes residency (0 samples), 118329040 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.844 MUT (0.914 elapsed), 0.250 GC (0.213 elapsed), 0.250 GC(0) (0.211 elapsed), 0.000 GC(1) (0.003 elapsed), 1 balance :ghc>>
+
+real	0m1.172s
+user	0m0.015s
+sys	0m0.000s
+Files ansi.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest6484.1 differ
+<<ghc: 4164831728 bytes, 4050 GCs (4012 + 38), 0/0 avg/max bytes residency (0 samples), 118397656 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.953 MUT (0.920 elapsed), 0.172 GC (0.217 elapsed), 0.172 GC(0) (0.214 elapsed), 0.000 GC(1) (0.003 elapsed), 1 balance :ghc>>
+
+real	0m1.169s
+user	0m0.015s
+sys	0m0.000s
+Files ansi.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest24244.1 differ
+<<ghc: 4164831768 bytes, 4050 GCs (4012 + 38), 0/0 avg/max bytes residency (0 samples), 118400072 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.875 MUT (0.921 elapsed), 0.234 GC (0.211 elapsed), 0.234 GC(0) (0.208 elapsed), 0.000 GC(1) (0.003 elapsed), 1 balance :ghc>>
+
+real	0m1.396s
+user	0m0.015s
+sys	0m0.015s
+Files ansi.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest23996.1 differ
+<<ghc: 4164831768 bytes, 4050 GCs (4012 + 38), 0/0 avg/max bytes residency (0 samples), 118266048 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.875 MUT (1.143 elapsed), 0.250 GC (0.216 elapsed), 0.250 GC(0) (0.214 elapsed), 0.000 GC(1) (0.003 elapsed), 1 balance :ghc>>
+Finished making all in ansi: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/atom
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== atom: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:38:1: warning: [-Wtabs]
+    Tab character found here, and in 19 further locations.
+    Please use spaces instead.
+   |
+38 |                                        testforce k atoms
+   | ^^^^^^^^
+
+Main.hs:168:10: warning: [-Wmissing-methods]
+    * No explicit implementation for
+        `abs' and `signum'
+    * In the instance declaration for `Num [a]'
+    |
+168 | instance Num a => Num [a] where
+    |          ^^^^^^^^^^^^^^^^
+<<ghc: 203314552 bytes, 61 GCs, 8761024/19147960 avg/max bytes residency (5 samples), 41M in use, 0.000 INIT (0.000 elapsed), 0.312 MUT (0.620 elapsed), 0.156 GC (0.215 elapsed) :ghc>>
+==nofib== atom: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  10272	   1488	      0	  11760	   2df0	Main.o
+==nofib== atom: time to link atom follows...
+<<ghc: 16877200 bytes, 7 GCs, 362092/584000 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (3.178 elapsed), 0.000 GC (0.025 elapsed) :ghc>>
+==nofib== atom: size of atom follows...
+   text	   data	    bss	    dec	    hex	filename
+3532228	1205036	  57684	4794948	 492a44	atom.exe
+==nofib== atom: time to run atom follows...
+../../runstdtest/runstdtest ./atom  -o1 atom.slowstdout -o1 atom.stdout  -ghc-timing     1700;   ../../runstdtest/runstdtest ./atom  -o1 atom.slowstdout -o1 atom.stdout  -ghc-timing     1700;   ../../runstdtest/runstdtest ./atom  -o1 atom.slowstdout -o1 atom.stdout  -ghc-timing     1700;   ../../runstdtest/runstdtest ./atom  -o1 atom.slowstdout -o1 atom.stdout  -ghc-timing     1700;   ../../runstdtest/runstdtest ./atom  -o1 atom.slowstdout -o1 atom.stdout  -ghc-timing     1700;
+
+real	0m1.594s
+user	0m0.015s
+sys	0m0.000s
+Files atom.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest17940.1 differ
+<<ghc: 1626340840 bytes, 1308 GCs (1150 + 158), 0/0 avg/max bytes residency (0 samples), 419820448 bytes GC work, 4M in use, 0.000 INIT (0.001 elapsed), 0.938 MUT (0.816 elapsed), 0.562 GC (0.716 elapsed), 0.422 GC(0) (0.491 elapsed), 0.141 GC(1) (0.226 elapsed), 1 balance :ghc>>
+
+real	0m1.568s
+user	0m0.000s
+sys	0m0.015s
+Files atom.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest4084.1 differ
+<<ghc: 1626340800 bytes, 1308 GCs (1150 + 158), 0/0 avg/max bytes residency (0 samples), 419820448 bytes GC work, 4M in use, 0.000 INIT (0.000 elapsed), 0.828 MUT (0.818 elapsed), 0.688 GC (0.715 elapsed), 0.469 GC(0) (0.485 elapsed), 0.219 GC(1) (0.230 elapsed), 1 balance :ghc>>
+
+real	0m1.566s
+user	0m0.015s
+sys	0m0.000s
+Files atom.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest9028.1 differ
+<<ghc: 1626340800 bytes, 1308 GCs (1150 + 158), 0/0 avg/max bytes residency (0 samples), 419820448 bytes GC work, 4M in use, 0.000 INIT (0.000 elapsed), 0.750 MUT (0.813 elapsed), 0.750 GC (0.719 elapsed), 0.547 GC(0) (0.486 elapsed), 0.203 GC(1) (0.233 elapsed), 1 balance :ghc>>
+
+real	0m1.633s
+user	0m0.000s
+sys	0m0.030s
+Files atom.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest19332.1 differ
+<<ghc: 1626340840 bytes, 1308 GCs (1150 + 158), 0/0 avg/max bytes residency (0 samples), 419820448 bytes GC work, 4M in use, 0.000 INIT (0.000 elapsed), 0.812 MUT (0.816 elapsed), 0.688 GC (0.731 elapsed), 0.391 GC(0) (0.503 elapsed), 0.297 GC(1) (0.228 elapsed), 1 balance :ghc>>
+
+real	0m1.580s
+user	0m0.015s
+sys	0m0.015s
+Files atom.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest6200.1 differ
+<<ghc: 1626340800 bytes, 1308 GCs (1150 + 158), 0/0 avg/max bytes residency (0 samples), 419820448 bytes GC work, 4M in use, 0.000 INIT (0.000 elapsed), 0.719 MUT (0.775 elapsed), 0.734 GC (0.694 elapsed), 0.484 GC(0) (0.473 elapsed), 0.250 GC(1) (0.221 elapsed), 1 balance :ghc>>
+Finished making all in atom: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/awards
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== awards: time to compile QSort follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c QSort.hs -o QSort.o
+
+QSort.hs:31:1: warning: [-Wtabs]
+    Tab character found here, and in three further locations.
+    Please use spaces instead.
+   |
+31 |         qpart le x ys rlt (y:rge) r
+   | ^^^^^^^^
+<<ghc: 80577688 bytes, 31 GCs, 5645338/10173016 avg/max bytes residency (4 samples), 33M in use, 0.000 INIT (0.000 elapsed), 0.078 MUT (0.169 elapsed), 0.094 GC (0.106 elapsed) :ghc>>
+==nofib== awards: size of QSort.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   2736	    128	      0	   2864	    b30	QSort.o
+==nofib== awards: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:42:1: warning: [-Wtabs]
+    Tab character found here, and in 16 further locations.
+    Please use spaces instead.
+   |
+42 |         award ("Gold",70) ++ award ("Silver",60) ++ award ("Bronze",50)
+   | ^^^^^^^^
+<<ghc: 272687224 bytes, 62 GCs, 8526270/19344072 avg/max bytes residency (5 samples), 41M in use, 0.000 INIT (0.000 elapsed), 0.375 MUT (0.460 elapsed), 0.234 GC (0.230 elapsed) :ghc>>
+==nofib== awards: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   9376	   2928	      0	  12304	   3010	Main.o
+==nofib== awards: time to link awards follows...
+<<ghc: 16296808 bytes, 7 GCs, 362608/584096 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.653 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== awards: size of awards follows...
+   text	   data	    bss	    dec	    hex	filename
+3534116	1206508	  57684	4798308	 493764	awards.exe
+==nofib== awards: time to run awards follows...
+../../runstdtest/runstdtest ./awards  -o1 awards.stdout  -ghc-timing     1;   ../../runstdtest/runstdtest ./awards  -o1 awards.stdout  -ghc-timing     1;   ../../runstdtest/runstdtest ./awards  -o1 awards.stdout  -ghc-timing     1;   ../../runstdtest/runstdtest ./awards  -o1 awards.stdout  -ghc-timing     1;   ../../runstdtest/runstdtest ./awards  -o1 awards.stdout  -ghc-timing     1;
+
+real	0m0.077s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 279544 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.037s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 279544 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.037s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 279544 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.086s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 279544 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.038s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 279504 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 1824 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in awards: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/banner
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== banner: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+<<ghc: 403925632 bytes, 64 GCs, 8858872/20697520 avg/max bytes residency (5 samples), 44M in use, 0.000 INIT (0.000 elapsed), 0.484 MUT (0.619 elapsed), 0.203 GC (0.262 elapsed) :ghc>>
+==nofib== banner: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  14768	  13440	      0	  28208	   6e30	Main.o
+==nofib== banner: time to link banner follows...
+<<ghc: 15844792 bytes, 7 GCs, 362180/584096 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.937 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== banner: size of banner follows...
+   text	   data	    bss	    dec	    hex	filename
+3512676	1214768	  57684	4785128	 4903e8	banner.exe
+==nofib== banner: time to run banner follows...
+../../runstdtest/runstdtest ./banner -i  banner.stdin -o1 banner.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./banner -i  banner.stdin -o1 banner.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./banner -i  banner.stdin -o1 banner.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./banner -i  banner.stdin -o1 banner.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./banner -i  banner.stdin -o1 banner.stdout  -ghc-timing     ;
+
+real	0m0.076s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 262008 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.020 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.035s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 262008 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.046s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 262008 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.035s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 262008 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.035s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 262008 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in banner: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/boyer
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== boyer: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.lhs -o Main.o
+<<ghc: 768906464 bytes, 131 GCs, 11037912/23107752 avg/max bytes residency (7 samples), 63M in use, 0.000 INIT (0.000 elapsed), 0.875 MUT (1.340 elapsed), 0.516 GC (0.532 elapsed) :ghc>>
+==nofib== boyer: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  13072	  23232	      0	  36304	   8dd0	Main.o
+==nofib== boyer: time to link boyer follows...
+<<ghc: 16878912 bytes, 7 GCs, 362136/584048 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.487 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== boyer: size of boyer follows...
+   text	   data	    bss	    dec	    hex	filename
+3535396	1226380	  57684	4819460	 498a04	boyer.exe
+==nofib== boyer: time to run boyer follows...
+../../runstdtest/runstdtest ./boyer  -o1 boyer.stdout  -ghc-timing     300;   ../../runstdtest/runstdtest ./boyer  -o1 boyer.stdout  -ghc-timing     300;   ../../runstdtest/runstdtest ./boyer  -o1 boyer.stdout  -ghc-timing     300;   ../../runstdtest/runstdtest ./boyer  -o1 boyer.stdout  -ghc-timing     300;   ../../runstdtest/runstdtest ./boyer  -o1 boyer.stdout  -ghc-timing     300;
+
+real	0m0.782s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 884982856 bytes, 854 GCs (779 + 75), 0/0 avg/max bytes residency (0 samples), 102602120 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.344 MUT (0.333 elapsed), 0.297 GC (0.361 elapsed), 0.297 GC(0) (0.332 elapsed), 0.000 GC(1) (0.029 elapsed), 1 balance :ghc>>
+
+real	0m0.721s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 884982856 bytes, 854 GCs (779 + 75), 0/0 avg/max bytes residency (0 samples), 102602120 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.359 MUT (0.338 elapsed), 0.281 GC (0.319 elapsed), 0.219 GC(0) (0.285 elapsed), 0.062 GC(1) (0.034 elapsed), 1 balance :ghc>>
+
+real	0m0.679s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 884982856 bytes, 854 GCs (779 + 75), 0/0 avg/max bytes residency (0 samples), 102602120 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.328 MUT (0.330 elapsed), 0.297 GC (0.313 elapsed), 0.281 GC(0) (0.284 elapsed), 0.016 GC(1) (0.029 elapsed), 1 balance :ghc>>
+
+real	0m0.697s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 884982816 bytes, 854 GCs (779 + 75), 0/0 avg/max bytes residency (0 samples), 102602120 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.359 MUT (0.340 elapsed), 0.281 GC (0.317 elapsed), 0.266 GC(0) (0.289 elapsed), 0.016 GC(1) (0.029 elapsed), 1 balance :ghc>>
+
+real	0m0.670s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 884982856 bytes, 854 GCs (779 + 75), 0/0 avg/max bytes residency (0 samples), 102602120 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.391 MUT (0.326 elapsed), 0.250 GC (0.307 elapsed), 0.203 GC(0) (0.278 elapsed), 0.047 GC(1) (0.029 elapsed), 1 balance :ghc>>
+Finished making all in boyer: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/boyer2
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== boyer2: time to compile Lisplikefns follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Lisplikefns.hs -o Lisplikefns.o
+
+Lisplikefns.hs:33:1: warning: [-Wtabs]
+    Tab character found here, and in 29 further locations.
+    Please use spaces instead.
+   |
+33 |                      where (r, l) = sublist t
+   | ^^^^^^^^
+<<ghc: 280249848 bytes, 51 GCs, 6134022/11388776 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.375 MUT (0.449 elapsed), 0.156 GC (0.166 elapsed) :ghc>>
+==nofib== boyer2: size of Lisplikefns.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  19568	   2304	      0	  21872	   5570	Lisplikefns.o
+==nofib== boyer2: time to compile Checker follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Checker.hs -o Checker.o
+
+Checker.hs:29:5: warning: [-Wtabs]
+    Tab character found here, and in three further locations.
+    Please use spaces instead.
+   |
+29 |         Atom "if" -> if truep (car y, truelst) then
+   |     ^^^^
+<<ghc: 104333448 bytes, 40 GCs, 4332632/9842824 avg/max bytes residency (3 samples), 31M in use, 0.000 INIT (0.000 elapsed), 0.094 MUT (0.197 elapsed), 0.078 GC (0.096 elapsed) :ghc>>
+==nofib== boyer2: size of Checker.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   3968	    192	      0	   4160	   1040	Checker.o
+==nofib== boyer2: time to compile Rulebasetext follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Rulebasetext.hs -o Rulebasetext.o
+<<ghc: 162367224 bytes, 51 GCs, 4077492/7047264 avg/max bytes residency (4 samples), 29M in use, 0.000 INIT (0.000 elapsed), 0.141 MUT (0.343 elapsed), 0.109 GC (0.115 elapsed) :ghc>>
+==nofib== boyer2: size of Rulebasetext.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  15936	   6848	      0	  22784	   5900	Rulebasetext.o
+==nofib== boyer2: time to compile Rewritefns follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Rewritefns.hs -o Rewritefns.o
+
+Rewritefns.hs:25:5: warning: [-Wtabs]
+    Tab character found here, and in 11 further locations.
+    Please use spaces instead.
+   |
+25 |         Cons (yh, yt) -> yt
+   |     ^^^^
+<<ghc: 170568128 bytes, 57 GCs, 6051814/11041712 avg/max bytes residency (4 samples), 31M in use, 0.000 INIT (0.000 elapsed), 0.203 MUT (0.432 elapsed), 0.125 GC (0.141 elapsed) :ghc>>
+==nofib== boyer2: size of Rewritefns.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   9376	    880	      0	  10256	   2810	Rewritefns.o
+==nofib== boyer2: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:42:17: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+   |
+42 |     | otherwise                       = error "Malformed lemma"
+   |                 ^^^^^^^^
+<<ghc: 116249184 bytes, 25 GCs, 6222434/11501592 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.141 MUT (0.312 elapsed), 0.109 GC (0.122 elapsed) :ghc>>
+==nofib== boyer2: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   5152	   1104	      0	   6256	   1870	Main.o
+==nofib== boyer2: time to link boyer2 follows...
+<<ghc: 16929952 bytes, 7 GCs, 363836/584000 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (3.743 elapsed), 0.000 GC (0.025 elapsed) :ghc>>
+==nofib== boyer2: size of boyer2 follows...
+   text	   data	    bss	    dec	    hex	filename
+3552132	1212304	  57684	4822120	 499468	boyer2.exe
+==nofib== boyer2: time to run boyer2 follows...
+../../runstdtest/runstdtest ./boyer2  -o1 boyer2.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./boyer2  -o1 boyer2.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./boyer2  -o1 boyer2.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./boyer2  -o1 boyer2.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./boyer2  -o1 boyer2.stdout  -ghc-timing     ;
+
+real	0m0.065s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 3409192 bytes, 4 GCs (2 + 2), 0/0 avg/max bytes residency (0 samples), 721120 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.016 MUT (0.005 elapsed), 0.000 GC (0.004 elapsed), 0.000 GC(0) (0.002 elapsed), 0.000 GC(1) (0.002 elapsed), 1 balance :ghc>>
+
+real	0m0.042s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 3409192 bytes, 4 GCs (2 + 2), 0/0 avg/max bytes residency (0 samples), 721120 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.005 elapsed), 0.016 GC (0.003 elapsed), 0.000 GC(0) (0.001 elapsed), 0.016 GC(1) (0.002 elapsed), 1 balance :ghc>>
+
+real	0m0.044s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 3409192 bytes, 4 GCs (2 + 2), 0/0 avg/max bytes residency (0 samples), 721120 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (0.005 elapsed), 0.000 GC (0.003 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.002 elapsed), 1 balance :ghc>>
+
+real	0m0.047s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 3409192 bytes, 4 GCs (2 + 2), 0/0 avg/max bytes residency (0 samples), 721120 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.005 elapsed), 0.000 GC (0.003 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.002 elapsed), 1 balance :ghc>>
+
+real	0m0.042s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 3409192 bytes, 4 GCs (2 + 2), 0/0 avg/max bytes residency (0 samples), 721120 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (0.005 elapsed), 0.000 GC (0.003 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.002 elapsed), 1 balance :ghc>>
+Finished making all in boyer2: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/calendar
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -cpp -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== calendar: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -cpp -rtsopts -c Main.hs -o Main.o
+
+Main.hs:46:1: warning: [-Wtabs]
+    Tab character found here, and in 11 further locations.
+    Please use spaces instead.
+   |
+46 |                  where h = height p
+   | ^^^^^^^^
+<<ghc: 344853176 bytes, 62 GCs, 8671841/19293616 avg/max bytes residency (5 samples), 40M in use, 0.000 INIT (0.000 elapsed), 0.562 MUT (0.677 elapsed), 0.188 GC (0.247 elapsed) :ghc>>
+==nofib== calendar: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  16400	   2528	      0	  18928	   49f0	Main.o
+==nofib== calendar: time to link calendar follows...
+<<ghc: 16888064 bytes, 7 GCs, 362740/584280 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (3.197 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== calendar: size of calendar follows...
+   text	   data	    bss	    dec	    hex	filename
+3538356	1206036	  57684	4802076	 49461c	calendar.exe
+==nofib== calendar: time to run calendar follows...
+../../runstdtest/runstdtest ./calendar  -o1 calendar.slowstdout -o1 calendar.stdout  -ghc-timing     1993 2000;   ../../runstdtest/runstdtest ./calendar  -o1 calendar.slowstdout -o1 calendar.stdout  -ghc-timing     1993 2000;   ../../runstdtest/runstdtest ./calendar  -o1 calendar.slowstdout -o1 calendar.stdout  -ghc-timing     1993 2000;   ../../runstdtest/runstdtest ./calendar  -o1 calendar.slowstdout -o1 calendar.stdout  -ghc-timing     1993 2000;   ../../runstdtest/runstdtest ./calendar  -o1 calendar.slowstdout -o1 calendar.stdout  -ghc-timing     1993 2000;
+
+real	0m0.061s
+user	0m0.000s
+sys	0m0.030s
+Files calendar.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest17284.1 differ
+<<ghc: 2659600 bytes, 3 GCs (1 + 2), 0/0 avg/max bytes residency (0 samples), 12448 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.004 elapsed), 0.000 GC (0.001 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.001 elapsed), 1 balance :ghc>>
+
+real	0m0.039s
+user	0m0.015s
+sys	0m0.015s
+Files calendar.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest17512.1 differ
+<<ghc: 2659600 bytes, 3 GCs (1 + 2), 0/0 avg/max bytes residency (0 samples), 12448 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.003 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.040s
+user	0m0.000s
+sys	0m0.031s
+Files calendar.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest13832.1 differ
+<<ghc: 2659600 bytes, 3 GCs (1 + 2), 0/0 avg/max bytes residency (0 samples), 12448 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.004 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.039s
+user	0m0.000s
+sys	0m0.015s
+Files calendar.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest2676.1 differ
+<<ghc: 2659560 bytes, 3 GCs (1 + 2), 0/0 avg/max bytes residency (0 samples), 12448 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (0.003 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.039s
+user	0m0.000s
+sys	0m0.015s
+Files calendar.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest15568.1 differ
+<<ghc: 2659600 bytes, 3 GCs (1 + 2), 0/0 avg/max bytes residency (0 samples), 12448 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.003 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in calendar: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/cichelli
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== cichelli: time to compile Key follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Key.lhs -o Key.o
+<<ghc: 56470536 bytes, 12 GCs, 3294501/7573096 avg/max bytes residency (3 samples), 31M in use, 0.000 INIT (0.000 elapsed), 0.062 MUT (0.146 elapsed), 0.047 GC (0.062 elapsed) :ghc>>
+==nofib== cichelli: size of Key.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   2112	   1472	      0	   3584	    e00	Key.o
+==nofib== cichelli: time to compile Auxil follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Auxil.hs -o Auxil.o
+
+Auxil.hs:84:1: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+   |
+84 |         \x->x
+   | ^^^^^^^^
+<<ghc: 266496152 bytes, 45 GCs, 6774312/13275320 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.312 MUT (0.521 elapsed), 0.234 GC (0.170 elapsed) :ghc>>
+==nofib== cichelli: size of Auxil.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  14528	   1552	      0	  16080	   3ed0	Auxil.o
+==nofib== cichelli: time to compile Interval follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Interval.hs -o Interval.o
+<<ghc: 34017656 bytes, 9 GCs, 3271090/7522544 avg/max bytes residency (3 samples), 30M in use, 0.000 INIT (0.000 elapsed), 0.047 MUT (0.132 elapsed), 0.047 GC (0.059 elapsed) :ghc>>
+==nofib== cichelli: size of Interval.o follows...
+   text	   data	    bss	    dec	    hex	filename
+     48	    112	      0	    160	     a0	Interval.o
+==nofib== cichelli: time to compile Prog follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Prog.hs -o Prog.o
+
+Prog.hs:19:1: warning: [-Wtabs]
+    Tab character found here, and in 32 further locations.
+    Please use spaces instead.
+   |
+19 |         showStr = showString "NotEver" . showChar ' ' . showsPrec 10 i
+   | ^^^^^^^^
+<<ghc: 232426224 bytes, 38 GCs, 6224358/11538208 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.297 MUT (0.401 elapsed), 0.172 GC (0.150 elapsed) :ghc>>
+==nofib== cichelli: size of Prog.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  15136	   1072	      0	  16208	   3f50	Prog.o
+==nofib== cichelli: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+<<ghc: 54870504 bytes, 16 GCs, 5607422/10413168 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.062 MUT (0.180 elapsed), 0.062 GC (0.105 elapsed) :ghc>>
+==nofib== cichelli: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+    320	    192	      0	    512	    200	Main.o
+==nofib== cichelli: time to link cichelli follows...
+<<ghc: 16918472 bytes, 7 GCs, 363396/584192 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (2.493 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== cichelli: size of cichelli follows...
+   text	   data	    bss	    dec	    hex	filename
+3530068	1205464	  57684	4793216	 492380	cichelli.exe
+==nofib== cichelli: time to run cichelli follows...
+../../runstdtest/runstdtest ./cichelli  -o1 cichelli.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cichelli  -o1 cichelli.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cichelli  -o1 cichelli.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cichelli  -o1 cichelli.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cichelli  -o1 cichelli.stdout  -ghc-timing     ;
+
+real	0m0.398s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 61914000 bytes, 60 GCs (55 + 5), 0/0 avg/max bytes residency (0 samples), 13205512 bytes GC work, 8M in use, 0.000 INIT (0.001 elapsed), 0.047 MUT (0.065 elapsed), 0.062 GC (0.022 elapsed), 0.031 GC(0) (0.018 elapsed), 0.031 GC(1) (0.004 elapsed), 1 balance :ghc>>
+
+real	0m0.120s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 61914000 bytes, 60 GCs (55 + 5), 0/0 avg/max bytes residency (0 samples), 13205512 bytes GC work, 8M in use, 0.000 INIT (0.000 elapsed), 0.062 MUT (0.064 elapsed), 0.031 GC (0.021 elapsed), 0.016 GC(0) (0.018 elapsed), 0.016 GC(1) (0.004 elapsed), 1 balance :ghc>>
+
+real	0m0.206s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 61914000 bytes, 60 GCs (55 + 5), 0/0 avg/max bytes residency (0 samples), 13205512 bytes GC work, 8M in use, 0.000 INIT (0.000 elapsed), 0.047 MUT (0.063 elapsed), 0.016 GC (0.019 elapsed), 0.016 GC(0) (0.016 elapsed), 0.000 GC(1) (0.003 elapsed), 1 balance :ghc>>
+
+real	0m0.117s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 61914000 bytes, 60 GCs (55 + 5), 0/0 avg/max bytes residency (0 samples), 13205512 bytes GC work, 8M in use, 0.000 INIT (0.000 elapsed), 0.062 MUT (0.064 elapsed), 0.016 GC (0.021 elapsed), 0.000 GC(0) (0.017 elapsed), 0.016 GC(1) (0.004 elapsed), 1 balance :ghc>>
+
+real	0m0.121s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 61914000 bytes, 60 GCs (55 + 5), 0/0 avg/max bytes residency (0 samples), 13205512 bytes GC work, 8M in use, 0.000 INIT (0.000 elapsed), 0.047 MUT (0.064 elapsed), 0.031 GC (0.021 elapsed), 0.031 GC(0) (0.017 elapsed), 0.000 GC(1) (0.004 elapsed), 1 balance :ghc>>
+Finished making all in cichelli: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/circsim
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing +RTS -H30m -RTS
+==nofib== circsim: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.lhs -o Main.o
+<<ghc: 1094803720 bytes, 174 GCs, 12743881/26749896 avg/max bytes residency (6 samples), 64M in use, 0.000 INIT (0.000 elapsed), 1.406 MUT (1.939 elapsed), 0.703 GC (0.740 elapsed) :ghc>>
+==nofib== circsim: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  56368	   7472	      0	  63840	   f960	Main.o
+==nofib== circsim: time to link circsim follows...
+<<ghc: 16569904 bytes, 7 GCs, 362176/584048 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.460 elapsed), 0.000 GC (0.025 elapsed) :ghc>>
+==nofib== circsim: size of circsim follows...
+   text	   data	    bss	    dec	    hex	filename
+3579380	1209964	  57684	4847028	 49f5b4	circsim.exe
+==nofib== circsim: time to run circsim follows...
+../../runstdtest/runstdtest ./circsim  -o1 circsim.stdout  -ghc-timing  +RTS -H30m -RTS    8 1000;   ../../runstdtest/runstdtest ./circsim  -o1 circsim.stdout  -ghc-timing  +RTS -H30m -RTS    8 1000;   ../../runstdtest/runstdtest ./circsim  -o1 circsim.stdout  -ghc-timing  +RTS -H30m -RTS    8 1000;   ../../runstdtest/runstdtest ./circsim  -o1 circsim.stdout  -ghc-timing  +RTS -H30m -RTS    8 1000;   ../../runstdtest/runstdtest ./circsim  -o1 circsim.stdout  -ghc-timing  +RTS -H30m -RTS    8 1000;
+
+real	0m1.189s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 1271970480 bytes, 558 GCs (552 + 6), 0/0 avg/max bytes residency (0 samples), 202888808 bytes GC work, 71M in use, 0.000 INIT (0.001 elapsed), 0.547 MUT (0.640 elapsed), 0.516 GC (0.499 elapsed), 0.500 GC(0) (0.482 elapsed), 0.016 GC(1) (0.017 elapsed), 1 balance :ghc>>
+
+real	0m1.162s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 1271970520 bytes, 557 GCs (551 + 6), 0/0 avg/max bytes residency (0 samples), 202826232 bytes GC work, 71M in use, 0.000 INIT (0.000 elapsed), 0.641 MUT (0.603 elapsed), 0.375 GC (0.505 elapsed), 0.375 GC(0) (0.488 elapsed), 0.000 GC(1) (0.017 elapsed), 1 balance :ghc>>
+
+real	0m1.157s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 1271970480 bytes, 558 GCs (552 + 6), 0/0 avg/max bytes residency (0 samples), 202888808 bytes GC work, 71M in use, 0.000 INIT (0.000 elapsed), 0.656 MUT (0.606 elapsed), 0.391 GC (0.489 elapsed), 0.375 GC(0) (0.473 elapsed), 0.016 GC(1) (0.017 elapsed), 1 balance :ghc>>
+
+real	0m1.111s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 1271970520 bytes, 557 GCs (551 + 6), 0/0 avg/max bytes residency (0 samples), 202826232 bytes GC work, 71M in use, 0.000 INIT (0.000 elapsed), 0.656 MUT (0.594 elapsed), 0.391 GC (0.474 elapsed), 0.391 GC(0) (0.458 elapsed), 0.000 GC(1) (0.017 elapsed), 1 balance :ghc>>
+
+real	0m1.151s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 1271970480 bytes, 558 GCs (552 + 6), 0/0 avg/max bytes residency (0 samples), 202888808 bytes GC work, 71M in use, 0.000 INIT (0.000 elapsed), 0.625 MUT (0.615 elapsed), 0.438 GC (0.490 elapsed), 0.438 GC(0) (0.473 elapsed), 0.000 GC(1) (0.017 elapsed), 1 balance :ghc>>
+Finished making all in circsim: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/clausify
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== clausify: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+<<ghc: 474948984 bytes, 79 GCs, 9113585/21136624 avg/max bytes residency (5 samples), 44M in use, 0.000 INIT (0.000 elapsed), 0.547 MUT (0.951 elapsed), 0.297 GC (0.350 elapsed) :ghc>>
+==nofib== clausify: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  25936	   2272	      0	  28208	   6e30	Main.o
+==nofib== clausify: time to link clausify follows...
+<<ghc: 16883864 bytes, 7 GCs, 362268/584192 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (2.415 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== clausify: size of clausify follows...
+   text	   data	    bss	    dec	    hex	filename
+3547860	1205812	  57684	4811356	 496a5c	clausify.exe
+==nofib== clausify: time to run clausify follows...
+../../runstdtest/runstdtest ./clausify  -o1 clausify.slowstdout -o1 clausify.stdout  -ghc-timing     100;   ../../runstdtest/runstdtest ./clausify  -o1 clausify.slowstdout -o1 clausify.stdout  -ghc-timing     100;   ../../runstdtest/runstdtest ./clausify  -o1 clausify.slowstdout -o1 clausify.stdout  -ghc-timing     100;   ../../runstdtest/runstdtest ./clausify  -o1 clausify.slowstdout -o1 clausify.stdout  -ghc-timing     100;   ../../runstdtest/runstdtest ./clausify  -o1 clausify.slowstdout -o1 clausify.stdout  -ghc-timing     100;
+
+real	0m0.571s
+user	0m0.000s
+sys	0m0.030s
+Files clausify.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest11340.1 differ
+<<ghc: 455202408 bytes, 436 GCs (385 + 51), 0/0 avg/max bytes residency (0 samples), 64007520 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.406 MUT (0.372 elapsed), 0.094 GC (0.142 elapsed), 0.062 GC(0) (0.106 elapsed), 0.031 GC(1) (0.036 elapsed), 1 balance :ghc>>
+
+real	0m0.533s
+user	0m0.000s
+sys	0m0.000s
+Files clausify.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest12728.1 differ
+<<ghc: 455202408 bytes, 436 GCs (385 + 51), 0/0 avg/max bytes residency (0 samples), 64007520 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.359 MUT (0.358 elapsed), 0.125 GC (0.128 elapsed), 0.078 GC(0) (0.095 elapsed), 0.047 GC(1) (0.033 elapsed), 1 balance :ghc>>
+
+real	0m0.538s
+user	0m0.000s
+sys	0m0.000s
+Files clausify.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest23828.1 differ
+<<ghc: 455202408 bytes, 436 GCs (385 + 51), 0/0 avg/max bytes residency (0 samples), 64007520 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.375 MUT (0.369 elapsed), 0.094 GC (0.130 elapsed), 0.078 GC(0) (0.097 elapsed), 0.016 GC(1) (0.034 elapsed), 1 balance :ghc>>
+
+real	0m0.537s
+user	0m0.015s
+sys	0m0.000s
+Files clausify.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10788.1 differ
+<<ghc: 455202408 bytes, 436 GCs (385 + 51), 0/0 avg/max bytes residency (0 samples), 64007520 bytes GC work, 3M in use, 0.000 INIT (0.001 elapsed), 0.344 MUT (0.368 elapsed), 0.156 GC (0.132 elapsed), 0.141 GC(0) (0.098 elapsed), 0.016 GC(1) (0.034 elapsed), 1 balance :ghc>>
+
+real	0m0.570s
+user	0m0.015s
+sys	0m0.000s
+Files clausify.stdout and /c/TeamCity/buildAgent/temp/buildTmp/runtest10672.1 differ
+<<ghc: 455202408 bytes, 436 GCs (385 + 51), 0/0 avg/max bytes residency (0 samples), 64007520 bytes GC work, 3M in use, 0.000 INIT (0.000 elapsed), 0.359 MUT (0.357 elapsed), 0.125 GC (0.128 elapsed), 0.047 GC(0) (0.095 elapsed), 0.078 GC(1) (0.033 elapsed), 1 balance :ghc>>
+Finished making all in clausify: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/constraints
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== constraints: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:17:1: warning: [-Wtabs]
+    Tab character found here, and in two further locations.
+    Please use spaces instead.
+   |
+17 |         n = read arg :: Int
+   | ^^^^^^^^
+<<ghc: 574288896 bytes, 93 GCs, 12069230/27522192 avg/max bytes residency (6 samples), 62M in use, 0.000 INIT (0.000 elapsed), 0.641 MUT (1.113 elapsed), 0.562 GC (0.411 elapsed) :ghc>>
+==nofib== constraints: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  32560	   3216	      0	  35776	   8bc0	Main.o
+==nofib== constraints: time to link constraints follows...
+<<ghc: 16889088 bytes, 7 GCs, 362400/584336 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.642 elapsed), 0.031 GC (0.025 elapsed) :ghc>>
+==nofib== constraints: size of constraints follows...
+   text	   data	    bss	    dec	    hex	filename
+3554516	1206772	  57684	4818972	 49881c	constraints.exe
+==nofib== constraints: time to run constraints follows...
+../../runstdtest/runstdtest ./constraints  -o1 constraints.stdout  -ghc-timing     10;   ../../runstdtest/runstdtest ./constraints  -o1 constraints.stdout  -ghc-timing     10;   ../../runstdtest/runstdtest ./constraints  -o1 constraints.stdout  -ghc-timing     10;   ../../runstdtest/runstdtest ./constraints  -o1 constraints.stdout  -ghc-timing     10;   ../../runstdtest/runstdtest ./constraints  -o1 constraints.stdout  -ghc-timing     10;
+
+real	0m3.876s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 2082163208 bytes, 2001 GCs (1972 + 29), 0/0 avg/max bytes residency (0 samples), 1092616360 bytes GC work, 128M in use, 0.000 INIT (0.001 elapsed), 1.000 MUT (1.124 elapsed), 2.500 GC (2.626 elapsed), 2.453 GC(0) (2.602 elapsed), 0.047 GC(1) (0.024 elapsed), 1 balance :ghc>>
+
+real	0m3.581s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 2082163168 bytes, 2001 GCs (1972 + 29), 0/0 avg/max bytes residency (0 samples), 1092616360 bytes GC work, 128M in use, 0.000 INIT (0.000 elapsed), 1.016 MUT (1.070 elapsed), 2.359 GC (2.471 elapsed), 2.328 GC(0) (2.448 elapsed), 0.031 GC(1) (0.024 elapsed), 1 balance :ghc>>
+
+real	0m3.744s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 2082163208 bytes, 2001 GCs (1972 + 29), 0/0 avg/max bytes residency (0 samples), 1092616360 bytes GC work, 128M in use, 0.000 INIT (0.001 elapsed), 1.016 MUT (1.063 elapsed), 2.406 GC (2.547 elapsed), 2.391 GC(0) (2.522 elapsed), 0.016 GC(1) (0.025 elapsed), 1 balance :ghc>>
+
+real	0m3.636s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 2082163208 bytes, 2001 GCs (1972 + 29), 0/0 avg/max bytes residency (0 samples), 1092616360 bytes GC work, 128M in use, 0.000 INIT (0.000 elapsed), 1.078 MUT (1.130 elapsed), 2.359 GC (2.460 elapsed), 2.344 GC(0) (2.436 elapsed), 0.016 GC(1) (0.023 elapsed), 1 balance :ghc>>
+
+real	0m3.695s
+user	0m0.000s
+sys	0m0.000s
+<<ghc: 2082163208 bytes, 2001 GCs (1972 + 29), 0/0 avg/max bytes residency (0 samples), 1092616360 bytes GC work, 128M in use, 0.000 INIT (0.000 elapsed), 0.969 MUT (1.089 elapsed), 2.500 GC (2.543 elapsed), 2.469 GC(0) (2.519 elapsed), 0.031 GC(1) (0.023 elapsed), 1 balance :ghc>>
+Finished making all in constraints: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/cryptarithm1
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== cryptarithm1: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+<<ghc: 122367608 bytes, 27 GCs, 6766752/12976760 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.156 MUT (0.253 elapsed), 0.094 GC (0.128 elapsed) :ghc>>
+==nofib== cryptarithm1: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   4416	    416	      0	   4832	   12e0	Main.o
+==nofib== cryptarithm1: time to link cryptarithm1 follows...
+<<ghc: 16891048 bytes, 7 GCs, 362444/584384 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (2.902 elapsed), 0.031 GC (0.025 elapsed) :ghc>>
+==nofib== cryptarithm1: size of cryptarithm1 follows...
+   text	   data	    bss	    dec	    hex	filename
+3502308	1201816	  57684	4761808	 48a8d0	cryptarithm1.exe
+==nofib== cryptarithm1: time to run cryptarithm1 follows...
+../../runstdtest/runstdtest ./cryptarithm1  -o1 cryptarithm1.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cryptarithm1  -o1 cryptarithm1.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cryptarithm1  -o1 cryptarithm1.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cryptarithm1  -o1 cryptarithm1.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cryptarithm1  -o1 cryptarithm1.stdout  -ghc-timing     ;
+
+real	0m0.749s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 2051815600 bytes, 1965 GCs (1963 + 2), 0/0 avg/max bytes residency (0 samples), 2721736 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.672 MUT (0.676 elapsed), 0.000 GC (0.018 elapsed), 0.000 GC(0) (0.018 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.700s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 2051815600 bytes, 1965 GCs (1963 + 2), 0/0 avg/max bytes residency (0 samples), 2721736 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.641 MUT (0.640 elapsed), 0.016 GC (0.015 elapsed), 0.016 GC(0) (0.015 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.726s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 2051815600 bytes, 1965 GCs (1963 + 2), 0/0 avg/max bytes residency (0 samples), 2721736 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.672 MUT (0.673 elapsed), 0.016 GC (0.018 elapsed), 0.016 GC(0) (0.018 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.715s
+user	0m0.000s
+sys	0m0.031s
+<<ghc: 2051815600 bytes, 1965 GCs (1963 + 2), 0/0 avg/max bytes residency (0 samples), 2721736 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.672 MUT (0.665 elapsed), 0.000 GC (0.017 elapsed), 0.000 GC(0) (0.017 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.878s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 2051815600 bytes, 1965 GCs (1963 + 2), 0/0 avg/max bytes residency (0 samples), 2721736 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.625 MUT (0.639 elapsed), 0.016 GC (0.015 elapsed), 0.016 GC(0) (0.015 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in cryptarithm1: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/cryptarithm2
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -package transformers -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== cryptarithm2: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -package transformers -rtsopts -c Main.hs -o Main.o
+
+Main.hs:34:1: warning: [-Wtabs]
+    Tab character found here, and in 72 further locations.
+    Please use spaces instead.
+   |
+34 |                 digits :: [Int],
+   | ^^^^^^^^
+<<ghc: 388134560 bytes, 66 GCs, 9321337/21818968 avg/max bytes residency (5 samples), 45M in use, 0.000 INIT (0.000 elapsed), 0.516 MUT (1.218 elapsed), 0.297 GC (0.253 elapsed) :ghc>>
+==nofib== cryptarithm2: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  24992	   2320	      0	  27312	   6ab0	Main.o
+==nofib== cryptarithm2: time to link cryptarithm2 follows...
+<<ghc: 15927944 bytes, 7 GCs, 364092/586064 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (3.203 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== cryptarithm2: size of cryptarithm2 follows...
+   text	   data	    bss	    dec	    hex	filename
+3522916	1203608	  57684	4784208	 490050	cryptarithm2.exe
+==nofib== cryptarithm2: time to run cryptarithm2 follows...
+../../runstdtest/runstdtest ./cryptarithm2  -o1 cryptarithm2.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cryptarithm2  -o1 cryptarithm2.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cryptarithm2  -o1 cryptarithm2.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cryptarithm2  -o1 cryptarithm2.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cryptarithm2  -o1 cryptarithm2.stdout  -ghc-timing     ;
+
+real	0m0.064s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 12771856 bytes, 13 GCs (11 + 2), 0/0 avg/max bytes residency (0 samples), 53272 bytes GC work, 2M in use, 0.016 INIT (0.001 elapsed), 0.000 MUT (0.008 elapsed), 0.000 GC (0.001 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.053s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 12771856 bytes, 13 GCs (11 + 2), 0/0 avg/max bytes residency (0 samples), 53272 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (0.007 elapsed), 0.000 GC (0.001 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.043s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 12771856 bytes, 13 GCs (11 + 2), 0/0 avg/max bytes residency (0 samples), 53272 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (0.007 elapsed), 0.000 GC (0.001 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.042s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 12771856 bytes, 13 GCs (11 + 2), 0/0 avg/max bytes residency (0 samples), 53272 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.016 MUT (0.008 elapsed), 0.000 GC (0.001 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.044s
+user	0m0.030s
+sys	0m0.000s
+<<ghc: 12771856 bytes, 13 GCs (11 + 2), 0/0 avg/max bytes residency (0 samples), 53272 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.007 elapsed), 0.000 GC (0.001 elapsed), 0.000 GC(0) (0.001 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in cryptarithm2: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/cse
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== cse: time to compile StateMonad follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c StateMonad.hs -o StateMonad.o
+<<ghc: 91308912 bytes, 20 GCs, 3272693/7396384 avg/max bytes residency (3 samples), 30M in use, 0.000 INIT (0.000 elapsed), 0.109 MUT (0.180 elapsed), 0.047 GC (0.072 elapsed) :ghc>>
+==nofib== cse: size of StateMonad.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   3936	    208	      0	   4144	   1030	StateMonad.o
+==nofib== cse: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:85:1: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+   |
+85 |            ms  = [m | (m,s',cs')<-lg, s==s', cs'==rcs]
+   | ^^^^^^^^
+<<ghc: 400534696 bytes, 77 GCs, 8079580/17702472 avg/max bytes residency (5 samples), 38M in use, 0.000 INIT (0.000 elapsed), 0.516 MUT (0.648 elapsed), 0.281 GC (0.258 elapsed) :ghc>>
+==nofib== cse: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  21632	   4800	      0	  26432	   6740	Main.o
+==nofib== cse: time to link cse follows...
+<<ghc: 16888728 bytes, 7 GCs, 362576/583952 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.610 elapsed), 0.031 GC (0.025 elapsed) :ghc>>
+==nofib== cse: size of cse follows...
+   text	   data	    bss	    dec	    hex	filename
+3523988	1205776	  57684	4787448	 490cf8	cse.exe
+==nofib== cse: time to run cse follows...
+../../runstdtest/runstdtest ./cse  -o1 cse.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cse  -o1 cse.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cse  -o1 cse.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cse  -o1 cse.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./cse  -o1 cse.stdout  -ghc-timing     ;
+
+real	0m0.059s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 1243728 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 212696 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.002 elapsed), 0.000 GC (0.001 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.001 elapsed), 1 balance :ghc>>
+
+real	0m0.037s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 1243728 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 212696 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.016 MUT (0.002 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.035s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 1243728 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 212696 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.002 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.036s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 1243728 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 212696 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.002 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.036s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 1243728 bytes, 2 GCs (1 + 1), 0/0 avg/max bytes residency (0 samples), 212696 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in cse: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/eliza
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== eliza: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:79:1: warning: [-Wtabs]
+    Tab character found here, and in 355 further locations.
+    Please use spaces instead.
+   |
+79 |                                 ("you",  "I"),      ("your",  "my"),
+   | ^^^^^^^^
+<<ghc: 505227664 bytes, 84 GCs, 8992366/19856088 avg/max bytes residency (5 samples), 42M in use, 0.000 INIT (0.000 elapsed), 0.609 MUT (0.788 elapsed), 0.297 GC (0.292 elapsed) :ghc>>
+==nofib== eliza: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  30896	  13808	      0	  44704	   aea0	Main.o
+==nofib== eliza: time to link eliza follows...
+<<ghc: 16878664 bytes, 7 GCs, 362136/584048 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.016 MUT (2.642 elapsed), 0.000 GC (0.025 elapsed) :ghc>>
+==nofib== eliza: size of eliza follows...
+   text	   data	    bss	    dec	    hex	filename
+3528964	1214928	  57684	4801576	 494428	eliza.exe
+==nofib== eliza: time to run eliza follows...
+../../runstdtest/runstdtest ./eliza -i  eliza.stdin -o1 eliza.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./eliza -i  eliza.stdin -o1 eliza.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./eliza -i  eliza.stdin -o1 eliza.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./eliza -i  eliza.stdin -o1 eliza.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./eliza -i  eliza.stdin -o1 eliza.stdout  -ghc-timing     ;
+
+real	0m0.060s
+user	0m0.030s
+sys	0m0.000s
+<<ghc: 709112 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.016 MUT (0.002 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.035s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 709112 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.035s
+user	0m0.016s
+sys	0m0.015s
+<<ghc: 709112 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.036s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 709112 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.036s
+user	0m0.000s
+sys	0m0.045s
+<<ghc: 709112 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 2496 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.001 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in eliza: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/expert
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== expert: time to compile Result follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Result.hs -o Result.o
+<<ghc: 64938112 bytes, 16 GCs, 4006032/9012464 avg/max bytes residency (3 samples), 31M in use, 0.000 INIT (0.000 elapsed), 0.078 MUT (0.140 elapsed), 0.062 GC (0.074 elapsed) :ghc>>
+==nofib== expert: size of Result.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   1440	    688	      0	   2128	    850	Result.o
+==nofib== expert: time to compile Table follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Table.hs -o Table.o
+<<ghc: 301013376 bytes, 62 GCs, 8766747/18765648 avg/max bytes residency (5 samples), 40M in use, 0.000 INIT (0.000 elapsed), 0.344 MUT (0.512 elapsed), 0.266 GC (0.226 elapsed) :ghc>>
+==nofib== expert: size of Table.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  18192	   1040	      0	  19232	   4b20	Table.o
+==nofib== expert: time to compile Knowledge follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Knowledge.hs -o Knowledge.o
+<<ghc: 202017272 bytes, 37 GCs, 5959944/10945696 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.281 MUT (0.374 elapsed), 0.141 GC (0.132 elapsed) :ghc>>
+==nofib== expert: size of Knowledge.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  12464	   1968	      0	  14432	   3860	Knowledge.o
+==nofib== expert: time to compile Match follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Match.hs -o Match.o
+<<ghc: 104607544 bytes, 43 GCs, 6446506/12237304 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.094 MUT (0.198 elapsed), 0.125 GC (0.126 elapsed) :ghc>>
+==nofib== expert: size of Match.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   3936	    352	      0	   4288	   10c0	Match.o
+==nofib== expert: time to compile Search follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Search.hs -o Search.o
+
+Search.hs:91:1: warning: [-Wtabs]
+    Tab character found here, and in four further locations.
+    Please use spaces instead.
+   |
+91 |         -- SLPJ Nov 99
+   | ^^^^^^^^
+<<ghc: 177016240 bytes, 31 GCs, 6150052/11083096 avg/max bytes residency (4 samples), 33M in use, 0.000 INIT (0.000 elapsed), 0.281 MUT (0.314 elapsed), 0.094 GC (0.132 elapsed) :ghc>>
+==nofib== expert: size of Search.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  10816	   1264	      0	  12080	   2f30	Search.o
+==nofib== expert: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.hs -o Main.o
+
+Main.hs:38:9: warning: [-Wtabs]
+    Tab character found here, and in two further locations.
+    Please use spaces instead.
+   |
+38 |       []         -> getData "animals"
+   |         ^^^^^^^^
+<<ghc: 190659216 bytes, 43 GCs, 9484648/21626960 avg/max bytes residency (5 samples), 45M in use, 0.000 INIT (0.000 elapsed), 0.281 MUT (0.333 elapsed), 0.172 GC (0.213 elapsed) :ghc>>
+==nofib== expert: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   8304	    864	      0	   9168	   23d0	Main.o
+==nofib== expert: time to link expert follows...
+<<ghc: 16925736 bytes, 7 GCs, 363772/584000 avg/max bytes residency (2 samples), 25M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (2.589 elapsed), 0.016 GC (0.025 elapsed) :ghc>>
+==nofib== expert: size of expert follows...
+   text	   data	    bss	    dec	    hex	filename
+3715652	1226700	  57684	5000036	 4c4b64	expert.exe
+==nofib== expert: time to run expert follows...
+../../runstdtest/runstdtest ./expert -i  expert.stdin -o1 expert.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./expert -i  expert.stdin -o1 expert.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./expert -i  expert.stdin -o1 expert.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./expert -i  expert.stdin -o1 expert.stdout  -ghc-timing     ;   ../../runstdtest/runstdtest ./expert -i  expert.stdin -o1 expert.stdout  -ghc-timing     ;
+
+real	0m0.061s
+user	0m0.015s
+sys	0m0.000s
+<<ghc: 372080 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 3320 bytes GC work, 2M in use, 0.000 INIT (0.001 elapsed), 0.000 MUT (0.003 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.037s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 372080 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 3320 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.002 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.041s
+user	0m0.000s
+sys	0m0.030s
+<<ghc: 372080 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 3320 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.002 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.038s
+user	0m0.000s
+sys	0m0.015s
+<<ghc: 372000 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 3320 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.002 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+
+real	0m0.038s
+user	0m0.015s
+sys	0m0.015s
+<<ghc: 372000 bytes, 1 GCs (0 + 1), 0/0 avg/max bytes residency (0 samples), 3320 bytes GC work, 2M in use, 0.000 INIT (0.000 elapsed), 0.000 MUT (0.002 elapsed), 0.000 GC (0.000 elapsed), 0.000 GC(0) (0.000 elapsed), 0.000 GC(1) (0.000 elapsed), 1 balance :ghc>>
+Finished making all in expert: 0
+------------------------------------------------------------------------
+== make all --no-print-directory;
+ in /c/TeamCity/buildAgent/work/28754042a1be6052/nofib/spectral/fft2
+------------------------------------------------------------------------
+HC = /c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2
+HC_OPTS = -O2 -Rghc-timing -H32m -hisuf hi -rtsopts
+RUNTEST_OPTS = -ghc-timing
+==nofib== fft2: time to compile Complex_Vectors follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Complex_Vectors.lhs -o Complex_Vectors.o
+<<ghc: 102745824 bytes, 24 GCs, 6058434/11723680 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.094 MUT (0.219 elapsed), 0.094 GC (0.120 elapsed) :ghc>>
+==nofib== fft2: size of Complex_Vectors.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   3168	    144	      0	   3312	    cf0	Complex_Vectors.o
+==nofib== fft2: time to compile Fourier follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Fourier.lhs -o Fourier.o
+<<ghc: 342436520 bytes, 84 GCs, 7750057/14997856 avg/max bytes residency (5 samples), 38M in use, 0.000 INIT (0.000 elapsed), 0.484 MUT (0.582 elapsed), 0.203 GC (0.245 elapsed) :ghc>>
+==nofib== fft2: size of Fourier.o follows...
+   text	   data	    bss	    dec	    hex	filename
+  21888	    960	      0	  22848	   5940	Fourier.o
+==nofib== fft2: time to compile Main follows...
+/c/TeamCity/buildAgent/work/28754042a1be6052/inplace/bin/ghc-stage2 -O2 -Rghc-timing -H32m -hisuf hi -rtsopts -c Main.lhs -o Main.o
+<<ghc: 134006520 bytes, 47 GCs, 6434990/12324496 avg/max bytes residency (4 samples), 32M in use, 0.000 INIT (0.000 elapsed), 0.141 MUT (0.332 elapsed), 0.188 GC (0.154 elapsed) :ghc>>
+==nofib== fft2: size of Main.o follows...
+   text	   data	    bss	    dec	    hex	filename
+   3936	    544	      0	   4480	   1180	Main.o
+$topdir/../mingw/bin/gcc.exe     -c fft.c -o fft.o
+/bin/sh: /../mingw/bin/gcc.exe: No such file or directory
+make[2]: *** [../../mk/ghc-suffix.mk:211: fft.o] Error 127
+Failed making all in fft2: 1
+make[1]: *** [../mk/ghc-recurse.mk:69: all] Error 1
+Failed making all in spectral: 1
+make: *** [mk/ghc-recurse.mk:69: all] Error 1

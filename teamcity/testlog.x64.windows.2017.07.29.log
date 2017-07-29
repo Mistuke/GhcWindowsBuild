@@ -1,0 +1,21 @@
+[1 of 1] Compiling Main             ( ..\mk\ghc-config.hs, ..\mk\ghc-config.o )
+Linking ../mk/ghc-config.exe ...
+Looks like you don't have timeout, building it first...
+[1 of 1] Compiling Main             ( Setup.hs, Setup.o )
+Linking Setup.exe ...
+Configuring timeout-1...
+Preprocessing executable 'timeout' for timeout-1..
+Failed to remove file dist\build\timeout\timeout-tmp\WinCBindings_hsc_make.exe; error= DeleteFile "dist\\build\\timeout\\timeout-tmp\\WinCBindings_hsc_make.exe": permission denied (Access is denied.)
+Building executable 'timeout' for timeout-1..
+[1 of 2] Compiling WinCBindings     ( dist\build\timeout\timeout-tmp\WinCBindings.hs, dist\build\timeout\timeout-tmp\WinCBindings.o )
+[2 of 2] Compiling Main             ( timeout.hs, dist\build\timeout\timeout-tmp\Main.o )
+Linking dist\build\timeout\timeout.exe ...
+Installing executable timeout in C:/TeamCity/buildAgent/work/28754042a1be6052/testsuite/timeout/install-inplace\bin
+Warning: The directory
+C:/TeamCity/buildAgent/work/28754042a1be6052/testsuite/timeout/install-inplace\bin
+is not in the system search path.
+Traceback (most recent call last):
+  File "../driver/runtests.py", line 46, in <module>
+    allow_abbrev=False)
+TypeError: __init__() got an unexpected keyword argument 'allow_abbrev'
+make: *** [../mk/test.mk:303: test] Error 1

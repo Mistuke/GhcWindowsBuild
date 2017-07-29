@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "../../driver/runtests.py", line 46, in <module>
+    allow_abbrev=False)
+TypeError: __init__() got an unexpected keyword argument 'allow_abbrev'
+make: *** [../../mk/test.mk:303: test] Error 1

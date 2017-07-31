@@ -1,0 +1,57 @@
+
+Unexpected results from:
+TEST="T10294 T10294a T10420 T10529a T10529b T10529c T11244 T13168 T13606 T13623 T14028 T229 T5837 T876 T9405 big-obj bkpcabal06 bkpcabal07 conc038 concio001 plugins07"
+
+SUMMARY for test run started at Mon Jul 31 02:01:09 2017 BST
+ 1:40:42 spent to go through
+    6024 total tests, which gave rise to
+   17539 test cases, of which
+   11200 were skipped
+
+      54 had missing libraries
+    6099 expected passes
+     165 expected failures
+
+       5 caused framework failures
+       1 caused framework warnings
+       1 unexpected passes
+      17 unexpected failures
+       3 unexpected stat failures
+
+Unexpected passes:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./rts/T9405.run  T9405 [unexpected] (normal)
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run         bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run         bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./concurrent/should_run/conc038.run                conc038 [bad stdout] (threaded1)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./ghci/linking/dyn/T13606.run                      T13606 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./ghci/linking/dyn/big-obj.run                     big-obj [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/plugins07.run                            plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/T10420.run                               T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/T10294.run                               T10294 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/T10294a.run                              T10294a [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/T11244.run                               T11244 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./quasiquotation/T14028.run                        T14028 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./typecheck/T13168/T13168.run                      T13168 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/../../libraries/array/tests/T229.run               T229 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/../../libraries/base/tests/IO/concio001.run        concio001 [bad stdout] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529a.run  T10529a [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529b.run  T10529b [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529c.run  T10529c [bad stderr] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./perf/compiler/T5837.run     T5837 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./perf/should_run/T876.run    T876 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./perf/should_run/T13623.run  T13623 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/T10420.run     T10420 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/plugins07.run  plugins07 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/T10294.run     T10294 [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/T10294a.run    T10294a [normal] (pre_cmd failed: 2)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-m249zeow/test   spaces/./plugins/T11244.run     T11244 [normal] (pre_cmd failed: 2)
+
+Framework warnings:
+   .  T13701 [numfield-no-expected] (No expected value found for bytes allocated in num_field check)
+

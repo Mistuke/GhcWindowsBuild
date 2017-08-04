@@ -85,8 +85,8 @@ Creating libraries/Win32/ghc.mk
 Creating libraries/Win32/GNUmakefile
 Creating libraries/xhtml/ghc.mk
 Creating libraries/xhtml/GNUmakefile
-Booting libraries/base/
 Booting .
+Booting libraries/base/
 Booting libraries/directory/
 Booting libraries/integer-gmp/
 Booting libraries/process/

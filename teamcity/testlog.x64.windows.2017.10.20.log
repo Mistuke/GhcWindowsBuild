@@ -1,0 +1,2188 @@
+[1 of 1] Compiling Main             ( ..\mk\ghc-config.hs, ..\mk\ghc-config.o )
+Linking ../mk/ghc-config.exe ...
+Looks like you don't have timeout, building it first...
+[1 of 1] Compiling Main             ( Setup.hs, Setup.o )
+Linking Setup.exe ...
+Configuring timeout-1...
+Preprocessing executable 'timeout' for timeout-1..
+Failed to remove file dist\build\timeout\timeout-tmp\WinCBindings_hsc_make.exe; error= dist\build\timeout\timeout-tmp\WinCBindings_hsc_make.exe: DeleteFile "\\\\?\\C:\\TeamCity\\buildAgent\\work\\28754042a1be6052\\testsuite\\timeout\\dist\\build\\timeout\\timeout-tmp\\WinCBindings_hsc_make.exe": permission denied (Access is denied.)
+Building executable 'timeout' for timeout-1..
+[1 of 2] Compiling WinCBindings     ( dist\build\timeout\timeout-tmp\WinCBindings.hs, dist\build\timeout\timeout-tmp\WinCBindings.o )
+[2 of 2] Compiling Main             ( timeout.hs, dist\build\timeout\timeout-tmp\Main.o )
+Linking dist\build\timeout\timeout.exe ...
+Installing executable timeout in C:/TeamCity/buildAgent/work/28754042a1be6052/testsuite/timeout/install-inplace\bin
+Warning: The directory
+C:/TeamCity/buildAgent/work/28754042a1be6052/testsuite/timeout/install-inplace\bin
+is not in the system search path.
+Timeout is 300
+Found 400 .T files...
+Beginning test run at Fri Oct 20 02:07:32 2017 BST
+*** framework warning for T13701(numfield-no-expected) No expected value found for bytes allocated in num_field check 
+##teamcity[testStarted name='ado001/normal']
+##teamcity[testStarted name='ado002/normal']
+##teamcity[testStarted name='ado003/normal']
+##teamcity[testStarted name='ado004/normal']
+##teamcity[testStarted name='ado005/normal']
+##teamcity[testStarted name='ado006/normal']
+##teamcity[testIgnored name='ado004/hpc' message='Test skipped']
+##teamcity[testIgnored name='ado004/optasm' message='Test skipped']
+##teamcity[testStarted name='ado007/normal']
+##teamcity[testIgnored name='ado006/hpc' message='Test skipped']
+##teamcity[testIgnored name='ado006/optasm' message='Test skipped']
+##teamcity[testStarted name='T11607/normal']
+##teamcity[testIgnored name='ado007/hpc' message='Test skipped']
+##teamcity[testIgnored name='ado007/optasm' message='Test skipped']
+##teamcity[testStarted name='ado-optimal/normal']
+##teamcity[testIgnored name='ado001/hpc' message='Test skipped']
+##teamcity[testIgnored name='ado001/optasm' message='Test skipped']
+##teamcity[testIgnored name='ado001/threaded2' message='Test skipped']
+##teamcity[testIgnored name='ado001/ghci' message='Test skipped']
+##teamcity[testIgnored name='ado001/threaded1' message='Test skipped']
+##teamcity[testStarted name='T12490/normal']
+##teamcity[testIgnored name='T12490/hpc' message='Test skipped']
+##teamcity[testIgnored name='T12490/optasm' message='Test skipped']
+##teamcity[testStarted name='T13242/normal']
+##teamcity[testIgnored name='T13242/hpc' message='Test skipped']
+##teamcity[testIgnored name='T13242/optasm' message='Test skipped']
+##teamcity[testStarted name='T13242a/normal']
+##teamcity[testStarted name='T13875/normal']
+##teamcity[testIgnored name='T11607/hpc' message='Test skipped']
+##teamcity[testIgnored name='T11607/optasm' message='Test skipped']
+##teamcity[testIgnored name='T11607/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T11607/ghci' message='Test skipped']
+##teamcity[testIgnored name='T11607/threaded1' message='Test skipped']
+##teamcity[testStarted name='T14163/normal']
+##teamcity[testIgnored name='ado-optimal/hpc' message='Test skipped']
+##teamcity[testIgnored name='ado-optimal/optasm' message='Test skipped']
+##teamcity[testIgnored name='ado-optimal/threaded2' message='Test skipped']
+##teamcity[testIgnored name='ado-optimal/ghci' message='Test skipped']
+##teamcity[testIgnored name='ado-optimal/threaded1' message='Test skipped']
+##teamcity[testStarted name='ann01/normal']
+##teamcity[testIgnored name='ann01/hpc' message='Test skipped']
+##teamcity[testIgnored name='ann01/optasm' message='Test skipped']
+##teamcity[testStarted name='T14129/normal']
+##teamcity[testIgnored name='T14129/hpc' message='Test skipped']
+##teamcity[testIgnored name='T14129/optasm' message='Test skipped']
+##teamcity[testStarted name='T13818/normal']
+##teamcity[testFinished name='T13818/normal']
+##teamcity[testIgnored name='T13818/hpc' message='Test skipped']
+##teamcity[testIgnored name='T13818/optasm' message='Test skipped']
+##teamcity[testIgnored name='annth_make/normal' message='Test skipped']
+##teamcity[testIgnored name='annth_compunits/normal' message='Test skipped']
+##teamcity[testStarted name='annfail01/normal']
+##teamcity[testIgnored name='T13875/hpc' message='Test skipped']
+##teamcity[testIgnored name='T13875/optasm' message='Test skipped']
+##teamcity[testIgnored name='T13875/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T13875/ghci' message='Test skipped']
+##teamcity[testIgnored name='T13875/threaded1' message='Test skipped']
+##teamcity[testStarted name='annfail02/normal']
+##teamcity[testStarted name='annfail03/normal']
+##teamcity[testStarted name='annfail04/normal']
+##teamcity[testStarted name='annfail05/normal']
+##teamcity[testIgnored name='T14163/hpc' message='Test skipped']
+##teamcity[testIgnored name='T14163/optasm' message='Test skipped']
+##teamcity[testIgnored name='T14163/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T14163/ghci' message='Test skipped']
+##teamcity[testIgnored name='T14163/threaded1' message='Test skipped']
+##teamcity[testStarted name='annfail06/normal']
+##teamcity[testStarted name='annfail07/normal']
+##teamcity[testStarted name='annfail08/normal']
+##teamcity[testStarted name='annfail09/normal']
+##teamcity[testStarted name='annfail10/normal']
+##teamcity[testStarted name='annfail11/normal']
+##teamcity[testStarted name='annfail12/normal']
+##teamcity[testStarted name='annfail13/normal']
+##teamcity[testStarted name='T10826/normal']
+##teamcity[testStarted name='annrun01/normal']
+##teamcity[testStarted name='arr001/normal']
+##teamcity[testStarted name='arr002/normal']
+##teamcity[testIgnored name='arr001/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr001/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr001/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr001/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr001/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr003/normal']
+##teamcity[testIgnored name='arr002/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr002/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr002/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr002/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr002/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr004/normal']
+##teamcity[testIgnored name='arr003/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr003/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr003/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr003/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr003/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr005/normal']
+##teamcity[testIgnored name='arr005/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr005/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr005/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr005/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr005/threaded1' message='Test skipped']
+##teamcity[testIgnored name='arr004/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr004/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr004/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr004/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr004/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr006/normal']
+##teamcity[testStarted name='arr007/normal']
+##teamcity[testIgnored name='arr006/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr006/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr006/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr006/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr006/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr008/normal']
+##teamcity[testIgnored name='arr007/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr007/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr007/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr007/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr007/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr009/normal']
+##teamcity[testIgnored name='arr009/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr009/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr009/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr009/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr009/threaded1' message='Test skipped']
+##teamcity[testIgnored name='arr008/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr008/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr008/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr008/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr008/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr010/normal']
+##teamcity[testStarted name='arr011/normal']
+##teamcity[testIgnored name='arr011/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr011/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr011/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr011/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr011/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr012/normal']
+##teamcity[testIgnored name='arr010/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr010/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr010/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr010/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr010/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr013/normal']
+##teamcity[testIgnored name='annrun01/hpc' message='Test skipped']
+##teamcity[testIgnored name='annrun01/optasm' message='Test skipped']
+##teamcity[testIgnored name='annrun01/threaded2' message='Test skipped']
+##teamcity[testIgnored name='annrun01/ghci' message='Test skipped']
+##teamcity[testIgnored name='annrun01/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr014/normal']
+##teamcity[testIgnored name='arr012/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr012/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr012/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr012/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr012/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr015/normal']
+##teamcity[testIgnored name='arr013/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr013/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr013/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr013/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr013/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr016/normal']
+##teamcity[testIgnored name='arr015/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr015/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr015/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr015/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr015/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr017/normal']
+##teamcity[testIgnored name='arr014/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr014/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr014/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr014/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr014/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr018/normal']
+##teamcity[testIgnored name='arr016/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr016/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr016/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr016/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr016/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr019/normal']
+##teamcity[testIgnored name='arr017/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr017/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr017/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr017/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr017/threaded1' message='Test skipped']
+##teamcity[testStarted name='arr020/normal']
+##teamcity[testIgnored name='arr018/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr018/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr018/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr018/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr018/threaded1' message='Test skipped']
+##teamcity[testStarted name='arrowapply1/normal']
+##teamcity[testIgnored name='arr019/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr019/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr019/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr019/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr019/threaded1' message='Test skipped']
+##teamcity[testStarted name='arrowapply2/normal']
+##teamcity[testIgnored name='arrowapply1/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowapply1/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowapply3/normal']
+##teamcity[testIgnored name='arrowapply2/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowapply2/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowapply5/normal']
+##teamcity[testIgnored name='arrowapply3/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowapply3/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowcase1/normal']
+##teamcity[testIgnored name='arrowapply5/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowapply5/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowdo1/normal']
+##teamcity[testIgnored name='arrowcase1/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowcase1/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowdo2/normal']
+##teamcity[testIgnored name='arrowdo1/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowdo1/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowform1/normal']
+##teamcity[testIgnored name='arrowdo2/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowdo2/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowif1/normal']
+##teamcity[testIgnored name='arr020/hpc' message='Test skipped']
+##teamcity[testIgnored name='arr020/optasm' message='Test skipped']
+##teamcity[testIgnored name='arr020/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arr020/ghci' message='Test skipped']
+##teamcity[testIgnored name='arr020/threaded1' message='Test skipped']
+##teamcity[testStarted name='arrowlet1/normal']
+##teamcity[testIgnored name='arrowform1/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowform1/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowrec1/normal']
+##teamcity[testIgnored name='arrowif1/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowif1/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowpat/normal']
+##teamcity[testIgnored name='arrowlet1/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowlet1/optasm' message='Test skipped']
+##teamcity[testStarted name='T3964/normal']
+##teamcity[testIgnored name='arrowrec1/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowrec1/optasm' message='Test skipped']
+##teamcity[testStarted name='T5283/normal']
+##teamcity[testIgnored name='arrowpat/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowpat/optasm' message='Test skipped']
+##teamcity[testStarted name='T5267/normal']
+##teamcity[testIgnored name='T3964/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3964/optasm' message='Test skipped']
+##teamcity[testStarted name='T5022/normal']
+##teamcity[testIgnored name='T5283/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5283/optasm' message='Test skipped']
+##teamcity[testStarted name='T5333/normal']
+##teamcity[testFinished name='T5267/normal']
+##teamcity[testIgnored name='T5267/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5267/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowfail001/normal']
+##teamcity[testIgnored name='T5022/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5022/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowfail002/normal']
+##teamcity[testStarted name='arrowfail003/normal']
+##teamcity[testIgnored name='T5333/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5333/optasm' message='Test skipped']
+##teamcity[testStarted name='arrowfail004/normal']
+##teamcity[testStarted name='T2111/normal']
+##teamcity[testStarted name='T5380/normal']
+##teamcity[testStarted name='arrowrun001/normal']
+##teamcity[testStarted name='arrowrun002/normal']
+##teamcity[testStarted name='arrowrun003/normal']
+##teamcity[testIgnored name='arrowrun001/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowrun001/optasm' message='Test skipped']
+##teamcity[testIgnored name='arrowrun001/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arrowrun001/ghci' message='Test skipped']
+##teamcity[testIgnored name='arrowrun001/threaded1' message='Test skipped']
+##teamcity[testStarted name='arrowrun004/normal']
+##teamcity[testIgnored name='arrowrun003/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowrun003/optasm' message='Test skipped']
+##teamcity[testIgnored name='arrowrun003/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arrowrun003/ghci' message='Test skipped']
+##teamcity[testIgnored name='arrowrun003/threaded1' message='Test skipped']
+##teamcity[testStarted name='T3822/normal']
+##teamcity[testIgnored name='arrowrun002/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowrun002/optasm' message='Test skipped']
+##teamcity[testIgnored name='arrowrun002/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arrowrun002/ghci' message='Test skipped']
+##teamcity[testIgnored name='arrowrun002/threaded1' message='Test skipped']
+##teamcity[testStarted name='T14304/normal']
+##teamcity[testIgnored name='T3822/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3822/optasm' message='Test skipped']
+##teamcity[testIgnored name='T3822/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T3822/ghci' message='Test skipped']
+##teamcity[testIgnored name='T3822/threaded1' message='Test skipped']
+##teamcity[testStarted name='bkpcabal01/normal']
+##teamcity[testIgnored name='arrowrun004/hpc' message='Test skipped']
+##teamcity[testIgnored name='arrowrun004/optasm' message='Test skipped']
+##teamcity[testIgnored name='arrowrun004/threaded2' message='Test skipped']
+##teamcity[testIgnored name='arrowrun004/ghci' message='Test skipped']
+##teamcity[testIgnored name='arrowrun004/threaded1' message='Test skipped']
+##teamcity[testStarted name='bkpcabal02/normal']
+Wrong exit code for T14304()(expected 0 , actual 2 )
+Stderr ( T14304 ):
+P.hs:1:8: error:
+    Could not find module ‘Prelude’
+    Perhaps you haven't installed the "dyn" libraries for package ‘base-4.11.0.0’?
+    Use -v to see a list of the files searched for.
+make[1]: *** [Makefile:21: T14304] Error 1
+##teamcity[testFailed name='T14304/normal' message='*** unexpected failure for T14304(normal)']
+*** unexpected failure for T14304(normal)
+##teamcity[testStarted name='bkpcabal03/normal']
+##teamcity[testStarted name='bkpcabal04/normal']
+##teamcity[testStarted name='bkpcabal05/normal']
+##teamcity[testStarted name='bkpcabal06/normal']
+##teamcity[testStarted name='bkpcabal07/normal']
+Wrong exit code for bkpcabal07()(expected 0 , actual 2 )
+Stderr ( bkpcabal07 ):
+C:/TeamCity/buildAgent/work/28754042a1be6052/bindisttest/install   dir\mingw\bin\ar.exe: dist\build\bkpcabal06-0.1.0.0-DwHQNOnKryR7SzouuOq0d9-indef+8lwQeKRFWQzDx3MwROGDWb\objs-10784\libHSbkpcabal06-0.1.0.0-DwHQNOnKryR7SzouuOq0d9-indef+8lwQeKRFWQzDx3MwROGDWb.a: No such file or directory
+make[1]: *** [Makefile:16: bkpcabal07] Error 1
+##teamcity[testFailed name='bkpcabal07/normal' message='*** unexpected failure for bkpcabal07(normal)']
+*** unexpected failure for bkpcabal07(normal)
+##teamcity[testStarted name='bkpreex01/normal']
+##teamcity[testStarted name='bkpreex02/normal']
+##teamcity[testStarted name='bkpreex03/normal']
+##teamcity[testStarted name='bkpreex04/normal']
+##teamcity[testStarted name='bkpreex05/normal']
+##teamcity[testFinished name='bkpreex05/normal']
+##teamcity[testStarted name='bkpreex06/normal']
+##teamcity[testStarted name='bkpreex07/normal']
+##teamcity[testStarted name='bkpreex08/normal']
+##teamcity[testStarted name='bkpreex09/normal']
+##teamcity[testStarted name='bkpreex10/normal']
+##teamcity[testStarted name='bkp01/normal']
+##teamcity[testStarted name='bkp02/normal']
+Wrong exit code for bkpcabal06()(expected 0 , actual 2 )
+Stderr ( bkpcabal06 ):
+C:/TeamCity/buildAgent/work/28754042a1be6052/bindisttest/install   dir\mingw\bin\ar.exe: dist\build\bkpcabal06-0.1.0.0-DwHQNOnKryR7SzouuOq0d9-sig+Er8lokCVXDT12UnzmW48e7\objs-14448\libHSbkpcabal06-0.1.0.0-DwHQNOnKryR7SzouuOq0d9-sig+Er8lokCVXDT12UnzmW48e7.a: No such file or directory
+make[1]: *** [Makefile:18: bkpcabal06] Error 1
+##teamcity[testFailed name='bkpcabal06/normal' message='*** unexpected failure for bkpcabal06(normal)']
+*** unexpected failure for bkpcabal06(normal)
+##teamcity[testStarted name='bkp07/normal']
+##teamcity[testStarted name='bkp08/normal']
+##teamcity[testStarted name='bkp09/normal']
+##teamcity[testStarted name='bkp10/normal']
+##teamcity[testStarted name='bkp11/normal']
+##teamcity[testStarted name='bkp12/normal']
+##teamcity[testStarted name='bkp14/normal']
+##teamcity[testStarted name='bkp15/normal']
+##teamcity[testStarted name='bkp16/normal']
+##teamcity[testStarted name='bkp17/normal']
+##teamcity[testStarted name='bkp18/normal']
+##teamcity[testStarted name='bkp19/normal']
+##teamcity[testStarted name='bkp20/normal']
+##teamcity[testStarted name='bkp21/normal']
+##teamcity[testStarted name='bkp23/normal']
+##teamcity[testStarted name='bkp24/normal']
+##teamcity[testStarted name='bkp25/normal']
+##teamcity[testStarted name='bkp26/normal']
+##teamcity[testStarted name='bkp27/normal']
+##teamcity[testStarted name='bkp28/normal']
+##teamcity[testStarted name='bkp29/normal']
+##teamcity[testStarted name='bkp30/normal']
+##teamcity[testStarted name='bkp31/normal']
+##teamcity[testStarted name='bkp32/normal']
+##teamcity[testStarted name='bkp33/normal']
+##teamcity[testStarted name='bkp34/normal']
+##teamcity[testStarted name='bkp35/normal']
+##teamcity[testStarted name='bkp36/normal']
+##teamcity[testStarted name='bkp37/normal']
+##teamcity[testStarted name='bkp38/normal']
+##teamcity[testStarted name='bkp39/normal']
+##teamcity[testStarted name='bkp40/normal']
+##teamcity[testStarted name='bkp41/normal']
+##teamcity[testStarted name='bkp42/normal']
+##teamcity[testStarted name='bkp43/normal']
+##teamcity[testStarted name='bkp44/normal']
+##teamcity[testStarted name='bkp45/normal']
+##teamcity[testStarted name='bkp46/normal']
+##teamcity[testStarted name='bkp47/normal']
+##teamcity[testStarted name='bkp48/normal']
+##teamcity[testStarted name='bkp49/normal']
+##teamcity[testStarted name='bkp50/normal']
+##teamcity[testStarted name='bkp51/normal']
+##teamcity[testStarted name='bkp52/normal']
+##teamcity[testStarted name='bkp53/normal']
+##teamcity[testStarted name='bkp54/normal']
+##teamcity[testStarted name='bkp55/normal']
+##teamcity[testStarted name='T13140/normal']
+##teamcity[testStarted name='T13149/normal']
+##teamcity[testStarted name='T13214/normal']
+##teamcity[testFinished name='T13149/normal']
+##teamcity[testStarted name='T13250/normal']
+##teamcity[testStarted name='T13323/normal']
+##teamcity[testStarted name='bkpfail01/normal']
+##teamcity[testStarted name='bkpfail03/normal']
+##teamcity[testStarted name='bkpfail04/normal']
+##teamcity[testStarted name='bkpfail05/normal']
+##teamcity[testStarted name='bkpfail06/normal']
+##teamcity[testStarted name='bkpfail07/normal']
+##teamcity[testStarted name='bkpfail09/normal']
+##teamcity[testStarted name='bkpfail10/normal']
+##teamcity[testStarted name='bkpfail11/normal']
+##teamcity[testStarted name='bkpfail12/normal']
+##teamcity[testStarted name='bkpfail13/normal']
+##teamcity[testStarted name='bkpfail14/normal']
+##teamcity[testStarted name='bkpfail15/normal']
+##teamcity[testStarted name='bkpfail16/normal']
+##teamcity[testStarted name='bkpfail17/normal']
+##teamcity[testStarted name='bkpfail18/normal']
+##teamcity[testStarted name='bkpfail19/normal']
+##teamcity[testStarted name='bkpfail20/normal']
+##teamcity[testStarted name='bkpfail21/normal']
+##teamcity[testStarted name='bkpfail22/normal']
+##teamcity[testStarted name='bkpfail23/normal']
+##teamcity[testStarted name='bkpfail24/normal']
+##teamcity[testStarted name='bkpfail25/normal']
+##teamcity[testStarted name='bkpfail26/normal']
+##teamcity[testStarted name='bkpfail27/normal']
+##teamcity[testStarted name='bkpfail28/normal']
+##teamcity[testStarted name='bkpfail29/normal']
+##teamcity[testStarted name='bkpfail30/normal']
+##teamcity[testStarted name='bkpfail31/normal']
+##teamcity[testStarted name='bkpfail32/normal']
+##teamcity[testStarted name='bkpfail33/normal']
+##teamcity[testStarted name='bkpfail34/normal']
+##teamcity[testStarted name='bkpfail35/normal']
+##teamcity[testStarted name='bkpfail36/normal']
+##teamcity[testStarted name='bkpfail37/normal']
+##teamcity[testStarted name='bkpfail38/normal']
+##teamcity[testStarted name='bkpfail39/normal']
+##teamcity[testStarted name='bkpfail40/normal']
+##teamcity[testStarted name='bkpfail41/normal']
+##teamcity[testFinished name='bkpfail39/normal']
+##teamcity[testStarted name='bkpfail42/normal']
+##teamcity[testStarted name='bkpfail43/normal']
+##teamcity[testStarted name='bkpfail44/normal']
+##teamcity[testStarted name='bkpfail45/normal']
+##teamcity[testStarted name='bkpfail46/normal']
+##teamcity[testStarted name='bkpfail47/normal']
+##teamcity[testStarted name='bkpfail48/normal']
+##teamcity[testStarted name='bkpfail49/normal']
+##teamcity[testStarted name='bkprun01/normal']
+##teamcity[testStarted name='bkprun02/normal']
+##teamcity[testStarted name='bkprun03/normal']
+##teamcity[testStarted name='bkprun04/normal']
+##teamcity[testStarted name='bkprun05/normal']
+##teamcity[testStarted name='bkprun06/normal']
+##teamcity[testStarted name='bkprun07/normal']
+##teamcity[testStarted name='bkprun08/normal']
+##teamcity[testStarted name='T13955/normal']
+##teamcity[testStarted name='Base1/normal']
+##teamcity[testStarted name='Church1/normal']
+##teamcity[testStarted name='Church2/normal']
+##teamcity[testFinished name='Church1/normal']
+##teamcity[testIgnored name='Church1/hpc' message='Test skipped']
+##teamcity[testIgnored name='Church1/optasm' message='Test skipped']
+##teamcity[testStarted name='PList1/normal']
+##teamcity[testFinished name='Church2/normal']
+##teamcity[testStarted name='PList2/normal']
+##teamcity[testFinished name='PList1/normal']
+##teamcity[testIgnored name='PList1/hpc' message='Test skipped']
+##teamcity[testIgnored name='PList1/optasm' message='Test skipped']
+##teamcity[testStarted name='SystemF/normal']
+##teamcity[testFinished name='PList2/normal']
+##teamcity[testIgnored name='PList2/hpc' message='Test skipped']
+##teamcity[testIgnored name='PList2/optasm' message='Test skipped']
+##teamcity[testStarted name='boxy/normal']
+##teamcity[testStarted name='Compose/normal']
+##teamcity[testFinished name='SystemF/normal']
+##teamcity[testIgnored name='SystemF/hpc' message='Test skipped']
+##teamcity[testIgnored name='SystemF/optasm' message='Test skipped']
+##teamcity[testStarted name='T2193/normal']
+##teamcity[testFinished name='boxy/normal']
+##teamcity[testIgnored name='boxy/hpc' message='Test skipped']
+##teamcity[testIgnored name='boxy/optasm' message='Test skipped']
+##teamcity[testStarted name='ghcpkg01/normal']
+##teamcity[testIgnored name='Compose/hpc' message='Test skipped']
+##teamcity[testIgnored name='Compose/optasm' message='Test skipped']
+##teamcity[testStarted name='ghcpkg02/normal']
+##teamcity[testIgnored name='T2193/hpc' message='Test skipped']
+##teamcity[testIgnored name='T2193/optasm' message='Test skipped']
+##teamcity[testIgnored name='T2193/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T2193/ghci' message='Test skipped']
+##teamcity[testIgnored name='T2193/threaded1' message='Test skipped']
+##teamcity[testStarted name='ghcpkg03/normal']
+##teamcity[testStarted name='ghcpkg04/normal']
+##teamcity[testStarted name='ghcpkg05/normal']
+##teamcity[testStarted name='ghcpkg06/normal']
+##teamcity[testStarted name='ghcpkg07/normal']
+##teamcity[testStarted name='pkg01/normal']
+##teamcity[testIgnored name='pkg01/hpc' message='Test skipped']
+##teamcity[testIgnored name='pkg01/optasm' message='Test skipped']
+##teamcity[testStarted name='T1750/normal']
+##teamcity[testStarted name='T5442a/normal']
+##teamcity[testStarted name='T5442b/normal']
+##teamcity[testStarted name='T5442c/normal']
+##teamcity[testStarted name='T5442d/normal']
+##teamcity[testStarted name='shadow/normal']
+##teamcity[testStarted name='T12485a/normal']
+##teamcity[testStarted name='T13703/normal']
+##teamcity[testStarted name='T12485/normal']
+##teamcity[testStarted name='T12733/normal']
+##teamcity[testStarted name='cabal01/normal']
+##teamcity[testStarted name='cabal03/normal']
+##teamcity[testStarted name='cabal04/normal']
+##teamcity[testStarted name='cabal05/normal']
+##teamcity[testStarted name='cabal06/normal']
+##teamcity[testStarted name='cabal08/normal']
+##teamcity[testStarted name='cabal09/normal']
+##teamcity[testStarted name='pkg02/normal']
+##teamcity[testIgnored name='pkg02/hpc' message='Test skipped']
+##teamcity[testIgnored name='pkg02/optasm' message='Test skipped']
+##teamcity[testStarted name='sigcabal01/normal']
+##teamcity[testStarted name='T3924/normal']
+##teamcity[testStarted name='StrictLet/normal']
+##teamcity[testIgnored name='T3924/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3924/optasm' message='Test skipped']
+##teamcity[testIgnored name='T3924/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T3924/ghci' message='Test skipped']
+##teamcity[testIgnored name='T3924/threaded1' message='Test skipped']
+##teamcity[testStarted name='CallArity1/normal']
+##teamcity[testIgnored name='StrictLet/hpc' message='Test skipped']
+##teamcity[testIgnored name='StrictLet/optasm' message='Test skipped']
+##teamcity[testIgnored name='StrictLet/threaded2' message='Test skipped']
+##teamcity[testIgnored name='StrictLet/ghci' message='Test skipped']
+##teamcity[testIgnored name='StrictLet/threaded1' message='Test skipped']
+##teamcity[testStarted name='cg001/normal']
+##teamcity[testIgnored name='cg001/hpc' message='Test skipped']
+##teamcity[testIgnored name='cg001/optasm' message='Test skipped']
+##teamcity[testStarted name='cg002/normal']
+##teamcity[testIgnored name='cg002/hpc' message='Test skipped']
+##teamcity[testIgnored name='cg002/optasm' message='Test skipped']
+##teamcity[testStarted name='cg003/optasm']
+##teamcity[testIgnored name='cg003/hpc' message='Test skipped']
+##teamcity[testIgnored name='cg003/normal' message='Test skipped']
+##teamcity[testStarted name='cg004/normal']
+##teamcity[testIgnored name='cg004/hpc' message='Test skipped']
+##teamcity[testIgnored name='cg004/optasm' message='Test skipped']
+##teamcity[testStarted name='cg005/optasm']
+##teamcity[testIgnored name='cg005/hpc' message='Test skipped']
+##teamcity[testIgnored name='cg005/normal' message='Test skipped']
+##teamcity[testStarted name='cg006/normal']
+##teamcity[testIgnored name='cg006/hpc' message='Test skipped']
+##teamcity[testIgnored name='cg006/optasm' message='Test skipped']
+##teamcity[testStarted name='cg007/normal']
+##teamcity[testIgnored name='cg007/hpc' message='Test skipped']
+##teamcity[testIgnored name='cg007/optasm' message='Test skipped']
+##teamcity[testStarted name='cg008/normal']
+##teamcity[testIgnored name='cg008/hpc' message='Test skipped']
+##teamcity[testIgnored name='cg008/optasm' message='Test skipped']
+##teamcity[testStarted name='T1916/normal']
+##teamcity[testIgnored name='T1916/hpc' message='Test skipped']
+##teamcity[testIgnored name='T1916/optasm' message='Test skipped']
+##teamcity[testStarted name='T2388/normal']
+##teamcity[testIgnored name='T2388/hpc' message='Test skipped']
+##teamcity[testIgnored name='T2388/optasm' message='Test skipped']
+##teamcity[testStarted name='T3132/normal']
+##teamcity[testFinished name='sigcabal01/normal']
+##teamcity[testStarted name='T3286/normal']
+##teamcity[testIgnored name='T3132/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3132/optasm' message='Test skipped']
+##teamcity[testStarted name='T3579/normal']
+##teamcity[testIgnored name='T3579/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3579/optasm' message='Test skipped']
+##teamcity[testStarted name='T2578/normal']
+##teamcity[testIgnored name='T3286/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3286/optasm' message='Test skipped']
+##teamcity[testStarted name='jmp_tbl/normal']
+##teamcity[testIgnored name='jmp_tbl/hpc' message='Test skipped']
+##teamcity[testIgnored name='jmp_tbl/optasm' message='Test skipped']
+##teamcity[testStarted name='massive_array/normal']
+##teamcity[testIgnored name='massive_array/hpc' message='Test skipped']
+##teamcity[testIgnored name='massive_array/optasm' message='Test skipped']
+##teamcity[testStarted name='T7237/normal']
+##teamcity[testIgnored name='T7237/hpc' message='Test skipped']
+##teamcity[testIgnored name='T7237/optasm' message='Test skipped']
+##teamcity[testStarted name='T7574/normal']
+##teamcity[testIgnored name='T7574/hpc' message='Test skipped']
+##teamcity[testIgnored name='T7574/optasm' message='Test skipped']
+##teamcity[testStarted name='T8205/normal']
+##teamcity[testIgnored name='T8205/hpc' message='Test skipped']
+##teamcity[testIgnored name='T8205/optasm' message='Test skipped']
+##teamcity[testStarted name='T9155/normal']
+##teamcity[testIgnored name='T9155/hpc' message='Test skipped']
+##teamcity[testIgnored name='T9155/optasm' message='Test skipped']
+##teamcity[testStarted name='T9303/normal']
+##teamcity[testStarted name='T9329/normal']
+##teamcity[testIgnored name='T9303/hpc' message='Test skipped']
+##teamcity[testIgnored name='T9303/optasm' message='Test skipped']
+##teamcity[testStarted name='debug/normal']
+##teamcity[testIgnored name='T9329/hpc' message='Test skipped']
+##teamcity[testIgnored name='T9329/optasm' message='Test skipped']
+##teamcity[testStarted name='T9964/normal']
+##teamcity[testIgnored name='T9964/hpc' message='Test skipped']
+##teamcity[testIgnored name='T9964/optasm' message='Test skipped']
+##teamcity[testStarted name='T10518/normal']
+##teamcity[testIgnored name='T10518/hpc' message='Test skipped']
+##teamcity[testIgnored name='T10518/optasm' message='Test skipped']
+##teamcity[testStarted name='T10667/normal']
+##teamcity[testIgnored name='T10667/hpc' message='Test skipped']
+##teamcity[testIgnored name='T10667/optasm' message='Test skipped']
+##teamcity[testStarted name='T12115/normal']
+##teamcity[testIgnored name='T12115/hpc' message='Test skipped']
+##teamcity[testIgnored name='T12115/optasm' message='Test skipped']
+##teamcity[testStarted name='T12355/normal']
+##teamcity[testIgnored name='T12355/hpc' message='Test skipped']
+##teamcity[testIgnored name='T12355/optasm' message='Test skipped']
+##teamcity[testIgnored name='T8131/normal' message='Test skipped']
+##teamcity[testStarted name='T13233/normal']
+##teamcity[testIgnored name='memcpy/normal' message='Test skipped']
+##teamcity[testIgnored name='memcpy-unroll/normal' message='Test skipped']
+##teamcity[testIgnored name='memcpy-unroll-conprop/normal' message='Test skipped']
+##teamcity[testIgnored name='memset-unroll/normal' message='Test skipped']
+##teamcity[testStarted name='cgrun001/normal']
+##teamcity[testStarted name='cgrun001/g1']
+##teamcity[testStarted name='cgrun002/normal']
+##teamcity[testIgnored name='CallArity1/hpc' message='Test skipped']
+##teamcity[testIgnored name='CallArity1/optasm' message='Test skipped']
+##teamcity[testIgnored name='CallArity1/threaded2' message='Test skipped']
+##teamcity[testIgnored name='CallArity1/ghci' message='Test skipped']
+##teamcity[testIgnored name='CallArity1/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun003/normal']
+##teamcity[testIgnored name='cgrun001/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun001/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun001/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun001/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun001/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun004/normal']
+##teamcity[testStarted name='cgrun002/g1']
+##teamcity[testStarted name='cgrun003/g1']
+##teamcity[testStarted name='cgrun004/g1']
+##teamcity[testIgnored name='cgrun002/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun002/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun002/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun002/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun002/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun005/normal']
+##teamcity[testIgnored name='cgrun003/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun003/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun003/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun003/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun003/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun006/normal']
+##teamcity[testIgnored name='cgrun004/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun004/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun004/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun004/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun004/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun007/normal']
+##teamcity[testStarted name='cgrun005/g1']
+##teamcity[testStarted name='cgrun006/g1']
+##teamcity[testStarted name='cgrun007/g1']
+##teamcity[testIgnored name='cgrun005/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun005/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun005/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun005/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun005/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun008/normal']
+##teamcity[testIgnored name='cgrun006/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun006/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun006/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun006/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun006/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun009/normal']
+##teamcity[testIgnored name='cgrun007/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun007/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun007/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun007/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun007/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun010/normal']
+##teamcity[testStarted name='cgrun008/g1']
+##teamcity[testStarted name='cgrun009/g1']
+##teamcity[testStarted name='cgrun010/g1']
+##teamcity[testIgnored name='cgrun009/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun009/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun009/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun009/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun009/threaded1' message='Test skipped']
+##teamcity[testIgnored name='cgrun008/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun008/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun008/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun008/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun008/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun011/normal']
+##teamcity[testStarted name='cgrun012/normal']
+##teamcity[testIgnored name='cgrun010/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun010/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun010/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun010/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun010/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun013/normal']
+##teamcity[testStarted name='cgrun011/g1']
+##teamcity[testStarted name='cgrun012/g1']
+##teamcity[testStarted name='cgrun013/g1']
+##teamcity[testIgnored name='cgrun011/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun011/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun011/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun011/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun011/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun014/normal']
+##teamcity[testIgnored name='cgrun012/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun012/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun012/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun012/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun012/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun015/normal']
+##teamcity[testIgnored name='cgrun013/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun013/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun013/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun013/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun013/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun016/normal']
+##teamcity[testStarted name='cgrun015/g1']
+##teamcity[testStarted name='cgrun014/g1']
+##teamcity[testIgnored name='cgrun015/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun015/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun015/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun015/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun015/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun017/normal']
+##teamcity[testStarted name='cgrun016/g1']
+##teamcity[testIgnored name='cgrun014/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun014/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun014/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun014/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun014/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun018/normal']
+##teamcity[testStarted name='cgrun017/g1']
+##teamcity[testIgnored name='cgrun016/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun016/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun016/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun016/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun016/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun019/normal']
+##teamcity[testStarted name='cgrun018/g1']
+##teamcity[testIgnored name='cgrun017/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun017/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun017/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun017/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun017/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun020/normal']
+##teamcity[testStarted name='cgrun019/g1']
+##teamcity[testIgnored name='cgrun018/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun018/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun018/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun018/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun018/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun021/normal']
+##teamcity[testStarted name='cgrun020/g1']
+##teamcity[testIgnored name='cgrun019/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun019/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun019/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun019/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun019/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun022/normal']
+##teamcity[testStarted name='cgrun021/nursery_chunks']
+##teamcity[testIgnored name='cgrun020/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun020/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun020/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun020/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun020/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun024/normal']
+##teamcity[testStarted name='cgrun022/g1']
+##teamcity[testIgnored name='cgrun021/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun021/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun021/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun021/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun021/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun025/normal']
+##teamcity[testFinished name='cgrun025/normal']
+##teamcity[testStarted name='cgrun025/g1']
+##teamcity[testFinished name='cgrun025/g1']
+##teamcity[testIgnored name='cgrun025/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun025/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun025/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun025/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun025/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun026/normal']
+##teamcity[testStarted name='cgrun024/g1']
+##teamcity[testIgnored name='cgrun022/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun022/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun022/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun022/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun022/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun027/normal']
+##teamcity[testStarted name='cgrun026/g1']
+##teamcity[testIgnored name='cgrun024/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun024/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun024/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun024/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun024/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun028/normal']
+##teamcity[testIgnored name='cgrun026/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun026/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun026/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun026/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun026/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun031/normal']
+##teamcity[testStarted name='cgrun027/g1']
+##teamcity[testStarted name='cgrun028/g1']
+##teamcity[testStarted name='cgrun031/g1']
+##teamcity[testIgnored name='cgrun027/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun027/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun027/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun027/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun027/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun032/normal']
+##teamcity[testIgnored name='cgrun028/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun028/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun028/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun028/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun028/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun033/normal']
+##teamcity[testStarted name='cgrun032/g1']
+##teamcity[testIgnored name='cgrun031/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun031/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun031/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun031/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun031/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun034/normal']
+##teamcity[testStarted name='cgrun033/g1']
+##teamcity[testIgnored name='cgrun032/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun032/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun032/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun032/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun032/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun035/normal']
+##teamcity[testStarted name='cgrun034/g1']
+##teamcity[testIgnored name='cgrun033/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun033/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun033/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun033/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun033/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun036/normal']
+##teamcity[testStarted name='cgrun035/g1']
+##teamcity[testStarted name='cgrun036/g1']
+##teamcity[testIgnored name='cgrun034/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun034/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun034/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun034/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun034/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun037/normal']
+##teamcity[testIgnored name='cgrun035/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun035/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun035/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun035/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun035/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun038/normal']
+##teamcity[testIgnored name='cgrun036/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun036/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun036/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun036/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun036/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun039/normal']
+##teamcity[testStarted name='cgrun037/g1']
+##teamcity[testStarted name='cgrun038/g1']
+##teamcity[testStarted name='cgrun039/g1']
+##teamcity[testIgnored name='cgrun037/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun037/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun037/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun037/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun037/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun040/normal']
+##teamcity[testIgnored name='cgrun038/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun038/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun038/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun038/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun038/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun043/normal']
+##teamcity[testIgnored name='cgrun039/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun039/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun039/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun039/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun039/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun044/normal']
+##teamcity[testStarted name='cgrun040/g1']
+##teamcity[testStarted name='cgrun043/g1']
+##teamcity[testStarted name='cgrun044/g1']
+##teamcity[testIgnored name='cgrun040/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun040/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun040/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun040/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun040/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun045/normal']
+##teamcity[testIgnored name='cgrun043/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun043/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun043/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun043/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun043/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun046/normal']
+##teamcity[testIgnored name='cgrun044/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun044/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun044/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun044/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun044/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun047/normal']
+##teamcity[testStarted name='cgrun045/g1']
+##teamcity[testStarted name='cgrun046/g1']
+##teamcity[testStarted name='cgrun047/g1']
+##teamcity[testIgnored name='cgrun045/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun045/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun045/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun045/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun045/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun048/normal']
+##teamcity[testIgnored name='cgrun046/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun046/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun046/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun046/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun046/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun049/normal']
+##teamcity[testIgnored name='cgrun047/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun047/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun047/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun047/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun047/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun050/normal']
+##teamcity[testStarted name='cgrun048/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun050.hs, cgrun050.o )
+Linking cgrun050.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun050/normal' message='*** unexpected failure for cgrun050(normal)']
+*** unexpected failure for cgrun050(normal)
+##teamcity[testStarted name='cgrun050/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun048.hs, cgrun048.o )
+Linking cgrun048.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun048/g1' message='*** unexpected failure for cgrun048(g1)']
+*** unexpected failure for cgrun048(g1)
+##teamcity[testIgnored name='cgrun048/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun048/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun048/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun048/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun048/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun051/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun050.hs, cgrun050.o )
+Linking cgrun050.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun050/g1' message='*** unexpected failure for cgrun050(g1)']
+*** unexpected failure for cgrun050(g1)
+##teamcity[testIgnored name='cgrun050/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun050/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun050/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun050/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun050/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun052/optasm']
+##teamcity[testStarted name='cgrun049/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun052.hs, cgrun052.o )
+Linking cgrun052.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun052/optasm' message='*** unexpected failure for cgrun052(optasm)']
+*** unexpected failure for cgrun052(optasm)
+##teamcity[testIgnored name='cgrun052/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun052/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun052/g1' message='Test skipped']
+##teamcity[testIgnored name='cgrun052/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun052/threaded1' message='Test skipped']
+##teamcity[testIgnored name='cgrun052/normal' message='Test skipped']
+##teamcity[testStarted name='cgrun053/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun049.hs, cgrun049.o )
+Linking cgrun049.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun049/g1' message='*** unexpected failure for cgrun049(g1)']
+*** unexpected failure for cgrun049(g1)
+##teamcity[testIgnored name='cgrun049/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun049/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun049/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun049/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun049/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun054/normal']
+##teamcity[testStarted name='cgrun051/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun054.hs, cgrun054.o )
+Linking cgrun054.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun054/normal' message='*** unexpected failure for cgrun054(normal)']
+*** unexpected failure for cgrun054(normal)
+##teamcity[testStarted name='cgrun054/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun051.hs, cgrun051.o )
+Linking cgrun051.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun051/g1' message='*** unexpected failure for cgrun051(g1)']
+*** unexpected failure for cgrun051(g1)
+##teamcity[testIgnored name='cgrun051/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun051/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun051/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun051/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun051/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun055/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun054.hs, cgrun054.o )
+Linking cgrun054.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun054/g1' message='*** unexpected failure for cgrun054(g1)']
+*** unexpected failure for cgrun054(g1)
+##teamcity[testIgnored name='cgrun054/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun054/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun054/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun054/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun054/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun056/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun055.hs, cgrun055.o )
+Linking cgrun055.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun055/normal' message='*** unexpected failure for cgrun055(normal)']
+*** unexpected failure for cgrun055(normal)
+##teamcity[testStarted name='cgrun055/g1']
+##teamcity[testStarted name='cgrun053/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun055.hs, cgrun055.o )
+Linking cgrun055.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun055/g1' message='*** unexpected failure for cgrun055(g1)']
+*** unexpected failure for cgrun055(g1)
+##teamcity[testIgnored name='cgrun055/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun055/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun055/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun055/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun055/threaded1' message='Test skipped']
+##teamcity[testIgnored name='cgrun057/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun057/g1' message='Test skipped']
+##teamcity[testIgnored name='cgrun057/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun057/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun057/threaded1' message='Test skipped']
+##teamcity[testIgnored name='cgrun057/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun057/normal' message='Test skipped']
+##teamcity[testStarted name='cgrun058/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun053.hs, cgrun053.o )
+Linking cgrun053.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun053/g1' message='*** unexpected failure for cgrun053(g1)']
+*** unexpected failure for cgrun053(g1)
+##teamcity[testIgnored name='cgrun053/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun053/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun053/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun053/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun053/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun059/normal']
+##teamcity[testStarted name='cgrun056/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun059.hs, cgrun059.o )
+Linking cgrun059.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun059/normal' message='*** unexpected failure for cgrun059(normal)']
+*** unexpected failure for cgrun059(normal)
+##teamcity[testStarted name='cgrun059/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun056.hs, cgrun056.o )
+Linking cgrun056.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun056/g1' message='*** unexpected failure for cgrun056(g1)']
+*** unexpected failure for cgrun056(g1)
+##teamcity[testIgnored name='cgrun056/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun056/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun056/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun056/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun056/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun060/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun059.hs, cgrun059.o )
+Linking cgrun059.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun059/g1' message='*** unexpected failure for cgrun059(g1)']
+*** unexpected failure for cgrun059(g1)
+##teamcity[testIgnored name='cgrun059/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun059/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun059/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun059/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun059/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun061/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun060.hs, cgrun060.o )
+Linking cgrun060.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun060/normal' message='*** unexpected failure for cgrun060(normal)']
+*** unexpected failure for cgrun060(normal)
+##teamcity[testStarted name='cgrun060/g1']
+##teamcity[testStarted name='cgrun058/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun060.hs, cgrun060.o )
+Linking cgrun060.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun060/g1' message='*** unexpected failure for cgrun060(g1)']
+*** unexpected failure for cgrun060(g1)
+##teamcity[testIgnored name='cgrun060/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun060/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun060/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun060/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun060/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun062/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun058.hs, cgrun058.o )
+Linking cgrun058.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun058/g1' message='*** unexpected failure for cgrun058(g1)']
+*** unexpected failure for cgrun058(g1)
+##teamcity[testIgnored name='cgrun058/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun058/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun058/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun058/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun058/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun063/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun061.hs, cgrun061.o )
+Linking cgrun061.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun061/normal' message='*** unexpected failure for cgrun061(normal)']
+*** unexpected failure for cgrun061(normal)
+##teamcity[testStarted name='cgrun061/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun063.hs, cgrun063.o )
+Linking cgrun063.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun063/normal' message='*** unexpected failure for cgrun063(normal)']
+*** unexpected failure for cgrun063(normal)
+##teamcity[testStarted name='cgrun063/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun061.hs, cgrun061.o )
+Linking cgrun061.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun061/g1' message='*** unexpected failure for cgrun061(g1)']
+*** unexpected failure for cgrun061(g1)
+##teamcity[testIgnored name='cgrun061/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun061/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun061/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun061/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun061/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun064/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun063.hs, cgrun063.o )
+Linking cgrun063.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun063/g1' message='*** unexpected failure for cgrun063(g1)']
+*** unexpected failure for cgrun063(g1)
+##teamcity[testIgnored name='cgrun063/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun063/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun063/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun063/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun063/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun065/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun062.hs, cgrun062.o )
+Linking cgrun062.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun062/normal' message='*** unexpected failure for cgrun062(normal)']
+*** unexpected failure for cgrun062(normal)
+##teamcity[testStarted name='cgrun062/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun065.hs, cgrun065.o )
+Linking cgrun065.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun065/normal' message='*** unexpected failure for cgrun065(normal)']
+*** unexpected failure for cgrun065(normal)
+##teamcity[testStarted name='cgrun065/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun062.hs, cgrun062.o )
+Linking cgrun062.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun062/g1' message='*** unexpected failure for cgrun062(g1)']
+*** unexpected failure for cgrun062(g1)
+##teamcity[testIgnored name='cgrun062/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun062/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun062/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun062/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun062/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun066/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun066.hs, cgrun066.o )
+Linking cgrun066.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun066/normal' message='*** unexpected failure for cgrun066(normal)']
+*** unexpected failure for cgrun066(normal)
+##teamcity[testStarted name='cgrun066/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun065.hs, cgrun065.o )
+Linking cgrun065.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun065/g1' message='*** unexpected failure for cgrun065(g1)']
+*** unexpected failure for cgrun065(g1)
+##teamcity[testIgnored name='cgrun065/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun065/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun065/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun065/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun065/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun067/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun064.hs, cgrun064.o )
+Linking cgrun064.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun064/normal' message='*** unexpected failure for cgrun064(normal)']
+*** unexpected failure for cgrun064(normal)
+##teamcity[testStarted name='cgrun064/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun066.hs, cgrun066.o )
+Linking cgrun066.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun066/g1' message='*** unexpected failure for cgrun066(g1)']
+*** unexpected failure for cgrun066(g1)
+##teamcity[testIgnored name='cgrun066/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun066/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun066/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun066/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun066/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun068/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun064.hs, cgrun064.o )
+Linking cgrun064.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun064/g1' message='*** unexpected failure for cgrun064(g1)']
+*** unexpected failure for cgrun064(g1)
+##teamcity[testIgnored name='cgrun064/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun064/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun064/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun064/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun064/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun069/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun069.hs, cgrun069.o )
+Linking cgrun069.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun069/normal' message='*** unexpected failure for cgrun069(normal)']
+*** unexpected failure for cgrun069(normal)
+##teamcity[testStarted name='cgrun069/g1']
+Compile failed (exit code 1) errors were:
+[1 of 2] Compiling Cgrun067A        ( Cgrun067A.hs, Cgrun067A.o )
+[2 of 2] Compiling Main             ( cgrun067.hs, cgrun067.o )
+Linking cgrun067.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun067/normal' message='*** unexpected failure for cgrun067(normal)']
+*** unexpected failure for cgrun067(normal)
+##teamcity[testStarted name='cgrun067/g1']
+Compile failed (exit code 1) errors were:
+[1 of 2] Compiling Cgrun067A        ( Cgrun067A.hs, Cgrun067A.o )
+[2 of 2] Compiling Main             ( cgrun067.hs, cgrun067.o )
+Linking cgrun067.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun067/g1' message='*** unexpected failure for cgrun067(g1)']
+*** unexpected failure for cgrun067(g1)
+##teamcity[testIgnored name='cgrun067/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun067/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun067/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun067/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun067/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun070/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun069.hs, cgrun069.o )
+Linking cgrun069.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun069/g1' message='*** unexpected failure for cgrun069(g1)']
+*** unexpected failure for cgrun069(g1)
+##teamcity[testStarted name='cgrun071/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun071.hs, cgrun071.o )
+
+cgrun071.hs:42:24: warning: [-Wdeprecations (in -Wdefault)]
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+Linking cgrun071.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun071/normal' message='*** unexpected failure for cgrun071(normal)']
+*** unexpected failure for cgrun071(normal)
+##teamcity[testStarted name='cgrun071/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun070.hs, cgrun070.o )
+Linking cgrun070.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun070/normal' message='*** unexpected failure for cgrun070(normal)']
+*** unexpected failure for cgrun070(normal)
+##teamcity[testStarted name='cgrun070/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun068.hs, cgrun068.o )
+Linking cgrun068.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun068/normal' message='*** unexpected failure for cgrun068(normal)']
+*** unexpected failure for cgrun068(normal)
+##teamcity[testStarted name='cgrun068/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun070.hs, cgrun070.o )
+Linking cgrun070.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun070/g1' message='*** unexpected failure for cgrun070(g1)']
+*** unexpected failure for cgrun070(g1)
+##teamcity[testIgnored name='cgrun070/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun070/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun070/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun070/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun070/threaded1' message='Test skipped']
+##teamcity[testStarted name='cgrun072/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun071.hs, cgrun071.o )
+
+cgrun071.hs:42:24: warning: [-Wdeprecations (in -Wdefault)]
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+Linking cgrun071.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun071/g1' message='*** unexpected failure for cgrun071(g1)']
+*** unexpected failure for cgrun071(g1)
+##teamcity[testIgnored name='cgrun071/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun071/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun071/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun071/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun071/threaded1' message='Test skipped']
+##teamcity[testStarted name='T1852/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun072.hs, cgrun072.o )
+Linking cgrun072.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun072/normal' message='*** unexpected failure for cgrun072(normal)']
+*** unexpected failure for cgrun072(normal)
+##teamcity[testStarted name='cgrun072/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T1852.hs, T1852.o )
+Linking T1852.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T1852/normal' message='*** unexpected failure for T1852(normal)']
+*** unexpected failure for T1852(normal)
+##teamcity[testStarted name='T1852/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun072.hs, cgrun072.o )
+Linking cgrun072.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun072/g1' message='*** unexpected failure for cgrun072(g1)']
+*** unexpected failure for cgrun072(g1)
+##teamcity[testIgnored name='cgrun072/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun072/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun072/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun072/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun072/threaded1' message='Test skipped']
+##teamcity[testStarted name='T1861/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T1852.hs, T1852.o )
+Linking T1852.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T1852/g1' message='*** unexpected failure for T1852(g1)']
+*** unexpected failure for T1852(g1)
+##teamcity[testIgnored name='T1852/hpc' message='Test skipped']
+##teamcity[testIgnored name='T1852/optasm' message='Test skipped']
+##teamcity[testIgnored name='T1852/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T1852/ghci' message='Test skipped']
+##teamcity[testIgnored name='T1852/threaded1' message='Test skipped']
+##teamcity[testStarted name='T2080/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T1861.hs, T1861.o )
+Linking T1861.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T1861/normal' message='*** unexpected failure for T1861(normal)']
+*** unexpected failure for T1861(normal)
+##teamcity[testStarted name='T1861/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T2080.hs, T2080.o )
+Linking T2080.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T2080/normal' message='*** unexpected failure for T2080(normal)']
+*** unexpected failure for T2080(normal)
+##teamcity[testStarted name='T2080/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( cgrun068.hs, cgrun068.o )
+Linking cgrun068.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='cgrun068/g1' message='*** unexpected failure for cgrun068(g1)']
+*** unexpected failure for cgrun068(g1)
+##teamcity[testIgnored name='cgrun068/hpc' message='Test skipped']
+##teamcity[testIgnored name='cgrun068/optasm' message='Test skipped']
+##teamcity[testIgnored name='cgrun068/threaded2' message='Test skipped']
+##teamcity[testIgnored name='cgrun068/ghci' message='Test skipped']
+##teamcity[testIgnored name='cgrun068/threaded1' message='Test skipped']
+##teamcity[testStarted name='T2838/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T1861.hs, T1861.o )
+Linking T1861.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T1861/g1' message='*** unexpected failure for T1861(g1)']
+*** unexpected failure for T1861(g1)
+##teamcity[testIgnored name='T1861/hpc' message='Test skipped']
+##teamcity[testIgnored name='T1861/optasm' message='Test skipped']
+##teamcity[testIgnored name='T1861/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T1861/ghci' message='Test skipped']
+##teamcity[testIgnored name='T1861/threaded1' message='Test skipped']
+##teamcity[testStarted name='T3207/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T2080.hs, T2080.o )
+Linking T2080.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T2080/g1' message='*** unexpected failure for T2080(g1)']
+*** unexpected failure for T2080(g1)
+##teamcity[testIgnored name='T2080/hpc' message='Test skipped']
+##teamcity[testIgnored name='T2080/optasm' message='Test skipped']
+##teamcity[testIgnored name='T2080/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T2080/ghci' message='Test skipped']
+##teamcity[testIgnored name='T2080/threaded1' message='Test skipped']
+##teamcity[testStarted name='T3561/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T3207.hs, T3207.o )
+Linking T3207.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T3207/normal' message='*** unexpected failure for T3207(normal)']
+*** unexpected failure for T3207(normal)
+##teamcity[testStarted name='T3207/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T2838.hs, T2838.o )
+Linking T2838.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T2838/normal' message='*** unexpected failure for T2838(normal)']
+*** unexpected failure for T2838(normal)
+##teamcity[testStarted name='T2838/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T2838.hs, T2838.o )
+Linking T2838.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T2838/g1' message='*** unexpected failure for T2838(g1)']
+*** unexpected failure for T2838(g1)
+##teamcity[testIgnored name='T2838/hpc' message='Test skipped']
+##teamcity[testIgnored name='T2838/optasm' message='Test skipped']
+##teamcity[testIgnored name='T2838/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T2838/ghci' message='Test skipped']
+##teamcity[testIgnored name='T2838/threaded1' message='Test skipped']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T3207.hs, T3207.o )
+Linking T3207.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T3207/g1' message='*** unexpected failure for T3207(g1)']
+*** unexpected failure for T3207(g1)
+##teamcity[testIgnored name='T3207/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3207/optasm' message='Test skipped']
+##teamcity[testIgnored name='T3207/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T3207/ghci' message='Test skipped']
+##teamcity[testIgnored name='T3207/threaded1' message='Test skipped']
+##teamcity[testStarted name='T3677/normal']
+##teamcity[testStarted name='T4441/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T3561.hs, T3561.o )
+Linking T3561.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T3561/normal' message='*** unexpected failure for T3561(normal)']
+*** unexpected failure for T3561(normal)
+##teamcity[testStarted name='T3561/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T4441.hs, T4441.o )
+Linking T4441.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T4441/normal' message='*** unexpected failure for T4441(normal)']
+*** unexpected failure for T4441(normal)
+##teamcity[testStarted name='T4441/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T3561.hs, T3561.o )
+Linking T3561.exe ...
+C:\TeamCity\buildAgent\temp\buildTmp\ghc13224_0\ghc_9.rsp: openFile: resource exhausted (No space left on device)
+
+##teamcity[testFailed name='T3561/g1' message='*** unexpected failure for T3561(g1)']
+*** unexpected failure for T3561(g1)
+##teamcity[testIgnored name='T3561/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3561/optasm' message='Test skipped']
+##teamcity[testIgnored name='T3561/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T3561/ghci' message='Test skipped']
+##teamcity[testIgnored name='T3561/threaded1' message='Test skipped']
+##teamcity[testStarted name='T5149/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T3677.hs, T3677.o )
+Linking T3677.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T3677/normal' message='*** unexpected failure for T3677(normal)']
+*** unexpected failure for T3677(normal)
+##teamcity[testStarted name='T3677/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T4441.hs, T4441.o )
+Linking T4441.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T4441/g1' message='*** unexpected failure for T4441(g1)']
+*** unexpected failure for T4441(g1)
+##teamcity[testIgnored name='T4441/hpc' message='Test skipped']
+##teamcity[testIgnored name='T4441/optasm' message='Test skipped']
+##teamcity[testIgnored name='T4441/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T4441/ghci' message='Test skipped']
+##teamcity[testIgnored name='T4441/threaded1' message='Test skipped']
+##teamcity[testStarted name='T5129/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T3677.hs, T3677.o )
+Linking T3677.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T3677/g1' message='*** unexpected failure for T3677(g1)']
+*** unexpected failure for T3677(g1)
+##teamcity[testIgnored name='T3677/hpc' message='Test skipped']
+##teamcity[testIgnored name='T3677/optasm' message='Test skipped']
+##teamcity[testIgnored name='T3677/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T3677/ghci' message='Test skipped']
+##teamcity[testIgnored name='T3677/threaded1' message='Test skipped']
+##teamcity[testStarted name='T5626/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5149.hs, T5149.o )
+Linking T5149.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5149/normal' message='*** unexpected failure for T5149(normal)']
+*** unexpected failure for T5149(normal)
+##teamcity[testStarted name='T5149/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5626.hs, T5626.o )
+Linking T5626.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5626/normal' message='*** unexpected failure for T5626(normal)']
+*** unexpected failure for T5626(normal)
+##teamcity[testStarted name='T5626/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5129.hs, T5129.o )
+Linking T5129.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5129/normal' message='*** unexpected failure for T5129(normal)']
+*** unexpected failure for T5129(normal)
+##teamcity[testStarted name='T5129/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5149.hs, T5149.o )
+Linking T5149.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5149/g1' message='*** unexpected failure for T5149(g1)']
+*** unexpected failure for T5149(g1)
+##teamcity[testStarted name='T5747/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5626.hs, T5626.o )
+Linking T5626.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5626/g1' message='*** unexpected failure for T5626(g1)']
+*** unexpected failure for T5626(g1)
+##teamcity[testIgnored name='T5626/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5626/optasm' message='Test skipped']
+##teamcity[testIgnored name='T5626/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T5626/ghci' message='Test skipped']
+##teamcity[testIgnored name='T5626/threaded1' message='Test skipped']
+##teamcity[testStarted name='T5785/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5129.hs, T5129.o )
+Linking T5129.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5129/g1' message='*** unexpected failure for T5129(g1)']
+*** unexpected failure for T5129(g1)
+##teamcity[testIgnored name='T5129/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5129/optasm' message='Test skipped']
+##teamcity[testIgnored name='T5129/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T5129/ghci' message='Test skipped']
+##teamcity[testIgnored name='T5129/threaded1' message='Test skipped']
+##teamcity[testStarted name='setByteArray/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5785.hs, T5785.o )
+
+T5785.hs:12:13: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal -1 is out of the Word8 range 0..255
+
+T5785.hs:13:13: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal -1 is out of the Word16 range 0..65535
+
+T5785.hs:14:13: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal -1 is out of the Word32 range 0..4294967295
+
+T5785.hs:15:13: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal -1 is out of the Word64 range 0..18446744073709551615
+
+T5785.hs:22:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Word8 range 0..255
+
+T5785.hs:23:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Word16 range 0..65535
+
+T5785.hs:26:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Int8 range -128..127
+
+T5785.hs:27:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Int16 range -32768..32767
+
+T5785.hs:28:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Int32 range -2147483648..2147483647
+
+T5785.hs:32:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Word8 range 0..255
+
+T5785.hs:33:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Word16 range 0..65535
+
+T5785.hs:34:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Word32 range 0..4294967295
+
+T5785.hs:36:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Int8 range -128..127
+
+T5785.hs:37:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Int16 range -32768..32767
+
+T5785.hs:38:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Int32 range -2147483648..2147483647
+Linking T5785.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5785/normal' message='*** unexpected failure for T5785(normal)']
+*** unexpected failure for T5785(normal)
+##teamcity[testStarted name='T5785/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5747.hs, T5747.o )
+Linking T5747.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5747/normal' message='*** unexpected failure for T5747(normal)']
+*** unexpected failure for T5747(normal)
+##teamcity[testStarted name='T5747/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( setByteArray.hs, setByteArray.o )
+Linking setByteArray.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='setByteArray/normal' message='*** unexpected failure for setByteArray(normal)']
+*** unexpected failure for setByteArray(normal)
+##teamcity[testStarted name='setByteArray/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5747.hs, T5747.o )
+Linking T5747.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5747/g1' message='*** unexpected failure for T5747(g1)']
+*** unexpected failure for T5747(g1)
+##teamcity[testIgnored name='T5747/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5747/optasm' message='Test skipped']
+##teamcity[testIgnored name='T5747/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T5747/ghci' message='Test skipped']
+##teamcity[testIgnored name='T5747/threaded1' message='Test skipped']
+##teamcity[testStarted name='compareByteArrays/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( setByteArray.hs, setByteArray.o )
+Linking setByteArray.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='setByteArray/g1' message='*** unexpected failure for setByteArray(g1)']
+*** unexpected failure for setByteArray(g1)
+##teamcity[testIgnored name='setByteArray/hpc' message='Test skipped']
+##teamcity[testIgnored name='setByteArray/optasm' message='Test skipped']
+##teamcity[testIgnored name='setByteArray/threaded2' message='Test skipped']
+##teamcity[testIgnored name='setByteArray/ghci' message='Test skipped']
+##teamcity[testIgnored name='setByteArray/threaded1' message='Test skipped']
+##teamcity[testStarted name='T6146/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T6146.hs, T6146.o )
+Linking T6146.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T6146/normal' message='*** unexpected failure for T6146(normal)']
+*** unexpected failure for T6146(normal)
+##teamcity[testStarted name='T6146/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( compareByteArrays.hs, compareByteArrays.o )
+Linking compareByteArrays.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='compareByteArrays/normal' message='*** unexpected failure for compareByteArrays(normal)']
+*** unexpected failure for compareByteArrays(normal)
+##teamcity[testStarted name='compareByteArrays/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5785.hs, T5785.o )
+
+T5785.hs:12:13: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal -1 is out of the Word8 range 0..255
+
+T5785.hs:13:13: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal -1 is out of the Word16 range 0..65535
+
+T5785.hs:14:13: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal -1 is out of the Word32 range 0..4294967295
+
+T5785.hs:15:13: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal -1 is out of the Word64 range 0..18446744073709551615
+
+T5785.hs:22:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Word8 range 0..255
+
+T5785.hs:23:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Word16 range 0..65535
+
+T5785.hs:26:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Int8 range -128..127
+
+T5785.hs:27:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Int16 range -32768..32767
+
+T5785.hs:28:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 2316287658 is out of the Int32 range -2147483648..2147483647
+
+T5785.hs:32:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Word8 range 0..255
+
+T5785.hs:33:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Word16 range 0..65535
+
+T5785.hs:34:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Word32 range 0..4294967295
+
+T5785.hs:36:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Int8 range -128..127
+
+T5785.hs:37:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Int16 range -32768..32767
+
+T5785.hs:38:12: warning: [-Woverflowed-literals (in -Wdefault)]
+    Literal 32342316287658 is out of the Int32 range -2147483648..2147483647
+Linking T5785.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5785/g1' message='*** unexpected failure for T5785(g1)']
+*** unexpected failure for T5785(g1)
+##teamcity[testIgnored name='T5785/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5785/optasm' message='Test skipped']
+##teamcity[testIgnored name='T5785/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T5785/ghci' message='Test skipped']
+##teamcity[testIgnored name='T5785/threaded1' message='Test skipped']
+##teamcity[testStarted name='T5900/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T6146.hs, T6146.o )
+Linking T6146.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T6146/g1' message='*** unexpected failure for T6146(g1)']
+*** unexpected failure for T6146(g1)
+##teamcity[testIgnored name='T6146/hpc' message='Test skipped']
+##teamcity[testIgnored name='T6146/optasm' message='Test skipped']
+##teamcity[testIgnored name='T6146/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T6146/ghci' message='Test skipped']
+##teamcity[testIgnored name='T6146/threaded1' message='Test skipped']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( compareByteArrays.hs, compareByteArrays.o )
+Linking compareByteArrays.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='compareByteArrays/g1' message='*** unexpected failure for compareByteArrays(g1)']
+*** unexpected failure for compareByteArrays(g1)
+##teamcity[testIgnored name='compareByteArrays/hpc' message='Test skipped']
+##teamcity[testIgnored name='compareByteArrays/optasm' message='Test skipped']
+##teamcity[testIgnored name='compareByteArrays/threaded2' message='Test skipped']
+##teamcity[testIgnored name='compareByteArrays/ghci' message='Test skipped']
+##teamcity[testIgnored name='compareByteArrays/threaded1' message='Test skipped']
+##teamcity[testStarted name='T7163/normal']
+##teamcity[testStarted name='T7319/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T7163.hs, T7163.o )
+Linking T7163.exe ...
+C:\TeamCity\buildAgent\temp\buildTmp\ghc6048_0\ghc_9.rsp: hClose: resource exhausted (No space left on device)
+
+##teamcity[testFailed name='T7163/normal' message='*** unexpected failure for T7163(normal)']
+*** unexpected failure for T7163(normal)
+##teamcity[testStarted name='T7163/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5900.hs, T5900.o )
+Linking T5900.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5900/normal' message='*** unexpected failure for T5900(normal)']
+*** unexpected failure for T5900(normal)
+##teamcity[testStarted name='T5900/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T7163.hs, T7163.o )
+Linking T7163.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T7163/g1' message='*** unexpected failure for T7163(g1)']
+*** unexpected failure for T7163(g1)
+##teamcity[testIgnored name='T7163/hpc' message='Test skipped']
+##teamcity[testIgnored name='T7163/optasm' message='Test skipped']
+##teamcity[testIgnored name='T7163/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T7163/ghci' message='Test skipped']
+##teamcity[testIgnored name='T7163/threaded1' message='Test skipped']
+##teamcity[testIgnored name='Word2Float32/hpc' message='Test skipped']
+##teamcity[testIgnored name='Word2Float32/g1' message='Test skipped']
+##teamcity[testIgnored name='Word2Float32/threaded2' message='Test skipped']
+##teamcity[testIgnored name='Word2Float32/ghci' message='Test skipped']
+##teamcity[testIgnored name='Word2Float32/threaded1' message='Test skipped']
+##teamcity[testIgnored name='Word2Float32/optasm' message='Test skipped']
+##teamcity[testIgnored name='Word2Float32/normal' message='Test skipped']
+##teamcity[testStarted name='Word2Float64/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T5900.hs, T5900.o )
+Linking T5900.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T5900/g1' message='*** unexpected failure for T5900(g1)']
+*** unexpected failure for T5900(g1)
+##teamcity[testIgnored name='T5900/hpc' message='Test skipped']
+##teamcity[testIgnored name='T5900/optasm' message='Test skipped']
+##teamcity[testIgnored name='T5900/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T5900/ghci' message='Test skipped']
+##teamcity[testIgnored name='T5900/threaded1' message='Test skipped']
+##teamcity[testStarted name='T7361/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T7361.hs, T7361.o )
+Linking T7361.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T7361/normal' message='*** unexpected failure for T7361(normal)']
+*** unexpected failure for T7361(normal)
+##teamcity[testStarted name='T7361/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( Word2Float64.hs, Word2Float64.o )
+Linking Word2Float64.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='Word2Float64/normal' message='*** unexpected failure for Word2Float64(normal)']
+*** unexpected failure for Word2Float64(normal)
+##teamcity[testStarted name='Word2Float64/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T7319.hs, T7319.o )
+Linking T7319.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T7319/normal' message='*** unexpected failure for T7319(normal)']
+*** unexpected failure for T7319(normal)
+##teamcity[testStarted name='T7319/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( Word2Float64.hs, Word2Float64.o )
+Linking Word2Float64.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='Word2Float64/g1' message='*** unexpected failure for Word2Float64(g1)']
+*** unexpected failure for Word2Float64(g1)
+##teamcity[testIgnored name='Word2Float64/hpc' message='Test skipped']
+##teamcity[testIgnored name='Word2Float64/optasm' message='Test skipped']
+##teamcity[testIgnored name='Word2Float64/threaded2' message='Test skipped']
+##teamcity[testIgnored name='Word2Float64/ghci' message='Test skipped']
+##teamcity[testIgnored name='Word2Float64/threaded1' message='Test skipped']
+##teamcity[testStarted name='T7600/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T7319.hs, T7319.o )
+Linking T7319.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T7319/g1' message='*** unexpected failure for T7319(g1)']
+*** unexpected failure for T7319(g1)
+##teamcity[testIgnored name='T7319/hpc' message='Test skipped']
+##teamcity[testIgnored name='T7319/optasm' message='Test skipped']
+##teamcity[testIgnored name='T7319/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T7319/ghci' message='Test skipped']
+##teamcity[testIgnored name='T7319/threaded1' message='Test skipped']
+##teamcity[testStarted name='T8103/normal']
+Compile failed (exit code 1) errors were:
+[1 of 2] Compiling T7600_A          ( T7600_A.hs, T7600_A.o )
+[2 of 2] Compiling Main             ( T7600.hs, T7600.o )
+Linking T7600.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T7600/normal' message='*** unexpected failure for T7600(normal)']
+*** unexpected failure for T7600(normal)
+##teamcity[testStarted name='T7600/g1']
+Compile failed (exit code 1) errors were:
+[1 of 2] Compiling T8103_A          ( T8103_A.hs, T8103_A.o )
+[2 of 2] Compiling Main             ( T8103.hs, T8103.o )
+Linking T8103.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T8103/normal' message='*** unexpected failure for T8103(normal)']
+*** unexpected failure for T8103(normal)
+##teamcity[testIgnored name='T8103/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T8103/hpc' message='Test skipped']
+##teamcity[testIgnored name='T8103/g1' message='Test skipped']
+##teamcity[testIgnored name='T8103/ghci' message='Test skipped']
+##teamcity[testIgnored name='T8103/threaded1' message='Test skipped']
+##teamcity[testIgnored name='T8103/optasm' message='Test skipped']
+##teamcity[testStarted name='T7953/normal']
+Compile failed (exit code 1) errors were:
+[1 of 2] Compiling T7600_A          ( T7600_A.hs, T7600_A.o )
+[2 of 2] Compiling Main             ( T7600.hs, T7600.o )
+Linking T7600.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T7600/g1' message='*** unexpected failure for T7600(g1)']
+*** unexpected failure for T7600(g1)
+##teamcity[testIgnored name='T7600/hpc' message='Test skipped']
+##teamcity[testIgnored name='T7600/optasm' message='Test skipped']
+##teamcity[testIgnored name='T7600/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T7600/ghci' message='Test skipped']
+##teamcity[testIgnored name='T7600/threaded1' message='Test skipped']
+##teamcity[testStarted name='T8256/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T7361.hs, T7361.o )
+Linking T7361.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T7361/g1' message='*** unexpected failure for T7361(g1)']
+*** unexpected failure for T7361(g1)
+##teamcity[testIgnored name='T7361/hpc' message='Test skipped']
+##teamcity[testIgnored name='T7361/optasm' message='Test skipped']
+##teamcity[testIgnored name='T7361/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T7361/ghci' message='Test skipped']
+##teamcity[testIgnored name='T7361/threaded1' message='Test skipped']
+##teamcity[testStarted name='T6084/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T8256.hs, T8256.o )
+Linking T8256.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T8256/normal' message='*** unexpected failure for T8256(normal)']
+*** unexpected failure for T8256(normal)
+##teamcity[testStarted name='T8256/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T6084.hs, T6084.o )
+Linking T6084.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T6084/normal' message='*** unexpected failure for T6084(normal)']
+*** unexpected failure for T6084(normal)
+##teamcity[testStarted name='T6084/g1']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T8256.hs, T8256.o )
+Linking T8256.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T8256/g1' message='*** unexpected failure for T8256(g1)']
+*** unexpected failure for T8256(g1)
+##teamcity[testIgnored name='T8256/hpc' message='Test skipped']
+##teamcity[testIgnored name='T8256/optasm' message='Test skipped']
+##teamcity[testIgnored name='T8256/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T8256/ghci' message='Test skipped']
+##teamcity[testIgnored name='T8256/threaded1' message='Test skipped']
+##teamcity[testStarted name='CgStaticPointers/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T6084.hs, T6084.o )
+Linking T6084.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed: No space left on device
+collect2.exe: error: ld returned 1 exit status
+`gcc.exe' failed in phase `Linker'. (Exit code: 1)
+
+##teamcity[testFailed name='T6084/g1' message='*** unexpected failure for T6084(g1)']
+*** unexpected failure for T6084(g1)
+##teamcity[testIgnored name='T6084/hpc' message='Test skipped']
+##teamcity[testIgnored name='T6084/optasm' message='Test skipped']
+##teamcity[testIgnored name='T6084/threaded2' message='Test skipped']
+##teamcity[testIgnored name='T6084/ghci' message='Test skipped']
+##teamcity[testIgnored name='T6084/threaded1' message='Test skipped']
+##teamcity[testStarted name='CgStaticPointersNoFullLazyness/normal']
+Compile failed (exit code 1) errors were:
+[1 of 1] Compiling Main             ( T7953.hs, T7953.o )
+Linking T7953.exe ...
+C://TeamCity//buildAgent//work//28754042a1be6052//bindisttest//install   dir//mingw//bin/ld.exe: final link failed

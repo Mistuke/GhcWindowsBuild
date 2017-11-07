@@ -1,0 +1,53 @@
+
+Unexpected results from:
+TEST="MultiLayerModules T10420 T10529a T10529b T10529c T12150 T12234 T13082_fail T13606 T13623 T14028 T14304 T229 T3994 T876 T9630 bkpcabal06 bkpcabal07 derefnull divbyzero ds027 haddock.base plugins07"
+
+SUMMARY for test run started at Tue Nov  7 02:20:00 2017 GMT
+ 1:50:20 spent to go through
+    6136 total tests, which gave rise to
+   17858 test cases, of which
+   11401 were skipped
+
+      37 had missing libraries
+    6229 expected passes
+     169 expected failures
+
+       1 caused framework failures
+       1 caused framework warnings
+       0 unexpected passes
+      15 unexpected failures
+       7 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./backpack/cabal/T14304/T14304.run                 T14304 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run         bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run         bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./ghci/linking/dyn/T13606.run                      T13606 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./plugins/plugins07.run                            plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./plugins/T10420.run                               T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./quasiquotation/T14028.run                        T14028 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./rts/derefnull.run                                derefnull [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./rts/divbyzero.run                                divbyzero [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./rts/T13082/T13082_fail.run                       T13082_fail [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/../../libraries/array/tests/T229.run               T229 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529a.run  T10529a [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529b.run  T10529b [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529c.run  T10529c [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/../../libraries/process/tests/T3994.run            T3994 [bad stderr] (threaded1)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./perf/compiler/T12234.run             T12234 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./perf/compiler/T12150.run             T12150 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./perf/compiler/T9630.run              T9630 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./perf/haddock/haddock.base.run        haddock.base [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./perf/compiler/MultiLayerModules.run  MultiLayerModules [stat not good enough] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./perf/should_run/T876.run             T876 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./perf/should_run/T13623.run           T13623 [stat too good] (normal)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./deSugar/should_compile/ds027.run  ds027 [runTest] (Unhandled exception during cleanup: Unable to remove folder '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./deSugar/should_compile/ds027.run': [Errno 13] Permission denied: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-vucnts5y/test   spaces/./deSugar/should_compile/ds027.run'
+Unable to start current test.)
+
+Framework warnings:
+   .  T13701 [numfield-no-expected] (No expected value found for bytes allocated in num_field check)
+

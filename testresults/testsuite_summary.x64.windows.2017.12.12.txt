@@ -1,0 +1,48 @@
+
+Unexpected results from:
+TEST="T10420 T10529a T10529b T10529c T12150 T12234 T13082_fail T13606 T13623 T14028 T14304 T229 T876 T9630 bkpcabal06 bkpcabal07 derefnull divbyzero hReady002 haddock.base plugins07"
+
+SUMMARY for test run started at Tue Dec 12 02:15:04 2017 GMT
+ 1:43:30 spent to go through
+    6159 total tests, which gave rise to
+   17903 test cases, of which
+   11422 were skipped
+
+      37 had missing libraries
+    6248 expected passes
+     175 expected failures
+
+       0 caused framework failures
+       1 caused framework warnings
+       0 unexpected passes
+      15 unexpected failures
+       6 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./backpack/cabal/T14304/T14304.run                 T14304 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run         bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run         bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./ghci/linking/dyn/T13606.run                      T13606 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./plugins/plugins07.run                            plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./plugins/T10420.run                               T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./quasiquotation/T14028.run                        T14028 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./rts/derefnull.run                                derefnull [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./rts/divbyzero.run                                divbyzero [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./rts/T13082/T13082_fail.run                       T13082_fail [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/../../libraries/array/tests/T229.run               T229 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/../../libraries/base/tests/IO/hReady002.run        hReady002 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529a.run  T10529a [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529b.run  T10529b [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/../../libraries/hpc/tests/simple/tixs/T10529c.run  T10529c [bad stderr] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./perf/compiler/T12234.run       T12234 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./perf/compiler/T12150.run       T12150 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./perf/compiler/T9630.run        T9630 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./perf/haddock/haddock.base.run  haddock.base [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./perf/should_run/T876.run       T876 [stat too good] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-3p4zcwzm/test   spaces/./perf/should_run/T13623.run     T13623 [stat too good] (normal)
+
+Framework warnings:
+   .  T13701 [numfield-no-expected] (No expected value found for bytes allocated in num_field check)
+

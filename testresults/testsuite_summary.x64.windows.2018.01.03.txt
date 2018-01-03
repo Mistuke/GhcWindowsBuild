@@ -1,0 +1,40 @@
+
+Unexpected results from:
+TEST="T10420 T12150 T12234 bkpcabal06 bkpcabal07 mod119 plugins07 records-no-uni-update2 tempfiles"
+
+SUMMARY for test run started at Wed Jan  3 02:35:40 2018 GMT
+ 2:01:34 spent to go through
+    6176 total tests, which gave rise to
+   17941 test cases, of which
+   11444 were skipped
+
+      37 had missing libraries
+    6279 expected passes
+     174 expected failures
+
+       2 caused framework failures
+       1 caused framework warnings
+       0 unexpected passes
+       5 unexpected failures
+       2 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run  bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run  bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./plugins/plugins07.run                     plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./plugins/T10420.run                        T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/../../libraries/base/tests/tempfiles.run    tempfiles [bad stdout] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./perf/compiler/T12234.run  T12234 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./perf/compiler/T12150.run  T12150 [stat not good enough] (optasm)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./module/mod119.run                              mod119 [runTest] (Unhandled exception during cleanup: Unable to remove folder '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./module/mod119.run': [Errno 13] Permission denied: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./module/mod119.run'
+Unable to start current test.)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./patsyn/should_fail/records-no-uni-update2.run  records-no-uni-update2 [runTest] (Unhandled exception during cleanup: Unable to remove folder '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./patsyn/should_fail/records-no-uni-update2.run': [Errno 13] Permission denied: '/c/TeamCity/buildAgent/temp/buildTmp/ghctest-0mx3nouf/test   spaces/./patsyn/should_fail/records-no-uni-update2.run'
+Unable to start current test.)
+
+Framework warnings:
+   .  T13701 [numfield-no-expected] (No expected value found for bytes allocated in num_field check)
+

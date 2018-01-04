@@ -1,0 +1,37 @@
+
+Unexpected results from:
+TEST="T10420 T12150 T12234 bkpcabal06 bkpcabal07 plugins07 tempfiles utf8_010"
+
+SUMMARY for test run started at Thu Jan  4 02:33:54 2018 GMT
+ 2:01:08 spent to go through
+    6179 total tests, which gave rise to
+   17946 test cases, of which
+   11446 were skipped
+
+      37 had missing libraries
+    6281 expected passes
+     174 expected failures
+
+       1 caused framework failures
+       1 caused framework warnings
+       0 unexpected passes
+       5 unexpected failures
+       2 unexpected stat failures
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-z9x28e35/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run  bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-z9x28e35/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run  bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-z9x28e35/test   spaces/./plugins/plugins07.run                     plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-z9x28e35/test   spaces/./plugins/T10420.run                        T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-z9x28e35/test   spaces/../../libraries/base/tests/tempfiles.run    tempfiles [bad stdout] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-z9x28e35/test   spaces/./perf/compiler/T12234.run  T12234 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-z9x28e35/test   spaces/./perf/compiler/T12150.run  T12150 [stat not good enough] (optasm)
+
+Framework failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-z9x28e35/test   spaces/./parser/unicode/utf8_010.run  utf8_010 [normal] ([Errno 14] Bad address)
+
+Framework warnings:
+   .  T13701 [numfield-no-expected] (No expected value found for bytes allocated in num_field check)
+

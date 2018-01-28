@@ -1,0 +1,10 @@
+Timeout is 300
+Found 1 .T files...
+Beginning test run at Sun Jan 28 04:39:39 2018 GMT
+##teamcity[testStarted name='T2632/normal']
+##teamcity[testStarted name='T13609/normal']
+##teamcity[testIgnored name='T13609/hpc' message='Test skipped']
+##teamcity[testIgnored name='T13609/optasm' message='Test skipped']
+##teamcity[testIgnored name='T2632/hpc' message='Test skipped']
+##teamcity[testIgnored name='T2632/optasm' message='Test skipped']
+

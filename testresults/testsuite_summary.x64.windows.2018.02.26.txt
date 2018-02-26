@@ -1,0 +1,40 @@
+
+Unexpected results from:
+TEST="MultiLayerModules T10420 T12150 T12234 T14497 T14695 T9405 bkpcabal06 bkpcabal07 plugins07 tempfiles"
+
+SUMMARY for test run started at Mon Feb 26 02:16:35 2018 GMT
+ 1:45:26 spent to go through
+    6244 total tests, which gave rise to
+   18125 test cases, of which
+   11554 were skipped
+
+      38 had missing libraries
+    6345 expected passes
+     177 expected failures
+
+       0 caused framework failures
+       1 caused framework warnings
+       1 unexpected passes
+       7 unexpected failures
+       3 unexpected stat failures
+
+Unexpected passes:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./rts/T9405.run  T9405 [unexpected] (normal)
+
+Unexpected failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./backpack/cabal/bkpcabal06/bkpcabal06.run  bkpcabal06 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./backpack/cabal/bkpcabal07/bkpcabal07.run  bkpcabal07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./plugins/plugins07.run                     plugins07 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./plugins/T10420.run                        T10420 [bad exit code] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./rts/T14497.run                            T14497 [bad stdout] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./rts/T14695.run                            T14695 [bad stderr] (normal)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/../../libraries/base/tests/tempfiles.run    tempfiles [bad stdout] (normal)
+
+Unexpected stat failures:
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./perf/compiler/T12234.run             T12234 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./perf/compiler/T12150.run             T12150 [stat not good enough] (optasm)
+   /c/TeamCity/buildAgent/temp/buildTmp/ghctest-awy_2zv2/test   spaces/./perf/compiler/MultiLayerModules.run  MultiLayerModules [stat not good enough] (normal)
+
+Framework warnings:
+   .  T13701 [numfield-no-expected] (No expected value found for bytes allocated in num_field check)
+

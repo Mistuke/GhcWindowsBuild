@@ -84,8 +84,8 @@ configure:3045: checking for ghc
 configure:3063: found /mingw64/bin/ghc
 configure:3075: result: /mingw64/bin/ghc
 configure:3124: checking version of ghc
-The Glorious Glasgow Haskell Compilation System, version 8.0.2
-configure:3153: result: 8.0.2
+The Glorious Glasgow Haskell Compilation System, version 8.2.2
+configure:3153: result: 8.2.2
 configure:3329: checking build system type
 configure:3343: result: x86_64-w64-mingw32
 configure:3363: checking host system type
@@ -449,8 +449,8 @@ configure:9561: checking Setting up CONF_CC_OPTS_STAGE2, CONF_GCC_LINKER_OPTS_ST
 configure:9637: result: done
 configure:9925: checking for .subsections_via_symbols
 configure:9938: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -c -g -O2  -fno-stack-protector  conftest.c >&5
-C:\ghc-dev\msys64\tmp\ccvmQT4j.s: Assembler messages:
-C:\ghc-dev\msys64\tmp\ccvmQT4j.s:26: Error: unknown pseudo-op: `.subsections_via_symbols'
+C:\ghc-dev\msys64\tmp\ccnOHMxc.s: Assembler messages:
+C:\ghc-dev\msys64\tmp\ccnOHMxc.s:26: Error: unknown pseudo-op: `.subsections_via_symbols'
 configure:9938: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -492,8 +492,8 @@ configure:9960: $? = 0
 configure:9961: result: yes
 configure:9982: checking for GNU non-executable stack support
 configure:9995: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -c   conftest.c >&5
-C:\ghc-dev\msys64\tmp\cckIyfNv.s: Assembler messages:
-C:\ghc-dev\msys64\tmp\cckIyfNv.s:3: Error: junk at end of line, first unrecognized character is `-'
+C:\ghc-dev\msys64\tmp\ccKNZ8jG.s: Assembler messages:
+C:\ghc-dev\msys64\tmp\ccKNZ8jG.s:3: Error: junk at end of line, first unrecognized character is `-'
 configure:9995: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -5222,7 +5222,7 @@ configure:13136: $? = 0
 configure:13144: result: yes
 configure:13155: checking for getclock
 configure:13155: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\cc8zV2rn.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccQjvCi2.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:123: undefined reference to `getclock'
 collect2.exe: error: ld returned 1 exit status
 configure:13155: $? = 1
@@ -5356,7 +5356,7 @@ configure: failed program was:
 configure:13155: result: no
 configure:13155: checking for getrusage
 configure:13155: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccqqWulP.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccA49o6o.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:123: undefined reference to `getrusage'
 collect2.exe: error: ld returned 1 exit status
 configure:13155: $? = 1
@@ -5494,7 +5494,7 @@ configure:13155: $? = 0
 configure:13155: result: yes
 configure:13155: checking for setitimer
 configure:13155: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccXWeJri.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccsKH1DJ.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:124: undefined reference to `setitimer'
 collect2.exe: error: ld returned 1 exit status
 configure:13155: $? = 1
@@ -5629,7 +5629,7 @@ configure: failed program was:
 configure:13155: result: no
 configure:13155: checking for siginterrupt
 configure:13155: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccmrsfyV.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccCrjaoo.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:124: undefined reference to `siginterrupt'
 collect2.exe: error: ld returned 1 exit status
 configure:13155: $? = 1
@@ -5764,7 +5764,7 @@ configure: failed program was:
 configure:13155: result: no
 configure:13155: checking for sysconf
 configure:13155: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\cccoBcaH.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccOeSNkJ.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:124: undefined reference to `sysconf'
 collect2.exe: error: ld returned 1 exit status
 configure:13155: $? = 1
@@ -5899,7 +5899,7 @@ configure: failed program was:
 configure:13155: result: no
 configure:13155: checking for times
 configure:13155: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccpIAzEn.o: In function `main':
+C:\ghc-dev\msys64\tmp\cciiqEAl.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:124: undefined reference to `times'
 collect2.exe: error: ld returned 1 exit status
 configure:13155: $? = 1
@@ -6034,7 +6034,7 @@ configure: failed program was:
 configure:13155: result: no
 configure:13155: checking for ctime_r
 configure:13155: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccsbRHrZ.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccOyU8j0.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:124: undefined reference to `ctime_r'
 collect2.exe: error: ld returned 1 exit status
 configure:13155: $? = 1
@@ -6169,7 +6169,7 @@ configure: failed program was:
 configure:13155: result: no
 configure:13155: checking for sched_setaffinity
 configure:13155: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccQPLNZN.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccGbJapk.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:124: undefined reference to `sched_setaffinity'
 collect2.exe: error: ld returned 1 exit status
 configure:13155: $? = 1
@@ -7092,7 +7092,7 @@ configure:13894: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/
 conftest.c:118:6: warning: conflicting types for built-in function 'fork' [-Wbuiltin-declaration-mismatch]
  char fork ();
       ^~~~
-C:\ghc-dev\msys64\tmp\cccl6ocC.o: In function `main':
+C:\ghc-dev\msys64\tmp\cc4r4MzX.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:129: undefined reference to `fork'
 collect2.exe: error: ld returned 1 exit status
 configure:13894: $? = 1
@@ -7232,7 +7232,7 @@ configure: failed program was:
 configure:13894: result: no
 configure:13894: checking for vfork
 configure:13894: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\cc8GWkQp.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccw7SIai.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:129: undefined reference to `vfork'
 collect2.exe: error: ld returned 1 exit status
 configure:13894: $? = 1
@@ -7970,7 +7970,7 @@ configure:14659: $? = 0
 configure:14659: result: yes
 configure:14659: checking for timer_settime
 configure:14659: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccc7dYm2.o: In function `main':
+C:\ghc-dev\msys64\tmp\cc2IiOZ1.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:131: undefined reference to `timer_settime'
 collect2.exe: error: ld returned 1 exit status
 configure:14659: $? = 1
@@ -8112,7 +8112,7 @@ configure: failed program was:
 configure:14659: result: no
 configure:14669: checking for timer_create
 configure:14669: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccUyRAFq.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccKuG3Yh.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:131: undefined reference to `timer_create'
 collect2.exe: error: ld returned 1 exit status
 configure:14669: $? = 1
@@ -8254,7 +8254,7 @@ configure: failed program was:
 configure:14669: result: no
 configure:14808: checking for printf$LDBLStub
 configure:14828: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c  >&5
-C:\ghc-dev\msys64\tmp\ccQ2FCFa.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccE5UIwO.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:108: undefined reference to `printf$LDBLStub'
 collect2.exe: error: ld returned 1 exit status
 configure:14828: $? = 1
@@ -8648,7 +8648,7 @@ configure:15001: checking for sys/eventfd.h
 configure:15001: result: no
 configure:15013: checking for eventfd
 configure:15013: C:/TeamCity/buildAgent/work/28754042a1be6052/inplace/mingw/bin/gcc.exe -o conftest.exe -g -O2  -fno-stack-protector   conftest.c -lpthread  >&5
-C:\ghc-dev\msys64\tmp\cctvvOOh.o: In function `main':
+C:\ghc-dev\msys64\tmp\ccKlGSdj.o: In function `main':
 C:\TeamCity\buildAgent\work\28754042a1be6052/conftest.c:135: undefined reference to `eventfd'
 collect2.exe: error: ld returned 1 exit status
 configure:15013: $? = 1
@@ -10077,10 +10077,10 @@ Genlib=''
 GenlibCmd=''
 GhcLibsWithUnix='NO'
 GhcMajVersion='8'
-GhcMinVersion='0'
+GhcMinVersion='2'
 GhcPatchLevel='2'
 GhcPkgCmd='/mingw64/bin/ghc-pkg'
-GhcVersion='8.0.2'
+GhcVersion='8.2.2'
 GzipCmd='/usr/bin/gzip'
 HAVE_GENLIB='False'
 HSCOLOUR='/usr/local/bin/HsColour'

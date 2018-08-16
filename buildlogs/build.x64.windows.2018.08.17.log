@@ -1,0 +1,73 @@
+using THREADS=3
+Creating libraries/array/ghc.mk
+Creating libraries/base/ghc.mk
+Creating libraries/binary/ghc.mk
+Creating libraries/bytestring/ghc.mk
+Creating libraries/Cabal/Cabal/ghc.mk
+Creating libraries/containers/ghc.mk
+Creating libraries/deepseq/ghc.mk
+Creating libraries/directory/ghc.mk
+Creating libraries/filepath/ghc.mk
+Creating libraries/ghc-boot/ghc.mk
+Creating libraries/ghc-boot-th/ghc.mk
+Creating libraries/ghc-compact/ghc.mk
+Creating libraries/ghc-heap/ghc.mk
+Creating libraries/ghc-prim/ghc.mk
+Creating libraries/ghci/ghc.mk
+Creating libraries/haskeline/ghc.mk
+Creating libraries/hpc/ghc.mk
+Creating libraries/integer-gmp/ghc.mk
+Creating libraries/integer-simple/ghc.mk
+Creating libraries/libiserv/ghc.mk
+Creating libraries/mtl/ghc.mk
+Creating libraries/parallel/ghc.mk
+Creating libraries/parsec/ghc.mk
+Creating libraries/pretty/ghc.mk
+Creating libraries/process/ghc.mk
+Creating libraries/stm/ghc.mk
+Creating libraries/template-haskell/ghc.mk
+Creating libraries/terminfo/ghc.mk
+Creating libraries/text/ghc.mk
+Creating libraries/time/ghc.mk
+Creating libraries/transformers/ghc.mk
+Creating libraries/unix/ghc.mk
+Creating libraries/Win32/ghc.mk
+Creating libraries/xhtml/ghc.mk
+Booting .
+Booting libraries/base/
+Booting libraries/directory/
+Booting libraries/ghc-prim/
+Booting libraries/integer-gmp/
+Booting libraries/process/
+Booting libraries/terminfo/
+Booting libraries/time/
+Booting libraries/unix/
+configure: loading site script /mingw64/etc/config.site
+checking for gfind... no
+checking for find... /usr/bin/find
+checking for sort... /usr/bin/sort
+checking for GHC version date... error: object directory /c/TeamCity/buildAgent/work/63f445112b4e56e8/.git/objects/C:\TeamCity\buildAgent\system\git\git-DC9893F3.git\objects does not exist; check .git/objects/info/alternates.
+fatal: bad object HEAD
+inferred 8.7.20180816
+checking for GHC Git commit id... inferred 5238f204482ac7f05f4e2d2e92576288cc00d42d
+checking for ghc... /mingw64/bin/ghc
+checking version of ghc... 8.2.2
+GHC path canonicalised to: /mingw64/bin/ghc
+checking build system type... x86_64-w64-mingw32
+checking host system type... x86_64-w64-mingw32
+checking target system type... x86_64-w64-mingw32
+Host platform inferred as: x86_64-unknown-mingw32
+Target platform inferred as: x86_64-unknown-mingw32
+GHC build  : x86_64-unknown-mingw32
+GHC host   : x86_64-unknown-mingw32
+GHC target : x86_64-unknown-mingw32
+LLVM target: x86_64-unknown-windows
+checking for path to top of build tree... C:/TeamCity/buildAgent/work/63f445112b4e56e8
+configure: Checking for Windows toolchain tarballs...
+######                                                                     8.6%#########################################                                 58.2%######################################################################## 100.0%
+
+curl: (28) Connection timed out after 300210 milliseconds
+
+ERROR: Download failed.
+
+Error fetching msys2 tarballs; see errors above.

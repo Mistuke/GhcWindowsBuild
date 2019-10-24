@@ -1,0 +1,87 @@
+using THREADS=3
+libraries/array/
+libraries/base/
+libraries/binary/
+libraries/bytestring/
+libraries/Cabal/
+libraries/containers/
+libraries/deepseq/
+libraries/directory/
+libraries/doc/
+libraries/filepath/
+libraries/ghc-boot/
+libraries/ghc-boot-th/
+libraries/ghc-compact/
+libraries/ghc-heap/
+libraries/ghc-prim/
+libraries/ghci/
+libraries/haskeline/
+libraries/hpc/
+libraries/integer-gmp/
+libraries/integer-simple/
+libraries/libiserv/
+libraries/mtl/
+libraries/parsec/
+libraries/pretty/
+libraries/process/
+libraries/stm/
+libraries/template-haskell/
+libraries/terminfo/
+libraries/text/
+libraries/time/
+libraries/transformers/
+libraries/unix/
+libraries/Win32/
+libraries/xhtml/
+Creating libraries/array/ghc.mk
+Creating libraries/base/ghc.mk
+Creating libraries/binary/ghc.mk
+Creating libraries/bytestring/ghc.mk
+Creating libraries/Cabal/Cabal/ghc.mk
+Creating libraries/containers/containers/ghc.mk
+Creating libraries/deepseq/ghc.mk
+Creating libraries/directory/ghc.mk
+Creating libraries/filepath/ghc.mk
+Skipping libraries/ghc-boot/ghc.mk which already exists
+Creating libraries/ghc-boot-th/ghc.mk
+Creating libraries/ghc-compact/ghc.mk
+Creating libraries/ghc-heap/ghc.mk
+Creating libraries/ghc-prim/ghc.mk
+Creating libraries/ghci/ghc.mk
+Creating libraries/haskeline/ghc.mk
+Creating libraries/hpc/ghc.mk
+Creating libraries/integer-gmp/ghc.mk
+Creating libraries/integer-simple/ghc.mk
+Creating libraries/libiserv/ghc.mk
+Creating libraries/mtl/ghc.mk
+Creating libraries/parsec/ghc.mk
+Creating libraries/pretty/ghc.mk
+Creating libraries/process/ghc.mk
+Creating libraries/stm/ghc.mk
+Creating libraries/template-haskell/ghc.mk
+Creating libraries/terminfo/ghc.mk
+Creating libraries/text/ghc.mk
+Creating libraries/time/ghc.mk
+Creating libraries/transformers/ghc.mk
+Creating libraries/unix/ghc.mk
+Creating libraries/Win32/ghc.mk
+Creating libraries/xhtml/ghc.mk
+Booting .
+Booting libraries/base/
+Booting libraries/directory/
+Booting libraries/integer-gmp/
+Booting libraries/process/
+Booting libraries/terminfo/
+Booting libraries/time/
+Booting libraries/unix/
+configure: loading site script /mingw64/etc/config.site
+checking for gfind... no
+checking for find... /usr/bin/find
+checking for sort... /usr/bin/sort
+checking for GHC version date... error: object directory /c/TeamCity/buildAgent/work/a45bb99c6f82efd7/.git/objects/C:\TeamCity\buildAgent\system\git\git-B8708990.git\objects does not exist; check .git/objects/info/alternates.
+fatal: bad object HEAD
+inferred 8.9.0.20191024
+checking for GHC Git commit id... inferred 243c72eb60fc3481fe6db3fc0ea9cd836a9e7561
+checking for ghc... /mingw64/bin/ghc
+checking version of ghc... 8.4.3
+configure: error: GHC version 8.6 or later is required to compile GHC.

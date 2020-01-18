@@ -1,0 +1,6 @@
+using THREADS=3
+Warning: Unknown/unsupported 'ghc' version detected (Cabal 2.2.0.1 supports
+'ghc' version < 8.5): C:\ghc-dev\msys64\mingw64\bin\ghc.exe is version 8.6.5
+Warning: The package list for 'hackage.haskell.org' is 15 days old.
+Run 'cabal update' to get the latest list of available packages.
+ghc-pkg.exe: cannot create: C:\Windows\system32\config\systemprofile\AppData\Roaming\cabal\store\ghc-8.6.5\package.db already exists

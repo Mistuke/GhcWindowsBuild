@@ -1,0 +1,1145 @@
+using THREADS=3
+Hadrian command: /c/TeamCity/buildAgent/work/a45bb99c6f82efd7/hadrian/dist-newstyle/build/x86_64-windows/ghc-8.6.5/hadrian-0.1.0.0/x/hadrian/build/hadrian/hadrian -j3 --build-root=_validatebuild
+| Removing Hadrian files...
+| Remove directory _validatebuild/stage0
+| Remove directory _validatebuild/stage1
+| Remove directory _validatebuild/stage2
+| Remove directory _validatebuild/stage3
+| Remove directory sdistprep
+| Remove directory _validatebuild (after build completes)
+| Done. 
+shakeArgsWith                     0.002s    4%  ==                       
+Function shake                    0.024s   48%  =========================
+Database read                     0.002s    4%  ==                       
+With database                     0.000s    0%                           
+Running rules                     0.021s   41%  =====================    
+Pool finished (6 threads, 2 max)  0.000s    0%                           
+Cleanup                           0.000s    0%                           
+Total                             0.050s  100%                           
+(+ running "1" after actions in 0.00s)
+Build completed in 0.05s
+
+libraries/array/
+libraries/base/
+libraries/binary/
+libraries/bytestring/
+libraries/Cabal/
+libraries/containers/
+libraries/deepseq/
+libraries/directory/
+libraries/doc/
+libraries/exceptions/
+libraries/filepath/
+libraries/ghc-boot/
+libraries/ghc-boot-th/
+libraries/ghc-compact/
+libraries/ghc-heap/
+libraries/ghc-prim/
+libraries/ghci/
+libraries/haskeline/
+libraries/hpc/
+libraries/integer-gmp/
+libraries/integer-simple/
+libraries/libiserv/
+libraries/mtl/
+libraries/parsec/
+libraries/pretty/
+libraries/process/
+libraries/stm/
+libraries/template-haskell/
+libraries/terminfo/
+libraries/text/
+libraries/time/
+libraries/transformers/
+libraries/unix/
+libraries/Win32/
+libraries/xhtml/
+Creating libraries/array/ghc.mk
+Creating libraries/base/ghc.mk
+Creating libraries/binary/ghc.mk
+Creating libraries/bytestring/ghc.mk
+Creating libraries/Cabal/Cabal/ghc.mk
+Creating libraries/containers/containers/ghc.mk
+Creating libraries/deepseq/ghc.mk
+Creating libraries/directory/ghc.mk
+Creating libraries/exceptions/ghc.mk
+Creating libraries/filepath/ghc.mk
+Skipping libraries/ghc-boot/ghc.mk which already exists
+Creating libraries/ghc-boot-th/ghc.mk
+Creating libraries/ghc-compact/ghc.mk
+Creating libraries/ghc-heap/ghc.mk
+Creating libraries/ghc-prim/ghc.mk
+Creating libraries/ghci/ghc.mk
+Creating libraries/haskeline/ghc.mk
+Creating libraries/hpc/ghc.mk
+Creating libraries/integer-gmp/ghc.mk
+Creating libraries/integer-simple/ghc.mk
+Creating libraries/libiserv/ghc.mk
+Creating libraries/mtl/ghc.mk
+Creating libraries/parsec/ghc.mk
+Creating libraries/pretty/ghc.mk
+Creating libraries/process/ghc.mk
+Creating libraries/stm/ghc.mk
+Creating libraries/template-haskell/ghc.mk
+Creating libraries/terminfo/ghc.mk
+Creating libraries/text/ghc.mk
+Creating libraries/time/ghc.mk
+Creating libraries/transformers/ghc.mk
+Creating libraries/unix/ghc.mk
+Creating libraries/Win32/ghc.mk
+Creating libraries/xhtml/ghc.mk
+Booting .
+Booting libraries/base/
+Booting libraries/directory/
+Booting libraries/integer-gmp/
+Booting libraries/process/
+Booting libraries/terminfo/
+Booting libraries/time/
+Booting libraries/unix/
+configure: loading site script /mingw64/etc/config.site
+checking for gfind... no
+checking for find... /usr/bin/find
+checking for sort... /usr/bin/sort
+checking for GHC version date... error: object directory /c/TeamCity/buildAgent/work/a45bb99c6f82efd7/.git/objects/C:\TeamCity\buildAgent\system\git\git-B8708990.git\objects does not exist; check .git/objects/info/alternates.
+fatal: bad object HEAD
+inferred 8.11.0.20200208
+checking for GHC Git commit id... inferred 7c1228511f2dd4d262c04edb8539174a7de810b2
+checking for ghc... /mingw64/bin/ghc
+checking version of ghc... 8.6.5
+GHC path canonicalised to: /mingw64/bin/ghc
+checking build system type... x86_64-w64-mingw32
+checking host system type... x86_64-w64-mingw32
+checking target system type... x86_64-w64-mingw32
+Host platform inferred as: x86_64-unknown-mingw32
+Target platform inferred as: x86_64-unknown-mingw32
+GHC build  : x86_64-unknown-mingw32
+GHC host   : x86_64-unknown-mingw32
+GHC target : x86_64-unknown-mingw32
+LLVM target: x86_64-unknown-windows
+checking whether target supports a registerised ABI... yes
+checking whether target supports tables next to code... yes
+checking for path to top of build tree... C:/TeamCity/buildAgent/work/a45bb99c6f82efd7
+configure: Checking for Windows toolchain tarballs...
+#####                                                                      7.9%####################################################                      73.3%######################################################################## 100.0%
+######################################################################## 100.0%
+####                                                                       5.8%################                                                          23.1%#####################################                                     51.5%###############################################################           88.1%######################################################################## 100.0%
+######################################################################## 100.0%
+######################################################################## 100.0%
+####################################                                      51.3%######################################################################## 100.0%
+#######################################################################   98.8%######################################################################## 100.0%
+#############################                                             41.3%######################################################################## 100.0%
+#                                                                          1.7%###########                                                               16.5%############################                                              40.0%#############################################                             62.8%##############################################################            86.4%######################################################################## 100.0%
+######################################################################## 100.0%
+                                                                           0.9%##                                                                         3.3%###                                                                        5.1%#####                                                                      7.0%######                                                                     9.0%#######                                                                   11.1%#########                                                                 13.2%###########                                                               15.6%#############                                                             18.2%##############                                                            20.7%################                                                          23.3%##################                                                        25.9%####################                                                      28.8%######################                                                    31.7%#########################                                                 34.8%###########################                                               38.0%#############################                                             41.4%################################                                          45.2%###################################                                       48.8%#####################################                                     52.7%########################################                                  56.6%###########################################                               60.8%##############################################                            65.2%##################################################                        69.7%#####################################################                     74.4%#########################################################                 79.5%#############################################################             84.9%#################################################################         90.4%#####################################################################     95.9%######################################################################## 100.0%
+######################################################################## 100.0%
+######################################################################## 100.0%
+#################################                                         46.3%######################################################################## 100.0%
+configure: Extracting Windows toolchain from archives (may take a while)...
+configure: In-tree MingW-w64 tree created
+checking for genlib... no
+checking for -windres... no
+checking for -dllwrap... no
+checking for -objdump... C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/objdump.exe
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.exe
+checking for suffix of executables... .exe
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe accepts -g... yes
+checking for C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe option to accept ISO C89... none needed
+checking how to run the C preprocessor... C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking how to run the C preprocessor... C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe -E
+checking for C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe option to accept ISO C99... none needed
+checking for C:\\ghc-dev\\msys64\\mingw64\\lib\\../mingw/bin/gcc.exe option to accept ISO C99... none needed
+checking for C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe option to accept ISO C99... none needed
+checking for C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe option to accept ISO C99... none needed
+checking for -ld... C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/ld.exe
+checking whether ld is GNU ld... YES
+checking whether ld understands --build-id... yes
+checking whether ld understands -no_compact_unwind... yes
+checking whether ld understands -filelist... no
+checking for -objdump... (cached) C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/objdump.exe
+checking for ranlib... C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/ranlib.exe
+checking for -strip... no
+checking for libtool... /usr/bin/libtool
+checking for -clang... no
+checking for llc-9... no
+checking for llc-9.0... no
+checking for llc... no
+checking for opt-9... no
+checking for opt-9.0... no
+checking for opt... no
+configure: Creating links for in-tree file handling routines.
+configure: Routines in place. Packages can now be build normally.
+checking whether #! works in shell scripts... yes
+checking version of gcc... checking version of gcc... 9.2.0
+9.2.0
+checking whether GCC supports -no-pie... no
+checking whether GCC supports __atomic_ builtins... yes
+checking for extra options to pass gcc when compiling via C... 
+checking whether C compiler has an LLVM back end... no
+checking Setting up CFLAGS, LDFLAGS, IGNORE_LINKER_LD_FLAGS and CPPFLAGS... done
+checking Setting up CONF_CC_OPTS_STAGE0, CONF_GCC_LINKER_OPTS_STAGE0, CONF_LD_LINKER_OPTS_STAGE0 and CONF_CPP_OPTS_STAGE0... done
+checking Setting up CONF_CC_OPTS_STAGE1, CONF_GCC_LINKER_OPTS_STAGE1, CONF_LD_LINKER_OPTS_STAGE1 and CONF_CPP_OPTS_STAGE1... done
+checking Setting up CONF_CC_OPTS_STAGE2, CONF_GCC_LINKER_OPTS_STAGE2, CONF_LD_LINKER_OPTS_STAGE2 and CONF_CPP_OPTS_STAGE2... done
+checking for .subsections_via_symbols... no
+checking whether your assembler supports .ident directive... yes
+checking for GNU non-executable stack support... no
+checking for a working context diff... diff -U 1
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/ar.exe is GNU ar... yes
+checking for ar arguments... q
+checking whether C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/ar.exe supports @file... yes
+checking for ranlib... (cached) C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/ranlib.exe
+checking whether ln -s works... no, using cp -pR
+checking for gsed... no
+checking for sed... /usr/bin/sed
+checking for time... /usr/bin/time
+checking for gnutar... no
+checking for gtar... no
+checking for tar... /usr/bin/tar
+checking for bzip2... /mingw64/bin/bzip2
+checking for gzip... /usr/bin/gzip
+checking for pxz... no
+checking for xz... /mingw64/bin/xz
+checking for gpatch... no
+checking for patch... /usr/bin/patch
+checking for autoreconf... /usr/bin/autoreconf
+checking for dtrace... no
+checking for HsColour... /usr/local/bin/HsColour
+checking for sphinx-build... /mingw64/bin/sphinx-build
+checking for version of sphinx-build... Sphinx (sphinx-build) 1.5
+./configure: line 11252: test: Sphinx (sphinx-build) 1: integer expression expected
+checking for xelatex... no
+checking for makeinfo... no
+checking for python3... /mingw64/bin/python3
+checking for ghc-pkg matching /mingw64/bin/ghc... /mingw64/bin/ghc-pkg
+checking for happy... /usr/local/bin/happy
+checking for version of happy... 1.19.10
+checking for alex... /usr/local/bin/alex
+checking for version of alex... 3.1.7
+checking for ANSI C header files... (cached) yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking dlfcn.h usability... no
+checking dlfcn.h presence... no
+checking for dlfcn.h... no
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking grp.h usability... no
+checking grp.h presence... no
+checking for grp.h... no
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking nlist.h usability... no
+checking nlist.h presence... no
+checking for nlist.h... no
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking pwd.h usability... no
+checking pwd.h presence... no
+checking for pwd.h... no
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/mman.h usability... no
+checking sys/mman.h presence... no
+checking for sys/mman.h... no
+checking sys/resource.h usability... no
+checking sys/resource.h presence... no
+checking for sys/resource.h... no
+checking sys/select.h usability... no
+checking sys/select.h presence... no
+checking for sys/select.h... no
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking sys/timerfd.h usability... no
+checking sys/timerfd.h presence... no
+checking for sys/timerfd.h... no
+checking sys/timers.h usability... no
+checking sys/timers.h presence... no
+checking for sys/timers.h... no
+checking sys/times.h usability... no
+checking sys/times.h presence... no
+checking for sys/times.h... no
+checking sys/utsname.h usability... no
+checking sys/utsname.h presence... no
+checking for sys/utsname.h... no
+checking sys/wait.h usability... no
+checking sys/wait.h presence... no
+checking for sys/wait.h... no
+checking termios.h usability... no
+checking termios.h presence... no
+checking for termios.h... no
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking windows.h usability... yes
+checking windows.h presence... yes
+checking for windows.h... yes
+checking winsock.h usability... yes
+checking winsock.h presence... yes
+checking for winsock.h... yes
+checking sched.h usability... yes
+checking sched.h presence... yes
+checking for sched.h... yes
+checking for sys/cpuset.h... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for long long... yes
+checking size of char... 1
+checking for char... yes
+checking alignment of char... 1
+checking size of double... 8
+checking for double... yes
+checking alignment of double... 8
+checking size of float... 4
+checking for float... yes
+checking alignment of float... 4
+checking size of int... 4
+checking for int... yes
+checking alignment of int... 4
+checking size of long... 4
+checking for long... yes
+checking alignment of long... 4
+checking size of long long... 8
+checking for long long... (cached) yes
+checking alignment of long long... 8
+checking size of short... 2
+checking for short... yes
+checking alignment of short... 2
+checking size of unsigned char... 1
+checking for unsigned char... yes
+checking alignment of unsigned char... 1
+checking size of unsigned int... 4
+checking for unsigned int... yes
+checking alignment of unsigned int... 4
+checking size of unsigned long... 4
+checking for unsigned long... yes
+checking alignment of unsigned long... 4
+checking size of unsigned long long... 8
+checking for unsigned long long... yes
+checking alignment of unsigned long long... 8
+checking size of unsigned short... 2
+checking for unsigned short... yes
+checking alignment of unsigned short... 2
+checking size of void *... 8
+checking for void *... yes
+checking alignment of void *... 8
+checking size of int8_t... 1
+checking for int8_t... yes
+checking alignment of int8_t... 1
+checking size of uint8_t... 1
+checking for uint8_t... yes
+checking alignment of uint8_t... 1
+checking size of int16_t... 2
+checking for int16_t... yes
+checking alignment of int16_t... 2
+checking size of uint16_t... 2
+checking for uint16_t... yes
+checking alignment of uint16_t... 2
+checking size of int32_t... 4
+checking for int32_t... yes
+checking alignment of int32_t... 4
+checking size of uint32_t... 4
+checking for uint32_t... yes
+checking alignment of uint32_t... 4
+checking size of int64_t... 8
+checking for int64_t... yes
+checking alignment of int64_t... 8
+checking size of uint64_t... 8
+checking for uint64_t... yes
+checking alignment of uint64_t... 8
+checking for WinExec... yes
+checking for GetModuleFileName... yes
+checking for getclock... no
+checking for getrusage... no
+checking for gettimeofday... yes
+checking for setitimer... no
+checking for siginterrupt... no
+checking for sysconf... no
+checking for times... no
+checking for ctime_r... no
+checking for sched_setaffinity... no
+checking for setlocale... yes
+checking whether ctime_r is declared... yes
+checking for closedir in -lmingwex... yes
+checking for atan in -lm... yes
+checking for dlopen in -ldl... no
+checking for dlopen in -ldl... (cached) no
+checking for size_t... yes
+checking for working alloca.h... no
+checking for alloca... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... no
+checking for vfork... no
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... no
+checking whether float word order is big endian... no
+checking for nlist in -lelf... no
+checking leading underscore in symbol names... no
+checking whether __attribute__((visibility("hidden"))) is supported... no
+checking for clock_gettime in -lrt... no
+checking for clock_gettime in -lrt... (cached) no
+checking for clock_gettime... yes
+checking for timer_settime... no
+checking for timer_create... no
+checking for printf$LDBLStub... no
+checking whether -lpthread is needed for pthreads... checking for pthread_create... yes
+no
+checking for pthread_setname_np in -lpthread... yes
+checking for pthread_setname_np... yes
+checking sys/eventfd.h usability... no
+checking sys/eventfd.h presence... no
+checking for sys/eventfd.h... no
+checking for eventfd... no
+checking for __thread support... yes
+checking whether MAP_NORESERVE is declared... no
+checking whether MADV_FREE is declared... no
+checking whether MADV_DONTNEED is declared... no
+checking numa.h usability... no
+checking numa.h presence... no
+checking for numa.h... no
+checking numaif.h usability... no
+checking numaif.h presence... no
+checking for numaif.h... no
+grep: libraries/template-haskell/template-haskell.cabal: No such file or directory
+configure: creating ./config.status
+config.status: creating hadrian/cfg/system.config
+config.status: creating mk/config.mk
+config.status: creating mk/install.mk
+config.status: creating mk/project.mk
+config.status: creating rts/rts.cabal
+config.status: creating compiler/ghc.cabal
+config.status: creating ghc/ghc-bin.cabal
+config.status: creating utils/iserv/iserv.cabal
+config.status: creating utils/iserv-proxy/iserv-proxy.cabal
+config.status: creating utils/remote-iserv/remote-iserv.cabal
+config.status: creating utils/runghc/runghc.cabal
+config.status: creating utils/gen-dll/gen-dll.cabal
+config.status: creating libraries/ghc-boot/ghc-boot.cabal
+config.status: creating libraries/ghc-boot-th/ghc-boot-th.cabal
+config.status: creating libraries/ghci/ghci.cabal
+config.status: creating libraries/ghc-heap/ghc-heap.cabal
+config.status: creating libraries/libiserv/libiserv.cabal
+config.status: creating libraries/template-haskell/template-haskell.cabal
+config.status: creating docs/users_guide/ghc_config.py
+config.status: creating docs/index.html
+config.status: creating libraries/prologue.txt
+config.status: creating distrib/configure.ac
+config.status: creating mk/config.h
+
+----------------------------------------------------------------------
+Configure completed successfully.
+
+   Building GHC version  : 8.11.0.20200208
+          Git commit id  : 7c1228511f2dd4d262c04edb8539174a7de810b2
+
+   Build platform        : x86_64-unknown-mingw32
+   Host platform         : x86_64-unknown-mingw32
+   Target platform       : x86_64-unknown-mingw32
+
+   Bootstrapping using   : /mingw64/bin/ghc
+      which is version   : 8.6.5
+
+   Using (for bootstrapping) : C:\\ghc-dev\\msys64\\mingw64\\lib\\../mingw/bin/gcc.exe
+   Using gcc                 : C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe
+      which is version       : 9.2.0
+   Building a cross compiler : NO
+   Unregisterised            : NO
+   TablesNextToCode          : YES
+   hs-cpp       : C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/gcc.exe
+   hs-cpp-flags : -E -undef -traditional
+   ar           : C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/ar.exe
+   ld           : C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/ld.exe
+   nm           : C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/nm.exe
+   libtool      : C:/ghc-dev/msys64/usr/bin/libtool
+   objdump      : C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/objdump.exe
+   ranlib       : C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw/bin/ranlib.exe
+   windres      : 
+   dllwrap      : 
+   genlib       : 
+   Happy        : /usr/local/bin/happy (1.19.10)
+   Alex         : /usr/local/bin/alex (3.1.7)
+   sphinx-build : /mingw64/bin/sphinx-build
+   xelatex      : 
+   makeinfo     : 
+
+   Using LLVM tools
+      clang : 
+      llc   : 
+      opt   : 
+   HsColour : /usr/local/bin/HsColour
+
+   Tools to build Sphinx HTML documentation available: YES
+   Tools to build Sphinx PDF documentation available: NO
+   Tools to build Sphinx INFO documentation available: NO
+----------------------------------------------------------------------
+
+For a standard build of GHC (fully optimised with profiling), type (g)make.
+
+To make changes to the default build configuration, copy the file
+mk/build.mk.sample to mk/build.mk, and edit the settings in there.
+
+For more information on how to configure your GHC build, see
+   https://gitlab.haskell.org/ghc/ghc/wikis/building
+
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "binary", pkgPath = "libraries/binary"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "Cabal", pkgPath = "libraries/Cabal/Cabal"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "ghc", pkgPath = "compiler"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "ghc-boot", pkgPath = "libraries/ghc-boot"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "ghc-boot-th", pkgPath = "libraries/ghc-boot-th"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "ghc-heap", pkgPath = "libraries/ghc-heap"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "ghci", pkgPath = "libraries/ghci"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "hpc", pkgPath = "libraries/hpc"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "mtl", pkgPath = "libraries/mtl"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "parsec", pkgPath = "libraries/parsec"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "template-haskell", pkgPath = "libraries/template-haskell"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "text", pkgPath = "libraries/text"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "transformers", pkgPath = "libraries/transformers"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "array", pkgPath = "libraries/array"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "base", pkgPath = "libraries/base"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "bytestring", pkgPath = "libraries/bytestring"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "containers", pkgPath = "libraries/containers/containers"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "deepseq", pkgPath = "libraries/deepseq"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "directory", pkgPath = "libraries/directory"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "exceptions", pkgPath = "libraries/exceptions"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "filepath", pkgPath = "libraries/filepath"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "ghc-compact", pkgPath = "libraries/ghc-compact"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "ghc-prim", pkgPath = "libraries/ghc-prim"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "haskeline", pkgPath = "libraries/haskeline"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "integer-gmp", pkgPath = "libraries/integer-gmp"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "pretty", pkgPath = "libraries/pretty"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "process", pkgPath = "libraries/process"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "rts", pkgPath = "rts"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "stm", pkgPath = "libraries/stm"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "time", pkgPath = "libraries/time"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "xhtml", pkgPath = "libraries/xhtml"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Library, pkgName = "Win32", pkgPath = "libraries/Win32"})))
+Warning: libraries\Win32\Win32.cabal:16:2: Tabs used as indentation at 16:2,
+17:2
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "hsc2hs", pkgPath = "utils/hsc2hs"})))
+| Configure package 'xhtml'
+| Configure package 'parsec'
+| Configure package 'containers'
+| Configure package 'haskeline'
+| Configure package 'hpc'
+| Configure package 'Win32'
+| Configure package 'mtl'
+| Configure package 'bytestring'
+| Configure package 'hpc'
+| Configure package 'parsec'
+| Configure package 'template-haskell'
+| Copy file: utils/hsc2hs/template-hsc.h => _validatebuild/stage1/lib/template-hsc.h
+| Copy file: utils/haddock/haddock-api/resources/html/js-src/quick-jump.tsx => _validatebuild/stage1/lib/html/js-src/quick-jump.tsx
+| Copy file: utils/haddock/haddock-api/resources/html/tsconfig.json => _validatebuild/stage1/lib/html/tsconfig.json
+| Copy file: utils/haddock/haddock-api/resources/html/highlight.js => _validatebuild/stage1/lib/html/highlight.js
+| Copy file: utils/haddock/haddock-api/resources/html/Ocean.theme/minus.gif => _validatebuild/stage1/lib/html/Ocean.theme/minus.gif
+| Copy file: utils/haddock/haddock-api/resources/html/Classic.theme/xhaddock.css => _validatebuild/stage1/lib/html/Classic.theme/xhaddock.css
+| Copy file: utils/haddock/haddock-api/resources/html/solarized.css => _validatebuild/stage1/lib/html/solarized.css
+| Copy file: utils/haddock/haddock-api/resources/html/Ocean.theme/plus.gif => _validatebuild/stage1/lib/html/Ocean.theme/plus.gif
+| Copy file: utils/haddock/haddock-api/resources/html/js-src/cookies.ts => _validatebuild/stage1/lib/html/js-src/cookies.ts
+| Copy file: utils/haddock/haddock-api/resources/html/quick-jump.css => _validatebuild/stage1/lib/html/quick-jump.css
+| Copy file: utils/haddock/haddock-api/resources/html/js-src/style-menu.tsx => _validatebuild/stage1/lib/html/js-src/style-menu.tsx
+| Configure package 'stm'
+| Configure package 'exceptions'
+| Copy file: utils/haddock/haddock-api/resources/html/js-src/init.ts => _validatebuild/stage1/lib/html/js-src/init.ts
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "ghc-pkg", pkgPath = "utils/ghc-pkg"})))
+| Configure package 'text'
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "runghc", pkgPath = "utils/runghc"})))
+| Configure package 'ghc-boot-th'
+| Successfully generated _validatebuild/ghc-stage1.
+| Make '_validatebuild/ghc-stage1' executable.
+| Configure package 'ghc-heap'
+| Copy file: utils/haddock/haddock-api/resources/html/Ocean.theme/ocean.css => _validatebuild/stage1/lib/html/Ocean.theme/ocean.css
+| Configure package 'integer-gmp'
+| Configure package 'mtl'
+| Copy file: utils/haddock/haddock-api/resources/html/Ocean.theme/hslogo-16.png => _validatebuild/stage1/lib/html/Ocean.theme/hslogo-16.png
+| Configure package 'rts'
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "ghc-bin", pkgPath = "ghc"})))
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "compareSizes", pkgPath = "utils/compare_sizes"})))
+| Configure package 'compareSizes'
+| Configure package 'ghc-heap'
+| Configure package 'ghc-boot'
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "unlit", pkgPath = "utils/unlit"})))
+| Configure package 'directory'
+| Configure package 'Cabal'
+| Configure package 'filepath'
+| Copy file: utils/haddock/haddock-api/resources/html/NewOcean.std-theme/synopsis.png => _validatebuild/stage1/lib/html/NewOcean.std-theme/synopsis.png
+| Configure package 'process'
+| Configure package 'ghci'
+| Configure package 'binary'
+| Configure package 'text'
+| Copy file: utils/haddock/haddock-api/resources/html/gulpfile.js => _validatebuild/stage1/lib/html/gulpfile.js
+| Configure package 'binary'
+| Copy file: utils/haddock/haddock-api/resources/html/js-src/details-helper.ts => _validatebuild/stage1/lib/html/js-src/details-helper.ts
+| Copy file: utils/haddock/haddock-api/resources/html/Classic.theme/plus.gif => _validatebuild/stage1/lib/html/Classic.theme/plus.gif
+| Copy file: utils/haddock/haddock-api/resources/html/haddock-bundle.min.js => _validatebuild/stage1/lib/html/haddock-bundle.min.js
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "deriveConstants", pkgPath = "utils/deriveConstants"})))
+| Configure package 'deriveConstants'
+| Copy file: driver/ghci-usage.txt => _validatebuild/stage1/lib/ghci-usage.txt
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "genprimopcode", pkgPath = "utils/genprimopcode"})))
+| Configure package 'array'
+| Successfully generated _validatebuild/stage0/lib/ghcversion.h.
+| Copy file: driver/ghc-usage.txt => _validatebuild/stage1/lib/ghc-usage.txt
+| Successfully generated _validatebuild/stage0/lib/ghcautoconf.h.
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "touchy", pkgPath = "utils/touchy"})))
+| Copy file: utils/haddock/haddock-api/resources/html/Classic.theme/haskell_icon.gif => _validatebuild/stage1/lib/html/Classic.theme/haskell_icon.gif
+| Configure package 'ghc-boot-th'
+| Copy file: llvm-passes => _validatebuild/stage0/lib/llvm-passes
+| Copy file: llvm-passes => _validatebuild/stage1/lib/llvm-passes
+| Copy file: utils/haddock/haddock-api/resources/html/quick-jump.min.js => _validatebuild/stage1/lib/html/quick-jump.min.js
+| Configure package 'touchy'
+| Copy file: utils/haddock/haddock-api/resources/html/package.json => _validatebuild/stage1/lib/html/package.json
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "hpc-bin", pkgPath = "utils/hpc"})))
+| Configure package 'transformers'
+| Copy file: utils/haddock/haddock-api/resources/html/Ocean.theme/synopsis.png => _validatebuild/stage1/lib/html/Ocean.theme/synopsis.png
+| Configure package 'genprimopcode'
+| Configure package 'unlit'
+| Configure package 'Cabal'
+| Configure package 'ghci'
+| Copy file: utils/haddock/haddock-api/resources/html/NewOcean.std-theme/new-ocean.css => _validatebuild/stage1/lib/html/NewOcean.std-theme/new-ocean.css
+| Copy file: utils/haddock/haddock-api/resources/html/package-lock.json => _validatebuild/stage1/lib/html/package-lock.json
+| Successfully generated _validatebuild/stage0/lib/ghcplatform.h.
+| Configure package 'deepseq'
+| Copy file: utils/haddock/haddock-api/resources/html/Classic.theme/minus.gif => _validatebuild/stage1/lib/html/Classic.theme/minus.gif
+| Configure package 'ghc-prim'
+| Copy file: utils/haddock/haddock-api/resources/latex/haddock.sty => _validatebuild/stage1/lib/latex/haddock.sty
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "haddock", pkgPath = "utils/haddock"})))
+| Configure package 'base'
+| Configure package 'pretty'
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "hp2ps", pkgPath = "utils/hp2ps"})))
+| Configure package 'template-haskell'
+| Configure package 'ghc-boot'
+| Copy file: llvm-targets => _validatebuild/stage1/lib/llvm-targets
+| Copy file: llvm-targets => _validatebuild/stage0/lib/llvm-targets
+| Configure package 'ghc-compact'
+| Copy file: utils/haddock/haddock-api/resources/html/README.md => _validatebuild/stage1/lib/html/README.md
+| Copy file: driver/ghci-usage.txt => _validatebuild/stage0/lib/ghci-usage.txt
+| Copy file: driver/ghc-usage.txt => _validatebuild/stage0/lib/ghc-usage.txt
+| Successfully generated _validatebuild/stage1/lib/settings.
+| Successfully generated _validatebuild/stage0/lib/settings.
+# cabal-read (for OracleQ (PackageDataKey (Package {pkgType = Program, pkgName = "genapply", pkgPath = "utils/genapply"})))
+| Configure package 'time'
+| Successfully generated _validatebuild/stage1/lib/ghcversion.h.
+| Successfully generated _validatebuild/stage1/lib/ghcautoconf.h.
+| Copy directory: C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/inplace/mingw => _validatebuild
+| Successfully generated _validatebuild/stage1/lib/ghcplatform.h.
+| Configure package 'genapply'
+| Configure package 'transformers'
+| Copy file: utils/hsc2hs/template-hsc.h => _validatebuild/stage0/lib/template-hsc.h
+| Configure package 'hsc2hs'
+# cabal-configure (for _validatebuild/stage0/libraries/ghc-heap/setup-config)
+# cabal-configure (for _validatebuild/stage0/libraries/transformers/setup-config)
+# cabal-configure (for _validatebuild/stage0/libraries/hpc/setup-config)
+# cabal-autogen (for _validatebuild/stage0/libraries/ghc-heap/build/autogen/cabal_macros.h)
+| Run GhcPkg Dependencies Stage0: base
+| Run GhcPkg Dependencies Stage0: integer-gmp
+# cabal-configure (for _validatebuild/stage0/libraries/binary/setup-config)
+# cabal-configure (for _validatebuild/stage0/utils/unlit/setup-config)
+# cabal-autogen (for _validatebuild/stage0/libraries/transformers/build/autogen/cabal_macros.h)
+# cabal-configure (for _validatebuild/stage0/utils/hsc2hs/setup-config)
+| Run GhcPkg Dependencies Stage0: ghc-prim
+# cabal-configure (for _validatebuild/stage0/utils/genapply/setup-config)
+| Run Cc FindCDependencies Stage0: utils/unlit/unlit.c => _validatebuild/stage0/utils/unlit/build/c/unlit.o.d
+# cabal-autogen (for _validatebuild/stage0/libraries/hpc/build/autogen/cabal_macros.h)
+| Run GhcPkg Dependencies Stage0: deepseq
+| Run GhcPkg Dependencies Stage0: array
+| Run GhcPkg Dependencies Stage0: directory
+| Run GhcPkg Dependencies Stage0: Win32
+| Run GhcPkg Dependencies Stage0: bytestring
+| Run GhcPkg Dependencies Stage0: filepath
+# cabal-configure (for _validatebuild/stage0/libraries/ghc-boot-th/setup-config)
+# cabal-autogen (for _validatebuild/stage0/utils/hsc2hs/build/hsc2hs/autogen/cabal_macros.h)
+# cabal-autogen (for _validatebuild/stage0/utils/genapply/build/genapply/autogen/cabal_macros.h)
+# cabal-autogen (for _validatebuild/stage0/utils/unlit/build/unlit/autogen/cabal_macros.h)
+| Run Ghc CompileCWithGhc Stage0: utils/unlit/unlit.c => _validatebuild/stage0/utils/unlit/build/c/unlit.o
+| Run Cc FindCDependencies Stage0: utils/hsc2hs/cbits/utils.c => _validatebuild/stage0/utils/hsc2hs/build/c/cbits/utils.o.d
+# cabal-autogen (for _validatebuild/stage0/libraries/binary/build/autogen/cabal_macros.h)
+| Run GhcPkg Dependencies Stage0: time
+# cabal-configure (for _validatebuild/stage0/utils/touchy/setup-config)
+# cabal-autogen (for _validatebuild/stage0/libraries/ghc-boot-th/build/autogen/cabal_macros.h)
+| Run GhcPkg Dependencies Stage0: rts
+# cabal-configure (for _validatebuild/stage0/utils/genprimopcode/setup-config)
+| Run Cc FindCDependencies Stage0: utils/touchy/touchy.c => _validatebuild/stage0/utils/touchy/build/c/touchy.o.d
+# cabal-autogen (for _validatebuild/stage0/utils/touchy/build/touchy/autogen/cabal_macros.h)
+| Run Ghc CompileCWithGhc Stage0: utils/touchy/touchy.c => _validatebuild/stage0/utils/touchy/build/c/touchy.o
+| Run Ghc LinkHs Stage0: _validatebuild/stage0/utils/touchy/build/c/touchy.o => _validatebuild/stage0/lib/bin/touchy.exe
+# cabal-autogen (for _validatebuild/stage0/utils/genprimopcode/build/genprimopcode/autogen/cabal_macros.h)
+| Run Ghc FindHsDependencies Stage0: utils/hsc2hs/ATTParser.hs (and 12 more) => _validatebuild/stage0/utils/hsc2hs/.dependencies.mk
+/------------------------------------------------------\
+| Successfully built program 'touchy' (Stage0).        |
+| Executable: _validatebuild/stage0/lib/bin/touchy.exe |
+| Program synopsis: @touch@ for windows.               |
+\------------------------------------------------------/
+| Copy file: _validatebuild/stage0/lib/bin/touchy.exe => _validatebuild/stage1/lib/bin/touchy.exe
+| Run Cc FindCDependencies Stage0: utils/unlit/fs.c => _validatebuild/stage0/utils/unlit/build/c/fs.o.d
+| Run Ghc FindHsDependencies Stage0: utils/genapply/Main.hs => _validatebuild/stage0/utils/genapply/.dependencies.mk
+| Remove file _validatebuild/stage0/utils/hsc2hs/.dependencies.mk.bak
+| Remove file _validatebuild/stage0/utils/genapply/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: utils/hsc2hs/HSCParser.hs => _validatebuild/stage0/utils/hsc2hs/build/HSCParser.o
+| Run Ghc CompileHs Stage0: utils/hsc2hs/Compat/Process.hs => _validatebuild/stage0/utils/hsc2hs/build/Compat/Process.o
+| Run Ghc CompileHs Stage0: utils/hsc2hs/Compat/TempFile.hs => _validatebuild/stage0/utils/hsc2hs/build/Compat/TempFile.o
+| Run Ghc CompileHs Stage0: utils/hsc2hs/Compat/ResponseFile.hs => _validatebuild/stage0/utils/hsc2hs/build/Compat/ResponseFile.o
+| Run Ghc CompileHs Stage0: _validatebuild/stage0/utils/hsc2hs/build/hsc2hs/autogen/Paths_hsc2hs.hs => _validatebuild/stage0/utils/hsc2hs/build/Paths_hsc2hs.o
+| Run Ghc CompileHs Stage0: utils/genapply/Main.hs => _validatebuild/stage0/utils/genapply/build/Main.o
+| Run Ghc CompileCWithGhc Stage0: utils/hsc2hs/cbits/utils.c => _validatebuild/stage0/utils/hsc2hs/build/c/cbits/utils.o
+| Run Ghc LinkHs Stage0: _validatebuild/stage0/utils/genapply/build/Main.o => _validatebuild/stage0/bin/genapply.exe
+| Run Ghc CompileHs Stage0: utils/hsc2hs/Common.hs => _validatebuild/stage0/utils/hsc2hs/build/Common.o
+| Run Ghc CompileCWithGhc Stage0: utils/unlit/fs.c => _validatebuild/stage0/utils/unlit/build/c/fs.o
+| Run Happy: utils/genprimopcode/Parser.y => _validatebuild/stage0/utils/genprimopcode/build/Parser.hs
+# cabal-configure (for _validatebuild/stage0/utils/compare_sizes/setup-config)
+| Run Ghc LinkHs Stage0: _validatebuild/stage0/utils/unlit/build/c/unlit.o (and 1 more) => _validatebuild/stage0/lib/bin/unlit.exe
+/-----------------------------------------------------\
+| Successfully built program 'unlit' (Stage0).        |
+| Executable: _validatebuild/stage0/lib/bin/unlit.exe |
+| Program synopsis: Literate program filter.          |
+\-----------------------------------------------------/
+| Copy file: _validatebuild/stage0/lib/bin/unlit.exe => _validatebuild/stage1/lib/bin/unlit.exe
+| Run GhcPkg Unregister Stage0: rts => none
+| Run Alex: utils/genprimopcode/Lexer.x => _validatebuild/stage0/utils/genprimopcode/build/Lexer.hs
+| Run Ghc FindHsDependencies Stage0: _validatebuild/stage0/utils/genprimopcode/build/Lexer.hs (and 4 more) => _validatebuild/stage0/utils/genprimopcode/.dependencies.mk
+/------------------------------------------------------\
+| Successfully built program 'genapply' (Stage0).      |
+| Executable: _validatebuild/stage0/bin/genapply.exe   |
+| Program synopsis: Generate the application closures. |
+\------------------------------------------------------/
+# cabal-autogen (for _validatebuild/stage0/utils/compare_sizes/build/compareSizes/autogen/cabal_macros.h)
+| Run Ghc FindHsDependencies Stage0: utils/compare_sizes/Main.hs => _validatebuild/stage0/utils/compare_sizes/.dependencies.mk
+# cabal-configure (for _validatebuild/stage0/utils/deriveConstants/setup-config)
+| Remove file _validatebuild/stage0/utils/genprimopcode/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: utils/genprimopcode/Syntax.hs => _validatebuild/stage0/utils/genprimopcode/build/Syntax.o
+| Remove file _validatebuild/stage0/utils/compare_sizes/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: utils/genprimopcode/ParserM.hs => _validatebuild/stage0/utils/genprimopcode/build/ParserM.o
+| Run Ghc CompileHs Stage0: _validatebuild/stage0/utils/genprimopcode/build/Lexer.hs => _validatebuild/stage0/utils/genprimopcode/build/Lexer.o
+| Run Ghc CompileHs Stage0: utils/compare_sizes/Main.hs => _validatebuild/stage0/utils/compare_sizes/build/Main.o
+| Run Ghc LinkHs Stage0: _validatebuild/stage0/utils/compare_sizes/build/Main.o => _validatebuild/stage0/bin/compareSizes.exe
+| Run Ghc CompileHs Stage0: _validatebuild/stage0/utils/genprimopcode/build/Parser.hs => _validatebuild/stage0/utils/genprimopcode/build/Parser.o
+| Run Ghc CompileHs Stage0: utils/genprimopcode/Main.hs => _validatebuild/stage0/utils/genprimopcode/build/Main.o
+| Run Ghc LinkHs Stage0: _validatebuild/stage0/utils/genprimopcode/build/Main.o (and 4 more) => _validatebuild/stage0/bin/genprimopcode.exe
+# cabal-autogen (for _validatebuild/stage0/utils/deriveConstants/build/deriveConstants/autogen/cabal_macros.h)
+| Run GhcPkg Dependencies Stage0: containers
+| Run Ghc CompileHs Stage0: utils/hsc2hs/Flags.hs => _validatebuild/stage0/utils/hsc2hs/build/Flags.o
+| Run Ghc CompileHs Stage0: utils/hsc2hs/C.hs => _validatebuild/stage0/utils/hsc2hs/build/C.o
+| Run Ghc CompileHs Stage0: utils/hsc2hs/UtilsCodegen.hs => _validatebuild/stage0/utils/hsc2hs/build/UtilsCodegen.o
+| Run Ghc CompileHs Stage0: utils/hsc2hs/DirectCodegen.hs => _validatebuild/stage0/utils/hsc2hs/build/DirectCodegen.o
+/--------------------------------------------------------\
+| Successfully built program 'compareSizes' (Stage0).    |
+| Executable: _validatebuild/stage0/bin/compareSizes.exe |
+| Program synopsis: Size comparison utility.             |
+\--------------------------------------------------------/
+| Run Ghc CompileHs Stage0: utils/hsc2hs/ATTParser.hs => _validatebuild/stage0/utils/hsc2hs/build/ATTParser.o
+| Run Ghc FindHsDependencies Stage0: utils/deriveConstants/Main.hs => _validatebuild/stage0/utils/deriveConstants/.dependencies.mk
+| Remove file _validatebuild/stage0/utils/deriveConstants/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: utils/deriveConstants/Main.hs => _validatebuild/stage0/utils/deriveConstants/build/Main.o
+| Run Ghc CompileHs Stage0: utils/hsc2hs/CrossCodegen.hs => _validatebuild/stage0/utils/hsc2hs/build/CrossCodegen.o
+| Run Ghc LinkHs Stage0: _validatebuild/stage0/utils/deriveConstants/build/Main.o => _validatebuild/stage0/bin/deriveConstants.exe
+| Run Ghc CompileHs Stage0: utils/hsc2hs/Main.hs => _validatebuild/stage0/utils/hsc2hs/build/Main.o
+| Run Ghc LinkHs Stage0: _validatebuild/stage0/utils/hsc2hs/build/c/cbits/utils.o (and 13 more) => _validatebuild/stage0/bin/hsc2hs.exe
+/------------------------------------------------------------------------------------\
+| Successfully built program 'genprimopcode' (Stage0).                               |
+| Executable: _validatebuild/stage0/bin/genprimopcode.exe                            |
+| Program synopsis: Generates various files implementing GHC's primitive operations. |
+\------------------------------------------------------------------------------------/
+/-----------------------------------------------------------------------------------------------\
+| Successfully built program 'deriveConstants' (Stage0).                                        |
+| Executable: _validatebuild/stage0/bin/deriveConstants.exe                                     |
+| Program synopsis: Derive header files containing various constants for the GHC build process. |
+\-----------------------------------------------------------------------------------------------/
+| Run DeriveConstants: none => _validatebuild/stage1/lib/platformConstants (and 1 more)
+| Run DeriveConstants: none => _validatebuild/stage0/lib/platformConstants (and 1 more)
+/--------------------------------------------------------------------------------------\
+| Successfully built program 'hsc2hs' (Stage0).                                        |
+| Executable: _validatebuild/stage0/bin/hsc2hs.exe                                     |
+| Program synopsis: A preprocessor that helps with writing Haskell bindings to C code. |
+\--------------------------------------------------------------------------------------/
+ghc-pkg.exe: cannot find package rts
+| Run GhcPkg Copy Stage0: rts => _validatebuild/stage0/lib/package.conf.d/rts.conf
+| Run GhcPkg Unregister Stage0: ghc-prim => none
+ghc-pkg.exe: cannot find package ghc-prim
+| Run GhcPkg Copy Stage0: ghc-prim => _validatebuild/stage0/lib/package.conf.d/ghc-prim-0.5.3.conf
+| Run GhcPkg Unregister Stage0: integer-gmp => none
+ghc-pkg.exe: cannot find package integer-gmp
+| Configure package 'ghc'
+| Run GhcPkg Copy Stage0: integer-gmp => _validatebuild/stage0/lib/package.conf.d/integer-gmp-1.0.2.0.conf
+| Configure package 'ghc'
+| Run GhcPkg Unregister Stage0: base => none
+ghc-pkg.exe: cannot find package base
+| Run GhcPkg Copy Stage0: base => _validatebuild/stage0/lib/package.conf.d/base-4.12.0.0.conf
+| Run GhcPkg Unregister Stage0: array => none
+| Run GhcPkg Unregister Stage0: filepath => none
+ghc-pkg.exe: cannot find package array
+| Run GhcPkg Copy Stage0: array => _validatebuild/stage0/lib/package.conf.d/array-0.5.3.0.conf
+| Run Ghc FindHsDependencies Stage0: libraries/ghc-boot-th/GHC/ForeignSrcLang/Type.hs (and 2 more) => _validatebuild/stage0/libraries/ghc-boot-th/.dependencies.mk
+ghc-pkg.exe: cannot find package filepath
+| Run GhcPkg Copy Stage0: filepath => _validatebuild/stage0/lib/package.conf.d/filepath-1.4.2.1.conf
+| Run Hsc2Hs Stage0: libraries/ghc-heap/GHC/Exts/Heap/InfoTable.hsc => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTable.hs
+| Run Hsc2Hs Stage0: libraries/ghc-heap/GHC/Exts/Heap/Utils.hsc => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/Utils.hs
+| Remove file _validatebuild/stage0/libraries/ghc-boot-th/.dependencies.mk.bak
+| Run GhcPkg Unregister Stage0: deepseq => none
+| Run Ghc CompileHs Stage0: libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs => _validatebuild/stage0/libraries/ghc-boot-th/build/GHC/LanguageExtensions/Type.o
+| Run Ghc CompileHs Stage0: libraries/ghc-boot-th/GHC/ForeignSrcLang/Type.hs => _validatebuild/stage0/libraries/ghc-boot-th/build/GHC/ForeignSrcLang/Type.o
+| Run Hsc2Hs Stage0: libraries/ghc-heap/GHC/Exts/Heap/InfoTable/Types.hsc => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTable/Types.hs
+ghc-pkg.exe: cannot find package deepseq
+| Run GhcPkg Copy Stage0: deepseq => _validatebuild/stage0/lib/package.conf.d/deepseq-1.4.4.0.conf
+| Run Cc FindCDependencies Stage0: libraries/ghc-heap/cbits/HeapPrim.cmm => _validatebuild/stage0/libraries/ghc-heap/build/cmm/cbits/HeapPrim.o.d
+| Run Ghc CompileHs Stage0: libraries/ghc-heap/cbits/HeapPrim.cmm => _validatebuild/stage0/libraries/ghc-heap/build/cmm/cbits/HeapPrim.o
+| Run Ghc FindHsDependencies Stage0: libraries/transformers/Control/Applicative/Backwards.hs (and 25 more) => _validatebuild/stage0/libraries/transformers/.dependencies.mk
+| Run Hsc2Hs Stage0: libraries/ghc-heap/GHC/Exts/Heap/Constants.hsc => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/Constants.hs
+| Run Hsc2Hs Stage0: libraries/ghc-heap/GHC/Exts/Heap/InfoTableProf.hsc => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTableProf.hs
+| Run Ghc FindHsDependencies Stage0: libraries/ghc-heap/GHC/Exts/Heap.hs (and 7 more) => _validatebuild/stage0/libraries/ghc-heap/.dependencies.mk
+| Remove file _validatebuild/stage0/libraries/ghc-heap/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/Constants.hs => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/Constants.o
+| Run Ghc CompileHs Stage0: libraries/ghc-heap/GHC/Exts/Heap/ClosureTypes.hs => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/ClosureTypes.o
+| Remove file _validatebuild/stage0/libraries/transformers/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Signatures.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Signatures.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Class.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Class.o
+| Run Ghc CompileHs Stage0: _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTable/Types.hs => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTable/Types.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/List.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/List.o
+| Run Ghc CompileHs Stage0: _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTableProf.hs => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTableProf.o
+| Run Ghc CompileHs Stage0: _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTable.hs => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/InfoTable.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Applicative/Backwards.hs => _validatebuild/stage0/libraries/transformers/build/Control/Applicative/Backwards.o
+| Run Ghc CompileHs Stage0: _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/Utils.hs => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/Utils.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Identity.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Identity.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Data/Functor/Reverse.hs => _validatebuild/stage0/libraries/transformers/build/Data/Functor/Reverse.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Writer/Strict.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Writer/Strict.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Writer/Lazy.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Writer/Lazy.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/RWS/Strict.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/RWS/Strict.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Cont.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Cont.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Writer.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Writer.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Writer/CPS.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Writer/CPS.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Reader.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Reader.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Select.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Select.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/RWS/Lazy.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/RWS/Lazy.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/State/Strict.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/State/Strict.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Data/Functor/Constant.hs => _validatebuild/stage0/libraries/transformers/build/Data/Functor/Constant.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/RWS/CPS.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/RWS/CPS.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/RWS.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/RWS.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/State/Lazy.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/State/Lazy.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Except.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Except.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Error.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Error.o
+
+libraries\transformers\Control\Monad\Trans\Error.hs:98:1: warning: [-Worphans]
+    Orphan instance: instance [safe] Error e => Alternative (Either e)
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+   |
+98 | instance (Error e) => Alternative (Either e) where
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+libraries\transformers\Control\Monad\Trans\Error.hs:103:1: warning: [-Worphans]
+    Orphan instance: instance [safe] Error e => MonadPlus (Either e)
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+    |
+103 | instance (Error e) => MonadPlus (Either e) where
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/State.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/State.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Maybe.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Maybe.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Monad/Trans/Accum.hs => _validatebuild/stage0/libraries/transformers/build/Control/Monad/Trans/Accum.o
+| Run Ghc CompileHs Stage0: libraries/transformers/Control/Applicative/Lift.hs => _validatebuild/stage0/libraries/transformers/build/Control/Applicative/Lift.o
+| Run Ghc CompileHs Stage0: libraries/ghc-heap/GHC/Exts/Heap/Closures.hs => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap/Closures.o
+| Run Ghc CompileHs Stage0: libraries/ghc-boot-th/GHC/Lexeme.hs => _validatebuild/stage0/libraries/ghc-boot-th/build/GHC/Lexeme.o
+| Remove file _validatebuild/stage0/libraries/ghc-boot-th/build/libHSghc-boot-th-8.11.0.20200208.a
+| Run Ar Pack Stage0: _validatebuild/stage0/libraries/ghc-boot-th/build/GHC/LanguageExtensions/Type.o (and 2 more) => _validatebuild/stage0/libraries/ghc-boot-th/build/libHSghc-boot-th-8.11.0.20200208.a
+C:/ghc-dev/msys64/mingw64/mingw/bin/ar.exe: creating _validatebuild/stage0/libraries/ghc-boot-th/build/libHSghc-boot-th-8.11.0.20200208.a
+/-----------------------------------------------------------------------------------------------\
+| Successfully built library 'ghc-boot-th' (Stage0, way v).                                     |
+| Library: _validatebuild/stage0/libraries/ghc-boot-th/build/libHSghc-boot-th-8.11.0.20200208.a |
+| Library synopsis: Shared functionality between GHC and the @template-haskell@
+library.        |
+\-----------------------------------------------------------------------------------------------/
+| Run Ld Stage0: _validatebuild/stage0/libraries/ghc-boot-th/build/GHC/LanguageExtensions/Type.o (and 2 more) => _validatebuild/stage0/libraries/ghc-boot-th/build/HSghc-boot-th-8.11.0.20200208.o
+| Remove file _validatebuild/stage0/libraries/transformers/build/libHStransformers-0.5.6.2.a
+| Run Ar Pack Stage0: _validatebuild/stage0/libraries/transformers/build/Control/Applicative/Backwards.o (and 25 more) => _validatebuild/stage0/libraries/transformers/build/libHStransformers-0.5.6.2.a
+| Copy package 'ghc-boot-th'
+# cabal-copy (for _validatebuild/stage0/lib/package.conf.d/ghc-boot-th-8.11.0.20200208.conf)
+C:/ghc-dev/msys64/mingw64/mingw/bin/ar.exe: creating _validatebuild/stage0/libraries/transformers/build/libHStransformers-0.5.6.2.a
+/-----------------------------------------------------------------------------------------\
+| Successfully built library 'transformers' (Stage0, way v).                              |
+| Library: _validatebuild/stage0/libraries/transformers/build/libHStransformers-0.5.6.2.a |
+| Library synopsis: Concrete functor and monad transformers.                              |
+\-----------------------------------------------------------------------------------------/
+| Register package 'ghc-boot-th'
+# cabal-register (for _validatebuild/stage0/lib/package.conf.d/ghc-boot-th-8.11.0.20200208.conf)
+| Run Ld Stage0: _validatebuild/stage0/libraries/transformers/build/Control/Applicative/Backwards.o (and 25 more) => _validatebuild/stage0/libraries/transformers/build/HStransformers-0.5.6.2.o
+| Copy package 'transformers'
+# cabal-copy (for _validatebuild/stage0/lib/package.conf.d/transformers-0.5.6.2.conf)
+| Register package 'transformers'
+# cabal-register (for _validatebuild/stage0/lib/package.conf.d/transformers-0.5.6.2.conf)
+# cabal-configure (for _validatebuild/stage0/libraries/template-haskell/setup-config)
+# cabal-configure (for _validatebuild/stage0/libraries/mtl/setup-config)
+# cabal-autogen (for _validatebuild/stage0/libraries/template-haskell/build/autogen/cabal_macros.h)
+| Run GhcPkg Dependencies Stage0: pretty
+# cabal-autogen (for _validatebuild/stage0/libraries/mtl/build/autogen/cabal_macros.h)
+| Run Ghc FindHsDependencies Stage0: libraries/mtl/Control/Monad/Cont.hs (and 21 more) => _validatebuild/stage0/libraries/mtl/.dependencies.mk
+| Remove file _validatebuild/stage0/libraries/mtl/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Trans.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Trans.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Identity.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Identity.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/List.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/List.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Reader/Class.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Reader/Class.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/State/Class.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/State/Class.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Error/Class.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Error/Class.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/State/Strict.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/State/Strict.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Reader.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Reader.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/State/Lazy.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/State/Lazy.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Writer/Class.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Writer/Class.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/State.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/State.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Cont/Class.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Cont/Class.o
+| Run Ghc CompileHs Stage0: libraries/ghc-heap/GHC/Exts/Heap.hs => _validatebuild/stage0/libraries/ghc-heap/build/GHC/Exts/Heap.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Writer/Strict.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Writer/Strict.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Writer/Lazy.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Writer/Lazy.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/RWS/Class.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/RWS/Class.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Writer.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Writer.o
+| Remove file _validatebuild/stage0/libraries/ghc-heap/build/libHSghc-heap-8.11.0.20200208.a
+| Run Ld Stage0: _validatebuild/stage0/libraries/ghc-heap/build/cmm/cbits/HeapPrim.o (and 8 more) => _validatebuild/stage0/libraries/ghc-heap/build/HSghc-heap-8.11.0.20200208.o
+| Run Ar Pack Stage0: _validatebuild/stage0/libraries/ghc-heap/build/cmm/cbits/HeapPrim.o (and 8 more) => _validatebuild/stage0/libraries/ghc-heap/build/libHSghc-heap-8.11.0.20200208.a
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/RWS/Strict.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/RWS/Strict.o
+C:/ghc-dev/msys64/mingw64/mingw/bin/ar.exe: creating _validatebuild/stage0/libraries/ghc-heap/build/libHSghc-heap-8.11.0.20200208.a
+/-----------------------------------------------------------------------------------------\
+| Successfully built library 'ghc-heap' (Stage0, way v).                                  |
+| Library: _validatebuild/stage0/libraries/ghc-heap/build/libHSghc-heap-8.11.0.20200208.a |
+| Library synopsis: Functions for walking GHC's heap.                                     |
+\-----------------------------------------------------------------------------------------/
+| Copy package 'ghc-heap'
+# cabal-copy (for _validatebuild/stage0/lib/package.conf.d/ghc-heap-8.11.0.20200208.conf)
+| Register package 'ghc-heap'
+# cabal-register (for _validatebuild/stage0/lib/package.conf.d/ghc-heap-8.11.0.20200208.conf)
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/RWS/Lazy.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/RWS/Lazy.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Cont.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Cont.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Error.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Error.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/RWS.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/RWS.o
+| Run Ghc CompileHs Stage0: libraries/mtl/Control/Monad/Except.hs => _validatebuild/stage0/libraries/mtl/build/Control/Monad/Except.o
+| Remove file _validatebuild/stage0/libraries/mtl/build/libHSmtl-2.2.2.a
+| Run Ar Pack Stage0: _validatebuild/stage0/libraries/mtl/build/Control/Monad/Cont.o (and 21 more) => _validatebuild/stage0/libraries/mtl/build/libHSmtl-2.2.2.a
+| Run Ld Stage0: _validatebuild/stage0/libraries/mtl/build/Control/Monad/Cont.o (and 21 more) => _validatebuild/stage0/libraries/mtl/build/HSmtl-2.2.2.o
+C:/ghc-dev/msys64/mingw64/mingw/bin/ar.exe: creating _validatebuild/stage0/libraries/mtl/build/libHSmtl-2.2.2.a
+/---------------------------------------------------------------------\
+| Successfully built library 'mtl' (Stage0, way v).                   |
+| Library: _validatebuild/stage0/libraries/mtl/build/libHSmtl-2.2.2.a |
+| Library synopsis: Monad classes, using functional dependencies.     |
+\---------------------------------------------------------------------/
+| Copy package 'mtl'
+# cabal-copy (for _validatebuild/stage0/lib/package.conf.d/mtl-2.2.2.conf)
+| Register package 'mtl'
+# cabal-register (for _validatebuild/stage0/lib/package.conf.d/mtl-2.2.2.conf)
+| Run GhcPkg Unregister Stage0: containers => none
+| Run GhcPkg Unregister Stage0: pretty => none
+| Run GhcPkg Unregister Stage0: bytestring => none
+ghc-pkg.exe: cannot find package containers
+| Run GhcPkg Copy Stage0: containers => _validatebuild/stage0/lib/package.conf.d/containers-0.6.0.1.conf
+ghc-pkg.exe: cannot find package pretty
+| Run GhcPkg Copy Stage0: pretty => _validatebuild/stage0/lib/package.conf.d/pretty-1.1.3.6.conf
+ghc-pkg.exe: cannot find package bytestring
+| Run GhcPkg Copy Stage0: bytestring => _validatebuild/stage0/lib/package.conf.d/bytestring-0.10.8.2.conf
+| Run Ghc FindHsDependencies Stage0: libraries/template-haskell/Language/Haskell/TH.hs (and 8 more) => _validatebuild/stage0/libraries/template-haskell/.dependencies.mk
+| Run GhcPkg Unregister Stage0: Win32 => none
+| Run Ghc FindHsDependencies Stage0: libraries/binary/src/Data/Binary.hs (and 8 more) => _validatebuild/stage0/libraries/binary/.dependencies.mk
+| Remove file _validatebuild/stage0/libraries/template-haskell/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH/Lib/Map.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH/Lib/Map.o
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH/LanguageExtensions.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH/LanguageExtensions.o
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH/Syntax.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH/Syntax.o
+| Remove file _validatebuild/stage0/libraries/binary/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary/Internal.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary/Internal.o
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary/FloatCast.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary/FloatCast.o
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary/Get/Internal.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary/Get/Internal.o
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary/Builder.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary/Builder.o
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary/Get.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary/Get.o
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary/Put.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary/Put.o
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary/Class.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary/Class.o
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary/Generic.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary/Generic.o
+| Run Ghc CompileHs Stage0: libraries/binary/src/Data/Binary.hs => _validatebuild/stage0/libraries/binary/build/Data/Binary.o
+| Remove file _validatebuild/stage0/libraries/binary/build/libHSbinary-0.8.7.0.a
+| Run Ld Stage0: _validatebuild/stage0/libraries/binary/build/Data/Binary.o (and 8 more) => _validatebuild/stage0/libraries/binary/build/HSbinary-0.8.7.0.o
+| Run Ar Pack Stage0: _validatebuild/stage0/libraries/binary/build/Data/Binary.o (and 8 more) => _validatebuild/stage0/libraries/binary/build/libHSbinary-0.8.7.0.a
+C:/ghc-dev/msys64/mingw64/mingw/bin/ar.exe: creating _validatebuild/stage0/libraries/binary/build/libHSbinary-0.8.7.0.a
+/-----------------------------------------------------------------------------------\
+| Successfully built library 'binary' (Stage0, way v).                              |
+| Library: _validatebuild/stage0/libraries/binary/build/libHSbinary-0.8.7.0.a       |
+| Library synopsis: Binary serialisation for Haskell values using lazy ByteStrings. |
+\-----------------------------------------------------------------------------------/
+| Copy package 'binary'
+# cabal-copy (for _validatebuild/stage0/lib/package.conf.d/binary-0.8.7.0.conf)
+| Register package 'binary'
+# cabal-register (for _validatebuild/stage0/lib/package.conf.d/binary-0.8.7.0.conf)
+# cabal-configure (for _validatebuild/stage0/libraries/text/setup-config)
+# cabal-configure (for _validatebuild/stage0/libraries/ghc-boot/setup-config)
+# cabal-autogen (for _validatebuild/stage0/libraries/text/build/autogen/cabal_macros.h)
+| Run Cc FindCDependencies Stage0: libraries/text/cbits/cbits.c => _validatebuild/stage0/libraries/text/build/c/cbits/cbits.o.d
+| Run Ghc CompileCWithGhc Stage0: libraries/text/cbits/cbits.c => _validatebuild/stage0/libraries/text/build/c/cbits/cbits.o
+# cabal-autogen (for _validatebuild/stage0/libraries/ghc-boot/build/autogen/cabal_macros.h)
+| Run Ghc FindHsDependencies Stage0: libraries/text/Data/Text.hs (and 43 more) => _validatebuild/stage0/libraries/text/.dependencies.mk
+| Remove file _validatebuild/stage0/libraries/text/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Encoding/Utf16.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Encoding/Utf16.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Builder/RealFloat/Functions.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Builder/RealFloat/Functions.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Builder/Int/Digits.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Builder/Int/Digits.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Unsafe/Shift.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Unsafe/Shift.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Encoding/Utf32.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Encoding/Utf32.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Functions.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Functions.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Read.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Read.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Unsafe.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Unsafe.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Encoding/Error.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Encoding/Error.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Array.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Array.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Unsafe/Char.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Unsafe/Char.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Encoding/Utf8.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Encoding/Utf8.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Fusion/Size.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Fusion/Size.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Search.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Search.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Unsafe.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Unsafe.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Fusion/Types.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Fusion/Types.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Private.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Private.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Fusion/CaseMapping.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Fusion/CaseMapping.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Fusion/Common.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Fusion/Common.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Fusion.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Fusion.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Encoding/Fusion/Common.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Encoding/Fusion/Common.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Show.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Show.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Lazy/Encoding/Fusion.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Lazy/Encoding/Fusion.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Encoding/Fusion.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Encoding/Fusion.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Encoding.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Encoding.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text.hs => _validatebuild/stage0/libraries/text/build/Data/Text.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Foreign.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Foreign.o
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH/PprLib.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH/PprLib.o
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH/Lib/Internal.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH/Lib/Internal.o
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH/Quote.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH/Quote.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/IO.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/IO.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Lazy.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Lazy.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/IO.hs => _validatebuild/stage0/libraries/text/build/Data/Text/IO.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Lazy/Search.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Lazy/Search.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Lazy/Fusion.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Lazy/Fusion.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Lazy/Internal.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Lazy/Internal.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Read.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Read.o
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH/Ppr.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH/Ppr.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Lazy/Encoding.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Lazy/Encoding.o
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH/Lib.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH/Lib.o
+| Run Ghc CompileHs Stage0: libraries/template-haskell/Language/Haskell/TH.hs => _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH.o
+| Remove file _validatebuild/stage0/libraries/template-haskell/build/libHStemplate-haskell-2.16.0.0.a
+| Run Ld Stage0: _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH.o (and 8 more) => _validatebuild/stage0/libraries/template-haskell/build/HStemplate-haskell-2.16.0.0.o
+| Run Ar Pack Stage0: _validatebuild/stage0/libraries/template-haskell/build/Language/Haskell/TH.o (and 8 more) => _validatebuild/stage0/libraries/template-haskell/build/libHStemplate-haskell-2.16.0.0.a
+C:/ghc-dev/msys64/mingw64/mingw/bin/ar.exe: creating _validatebuild/stage0/libraries/template-haskell/build/libHStemplate-haskell-2.16.0.0.a
+/--------------------------------------------------------------------------------------------------\
+| Successfully built library 'template-haskell' (Stage0, way v).                                   |
+| Library: _validatebuild/stage0/libraries/template-haskell/build/libHStemplate-haskell-2.16.0.0.a |
+| Library synopsis: Support library for Template Haskell.                                          |
+\--------------------------------------------------------------------------------------------------/
+| Copy package 'template-haskell'
+# cabal-copy (for _validatebuild/stage0/lib/package.conf.d/template-haskell-2.16.0.0.conf)
+| Register package 'template-haskell'
+# cabal-register (for _validatebuild/stage0/lib/package.conf.d/template-haskell-2.16.0.0.conf)
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Lazy.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Lazy.o
+ghc-pkg.exe: cannot find package Win32
+| Run GhcPkg Copy Stage0: Win32 => _validatebuild/stage0/lib/package.conf.d/Win32-2.6.1.0.conf
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Lazy/IO.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Lazy/IO.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Lazy/Read.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Lazy/Read.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Builder.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Builder.o
+| Run GhcPkg Unregister Stage0: time => none
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Lazy/Builder.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Lazy/Builder.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Internal/Builder/Functions.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Internal/Builder/Functions.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Lazy/Builder/Int.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Lazy/Builder/Int.o
+| Run Ghc CompileHs Stage0: libraries/text/Data/Text/Lazy/Builder/RealFloat.hs => _validatebuild/stage0/libraries/text/build/Data/Text/Lazy/Builder/RealFloat.o
+ghc-pkg.exe: cannot find package time
+| Run GhcPkg Copy Stage0: time => _validatebuild/stage0/lib/package.conf.d/time-1.8.0.2.conf
+| Remove file _validatebuild/stage0/libraries/text/build/libHStext-1.2.3.1.a
+| Run Ld Stage0: _validatebuild/stage0/libraries/text/build/c/cbits/cbits.o (and 44 more) => _validatebuild/stage0/libraries/text/build/HStext-1.2.3.1.o
+| Run Ar Pack Stage0: _validatebuild/stage0/libraries/text/build/c/cbits/cbits.o (and 44 more) => _validatebuild/stage0/libraries/text/build/libHStext-1.2.3.1.a
+C:/ghc-dev/msys64/mingw64/mingw/bin/ar.exe: creating _validatebuild/stage0/libraries/text/build/libHStext-1.2.3.1.a
+/-------------------------------------------------------------------------\
+| Successfully built library 'text' (Stage0, way v).                      |
+| Library: _validatebuild/stage0/libraries/text/build/libHStext-1.2.3.1.a |
+| Library synopsis: An efficient packed Unicode text type.                |
+\-------------------------------------------------------------------------/
+| Run GhcPkg Unregister Stage0: directory => none
+ghc-pkg.exe: cannot find package directory
+| Run GhcPkg Copy Stage0: directory => _validatebuild/stage0/lib/package.conf.d/directory-1.3.3.0.conf
+| Copy package 'text'
+# cabal-copy (for _validatebuild/stage0/lib/package.conf.d/text-1.2.3.1.conf)
+| Run Hsc2Hs Stage0: libraries/hpc/Trace/Hpc/Reflect.hsc => _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect.hs
+| Successfully generated _validatebuild/stage0/libraries/ghc-boot/build/GHC/Platform/Host.hs.
+| Successfully generated _validatebuild/stage0/libraries/ghc-boot/build/GHC/Version.hs.
+| Register package 'text'
+# cabal-register (for _validatebuild/stage0/lib/package.conf.d/text-1.2.3.1.conf)
+| Run Ghc FindHsDependencies Stage0: libraries/ghc-boot/GHC/BaseDir.hs (and 10 more) => _validatebuild/stage0/libraries/ghc-boot/.dependencies.mk
+# cabal-configure (for _validatebuild/stage0/libraries/parsec/setup-config)
+| Remove file _validatebuild/stage0/libraries/ghc-boot/.dependencies.mk.bak
+| Run Ghc CompileHs Stage0: libraries/ghc-boot/GHC/BaseDir.hs => _validatebuild/stage0/libraries/ghc-boot/build/GHC/BaseDir.o
+compiling _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect_hsc_utils.c failed (exit code -1)
+rsp file was: "_validatebuild/stage0/libraries/hpc/build/Trace/Hpc/\\hsc6D11.rsp"
+command was: C:/ghc-dev/msys64/mingw64/mingw/bin/gcc.exe -c _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect_hsc_utils.c -o _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect_hsc_utils.o -I_validatebuild/stage0/lib -I_validatebuild/stage0/libraries/hpc/build -IC:/ghc-dev/msys64/mingw64/lib/time-1.8.0.2/include -IC:/ghc-dev/msys64/mingw64/lib/Win32-2.6.1.0/include -IC:/ghc-dev/msys64/mingw64/lib/bytestring-0.10.8.2/include -IC:/ghc-dev/msys64/mingw64/lib/base-4.12.0.0/include -IC:/ghc-dev/msys64/mingw64/lib/integer-gmp-1.0.2.0/include -IC:/ghc-dev/msys64/mingw64/lib/include -Wall -Wno-error=inline -include _validatebuild/stage0/libraries/hpc/build/autogen/cabal_macros.h -Dx86_64_HOST_ARCH=1 -Dmingw32_HOST_OS=1 -D__GLASGOW_HASKELL__=806
+error: 
+| Run Ghc CompileHs Stage0: libraries/ghc-boot/GHC/HandleEncoding.hs => _validatebuild/stage0/libraries/ghc-boot/build/GHC/HandleEncoding.o
+Error when running Shake build system:
+  at action, called at src\Rules.hs:71:19 in main:Rules
+  at need, called at src\Rules.hs:93:5 in main:Rules
+* Depends on: _validatebuild/stage0/lib/package.conf.d/hpc-0.6.1.0.conf
+  at need, called at src\Rules\Register.hs:113:5 in main:Rules.Register
+* Depends on: _validatebuild/stage0/libraries/hpc/build/HShpc-0.6.1.0.o
+  at need, called at src\Rules\Library.hs:102:5 in main:Rules.Library
+* Depends on: _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Mix.o
+  at &%>, called at src\Rules\Compile.hs:62:9 in main:Rules.Compile
+* Depends on: _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Mix.o _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Mix.hi
+  at apply1, called at src\Development\Shake\Internal\Rules\Oracle.hs:159:32 in shake-0.18.3-86a4ec57ddae5ecfda9c7c523ad27c4c920b10a1:Development.Shake.Internal.Rules.Oracle
+* Depends on: OracleQ (KeyValues ("_validatebuild/stage0/libraries/hpc/.dependencies","_validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Mix.o"))
+  at need, called at src\Hadrian\Oracles\TextFile.hs:96:9 in main:Hadrian.Oracles.TextFile
+* Depends on: _validatebuild/stage0/libraries/hpc/.dependencies
+  at readFile', called at src\Rules\Dependencies.hs:34:19 in main:Rules.Dependencies
+  at need, called at src\Development\Shake\Internal\Derived.hs:118:15 in shake-0.18.3-86a4ec57ddae5ecfda9c7c523ad27c4c920b10a1:Development.Shake.Internal.Derived
+* Depends on: _validatebuild/stage0/libraries/hpc/.dependencies.mk
+  at need, called at src\Rules\Dependencies.hs:26:9 in main:Rules.Dependencies
+* Depends on: _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect.hs
+* Raised the exception:
+user error (Development.Shake.cmd, system command failed
+Command line: _validatebuild/stage0/bin/hsc2hs.exe --cc=C:/ghc-dev/msys64/mingw64/mingw/bin/gcc.exe --ld=C:/ghc-dev/msys64/mingw64/mingw/bin/gcc.exe --cflag=-I_validatebuild/stage0/lib --cflag=-I_validatebuild/stage0/libraries/hpc/build --cflag=-IC:/ghc-dev/msys64/mingw64/lib/time-1.8.0.2/include --cflag=-IC:/ghc-dev/msys64/mingw64/lib/Win32-2.6.1.0/include --cflag=-IC:/ghc-dev/msys64/mingw64/lib/bytestring-0.10.8.2/include --cflag=-IC:/ghc-dev/msys64/mingw64/lib/base-4.12.0.0/include --cflag=-IC:/ghc-dev/msys64/mingw64/lib/integer-gmp-1.0.2.0/include --cflag=-IC:/ghc-dev/msys64/mingw64/lib/include --cflag=-Wall --cflag=-Wno-error=inline --cflag=-include --cflag=_validatebuild/stage0/libraries/hpc/build/autogen/cabal_macros.h --cflag=-Dx86_64_HOST_ARCH=1 --cflag=-Dmingw32_HOST_OS=1 --cflag=-D__GLASGOW_HASKELL__=806 --template=C:/TeamCity/buildAgent/work/a45bb99c6f82efd7/_validatebuild/stage0/lib/template-hsc.h libraries/hpc/Trace/Hpc/Reflect.hsc -o _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect.hs
+Exit code: 1
+Stderr:
+compiling _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect_hsc_utils.c failed (exit code -1)
+rsp file was: "_validatebuild/stage0/libraries/hpc/build/Trace/Hpc/\\hsc6D11.rsp"
+command was: C:/ghc-dev/msys64/mingw64/mingw/bin/gcc.exe -c _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect_hsc_utils.c -o _validatebuild/stage0/libraries/hpc/build/Trace/Hpc/Reflect_hsc_utils.o -I_validatebuild/stage0/lib -I_validatebuild/stage0/libraries/hpc/build -IC:/ghc-dev/msys64/mingw64/lib/time-1.8.0.2/include -IC:/ghc-dev/msys64/mingw64/lib/Win32-2.6.1.0/include -IC:/ghc-dev/msys64/mingw64/lib/bytestring-0.10.8.2/include -IC:/ghc-dev/msys64/mingw64/lib/base-4.12.0.0/include -IC:/ghc-dev/msys64/mingw64/lib/integer-gmp-1.0.2.0/include -IC:/ghc-dev/msys64/mingw64/lib/include -Wall -Wno-error=inline -include _validatebuild/stage0/libraries/hpc/build/autogen/cabal_macros.h -Dx86_64_HOST_ARCH=1 -Dmingw32_HOST_OS=1 -D__GLASGOW_HASKELL__=806
+error: 
+)
+
+

@@ -1,0 +1,138 @@
+using THREADS=3
+Warning: Parsing the index cache failed (Unknown encoding for constructor).
+Trying to regenerate the index cache...
+Hadrian command: /c/TeamCity/buildAgent/work/a45bb99c6f82efd7/hadrian/dist-newstyle/build/x86_64-windows/ghc-8.6.5/hadrian-0.1.0.0/x/hadrian/build/hadrian/hadrian -j3 --build-root=_validatebuild
+| Removing Hadrian files...
+| Remove directory _validatebuild/stage0
+| Remove directory _validatebuild/stage1
+| Remove directory _validatebuild/stage2
+| Remove directory _validatebuild/stage3
+| Remove directory sdistprep
+| Remove directory _validatebuild (after build completes)
+| Done. 
+shakeArgsWith                     0.002s    4%  ==                       
+Function shake                    0.024s   53%  =========================
+Database read                     0.001s    3%  =                        
+With database                     0.001s    2%  =                        
+Running rules                     0.016s   36%  ================         
+Pool finished (6 threads, 2 max)  0.000s    0%                           
+Cleanup                           0.000s    0%                           
+Total                             0.044s  100%                           
+(+ running "1" after actions in 0.00s)
+Build completed in 0.05s
+
+libraries/array/
+libraries/base/
+libraries/binary/
+libraries/bytestring/
+libraries/Cabal/
+libraries/containers/
+libraries/deepseq/
+libraries/directory/
+libraries/doc/
+libraries/exceptions/
+libraries/filepath/
+libraries/ghc-boot/
+libraries/ghc-boot-th/
+libraries/ghc-compact/
+libraries/ghc-heap/
+libraries/ghc-prim/
+libraries/ghci/
+libraries/haskeline/
+libraries/hpc/
+libraries/integer-gmp/
+libraries/integer-simple/
+libraries/libiserv/
+libraries/mtl/
+libraries/parsec/
+libraries/pretty/
+libraries/process/
+libraries/stm/
+libraries/template-haskell/
+libraries/terminfo/
+libraries/text/
+libraries/time/
+libraries/transformers/
+libraries/unix/
+libraries/Win32/
+libraries/xhtml/
+Creating libraries/array/ghc.mk
+Creating libraries/base/ghc.mk
+Creating libraries/binary/ghc.mk
+Creating libraries/bytestring/ghc.mk
+Creating libraries/Cabal/Cabal/ghc.mk
+Creating libraries/containers/containers/ghc.mk
+Creating libraries/deepseq/ghc.mk
+Creating libraries/directory/ghc.mk
+Creating libraries/exceptions/ghc.mk
+Creating libraries/filepath/ghc.mk
+Skipping libraries/ghc-boot/ghc.mk which already exists
+Creating libraries/ghc-boot-th/ghc.mk
+Creating libraries/ghc-compact/ghc.mk
+Creating libraries/ghc-heap/ghc.mk
+Creating libraries/ghc-prim/ghc.mk
+Creating libraries/ghci/ghc.mk
+Creating libraries/haskeline/ghc.mk
+Creating libraries/hpc/ghc.mk
+Creating libraries/integer-gmp/ghc.mk
+Creating libraries/integer-simple/ghc.mk
+Creating libraries/libiserv/ghc.mk
+Creating libraries/mtl/ghc.mk
+Creating libraries/parsec/ghc.mk
+Creating libraries/pretty/ghc.mk
+Creating libraries/process/ghc.mk
+Creating libraries/stm/ghc.mk
+Creating libraries/template-haskell/ghc.mk
+Creating libraries/terminfo/ghc.mk
+Creating libraries/text/ghc.mk
+Creating libraries/time/ghc.mk
+Creating libraries/transformers/ghc.mk
+Creating libraries/unix/ghc.mk
+Creating libraries/Win32/ghc.mk
+Creating libraries/xhtml/ghc.mk
+Booting .
+Booting libraries/base/
+Booting libraries/directory/
+Booting libraries/integer-gmp/
+Booting libraries/process/
+Booting libraries/terminfo/
+Booting libraries/time/
+Booting libraries/unix/
+configure: loading site script /mingw64/etc/config.site
+checking for gfind... no
+checking for find... /usr/bin/find
+checking for sort... /usr/bin/sort
+checking for GHC version date... error: object directory /c/TeamCity/buildAgent/work/a45bb99c6f82efd7/.git/objects/C:\TeamCity\buildAgent\system\git\git-B8708990.git\objects does not exist; check .git/objects/info/alternates.
+fatal: bad object HEAD
+inferred 8.11.0.20200318
+checking for GHC Git commit id... inferred 75168d07c9c30289709423fc184bbab8dcad0f4e
+checking for ghc... /mingw64/bin/ghc
+checking version of ghc... 8.6.5
+GHC path canonicalised to: /mingw64/bin/ghc
+checking build system type... x86_64-w64-mingw32
+checking host system type... x86_64-w64-mingw32
+checking target system type... x86_64-w64-mingw32
+Host platform inferred as: x86_64-unknown-mingw32
+Target platform inferred as: x86_64-unknown-mingw32
+GHC build  : x86_64-unknown-mingw32
+GHC host   : x86_64-unknown-mingw32
+GHC target : x86_64-unknown-mingw32
+LLVM target: x86_64-unknown-windows
+checking whether target supports a registerised ABI... yes
+checking whether target supports tables next to code... yes
+checking for path to top of build tree... C:/TeamCity/buildAgent/work/a45bb99c6f82efd7
+configure: Checking for Windows toolchain tarballs...
+Traceback (most recent call last):
+  File "mk/get-win32-tarballs.py", line 59, in <module>
+    main()
+  File "mk/get-win32-tarballs.py", line 56, in main
+    action(args.arch)
+  File "mk/get-win32-tarballs.py", line 31, in fetch_arch
+    fetch(file_url(arch, 'SHA256SUMS'), d / 'SHA256SUMS')
+  File "mk/get-win32-tarballs.py", line 23, in fetch
+    urllib.request.urlretrieve(url, dest)
+  File "C:/ghc-dev/msys64/mingw64/lib/python3.5\urllib\request.py", line 198, in urlretrieve
+    tfp = open(filename, 'wb')
+TypeError: invalid file: WindowsPath('ghc-tarballs/mingw-w64/x86_64/SHA256SUMS')
+
+Error fetching msys2 tarballs; see errors above.

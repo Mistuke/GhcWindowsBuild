@@ -1,0 +1,20 @@
+using THREADS=3
+cabal.exe: Failed to download Cabal-3.4.0.0 (which is required by exe:hadrian
+from hadrian-0.1.0.0). The exception was:
+dieVerbatim: user error (cabal.exe: 'C:\ghc-dev\msys64\usr\bin\curl.exe'
+exited with an error:
+curl: (6) Couldn't resolve host 'objects-us-east-1.dream.io'
+)
+Failed to download QuickCheck-2.14.2 (which is required by exe:hadrian from
+hadrian-0.1.0.0). The exception was:
+dieVerbatim: user error (cabal.exe: 'C:\ghc-dev\msys64\usr\bin\curl.exe'
+exited with an error:
+curl: (6) Couldn't resolve host 'objects-us-east-1.dream.io'
+)
+Failed to download clock-0.8.2 (which is required by exe:hadrian from
+hadrian-0.1.0.0). The exception was:
+dieVerbatim: user error (cabal.exe: 'C:\ghc-dev\msys64\usr\bin\curl.exe'
+exited with an error:
+curl: (6) Couldn't resolve host 'objects-us-east-1.dream.io'
+)
+

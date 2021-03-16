@@ -1,0 +1,7 @@
+using THREADS=3
+Warning: Parsing the index cache failed (01-index.cache: unexpected magic
+marker encountered: 891426084510914466). Trying to regenerate the index
+cache...
+cabal.exe: The program 'alex' version >=3.2.6 && <3.3 is required but the
+version found at C:\ghc-dev\msys64\usr\local\bin\alex.exe is version 3.1.7
+

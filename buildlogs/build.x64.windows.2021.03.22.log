@@ -1,0 +1,4 @@
+using THREADS=3
+cabal.exe: The program 'alex' version >=3.2.6 && <3.3 is required but the
+version found at C:\ghc-dev\msys64\usr\local\bin\alex.exe is version 3.1.7
+
